@@ -50,6 +50,7 @@ import net.glowstone.block.itemtype.ItemType;
 import net.glowstone.chunk.ChunkManager.ChunkLock;
 import net.glowstone.chunk.GlowChunk;
 import net.glowstone.chunk.GlowChunk.Key;
+import net.glowstone.conits.BoundMatrix;
 import net.glowstone.conits.Conit;
 import net.glowstone.constants.GlowAchievement;
 import net.glowstone.constants.GlowBlockEntity;
@@ -931,7 +932,7 @@ public class GlowPlayer extends GlowHumanEntity implements Player {
                     for (Message msg : entity.createUpdateMessage(session)) {
                         // System.out.println(msg.toString());
                         Float weight = conit.messageWeight(msg, entity);
-                        if (weight == null || weight > -1.0) { // DEBUG
+                        if (weight == null) { // DEBUG
                             // not a message for the conit.
                             server.logger.info("normal " + entity.getType().toString()
                                 + ":" + msg.toString());
@@ -948,8 +949,10 @@ public class GlowPlayer extends GlowHumanEntity implements Player {
                         }
                     }
                     // the weight of time passing at all
-                    // conit.feedMessageWeight(Conit.TICK_TIME_WEIGHT, entity);
-                    // entity.createUpdateMessage(session).forEach(session::send); //OLD
+                    if (BoundMatrix.getTicksToStale() == 0) {
+                        conit.feedStaleness(entity);
+
+                    }
                 }
             }
             if (!destroyEntities.isEmpty()) {

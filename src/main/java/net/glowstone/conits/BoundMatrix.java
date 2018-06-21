@@ -2,6 +2,7 @@ package net.glowstone.conits;
 
 import java.util.HashMap;
 import lombok.EqualsAndHashCode;
+import lombok.Getter;
 import net.glowstone.entity.GlowEntity;
 
 public class BoundMatrix {
@@ -10,6 +11,9 @@ public class BoundMatrix {
     private static ConitConfig conitConfig;
 
     private static int ticksSinceReset = 0;
+
+    @Getter
+    private static int ticksToStale = 0;
 
     /**
      * Returns the max staleness bound between two given entities
@@ -32,9 +36,14 @@ public class BoundMatrix {
      */
     public static void pulse() {
         ticksSinceReset++;
-        if (ticksSinceReset == conitConfig.getTicksPerRecompute()) {
+        ticksToStale--;
+        if (ticksSinceReset >= conitConfig.getTicksPerRecompute()) {
             resetAllBounds();
+            System.out.printf("RESETTING BOUNDS\n");
             ticksSinceReset = 0;
+        }
+        if (ticksToStale < 0) {
+            ticksToStale = conitConfig.getTicksPerStaleness()-1;
         }
     }
 
@@ -47,7 +56,9 @@ public class BoundMatrix {
     }
 
     private static Float computeBound(GlowEntity a, GlowEntity b) {
-        return conitConfig.getBoundFunction().apply(a, b);
+        Float x = conitConfig.getBoundFunction().apply(a, b);
+        System.out.printf("COMPUTED BOUND BETWEEN %s %s (%f)\n", a, b, x);
+        return x;
     }
 
     @EqualsAndHashCode

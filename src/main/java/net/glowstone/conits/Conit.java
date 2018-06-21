@@ -42,9 +42,24 @@ public class Conit {
      */
     public Float messageWeight(Message message, Entity from) {
         if (this.conitConfig.getEntityPredicate().test(from)) {
+            System.out.println("test pass");
             return this.conitConfig.getWeigh().apply(message);
         } else {
+            System.out.println("test fail");
             return null;
+        }
+    }
+
+    public boolean feedStaleness(GlowEntity from) {
+        Integer fromId = from.getEntityId();
+        Float dist = distances.get(fromId);
+        if (dist != null) {
+            // null represents infinite distance (must update)
+            return feedMessageWeight(
+                conitConfig.getStalenessFunction().apply(dist), from);
+        } else {
+            return feedMessageWeight(
+                conitConfig.getStalenessFunction().apply(0.0f), from);
         }
     }
 
@@ -56,7 +71,7 @@ public class Conit {
      * @return true if there was a sync event
      */
     public boolean feedMessageWeight(float messageWeight, GlowEntity from) {
-        if (messageWeight <= 0.0f) {
+        if (messageWeight == 0.0f) {
             return false;
         }
         Integer fromId = from.getEntityId();
@@ -64,6 +79,7 @@ public class Conit {
         if (dist != null) { // null represents infinite distance (must update)
             dist += messageWeight;
             Float bound = BoundMatrix.getBoundBetween(myself, from);
+            System.out.printf("[%f / %f]\n", dist, bound);
             if (bound == null || dist < bound) {
                 // no need to sync yet!
                 distances.put(fromId, dist);

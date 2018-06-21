@@ -1,38 +1,69 @@
+# defines which kinds of entities will use conit-logic for player update messages
 enable:
+
+  # other players
   players: true
+  
+  # villager NPCs
   villagers: true
+  
+  # cows, sheep, wolves, ...
   animals: true
+  
+  # creepers, pigmen, skeletons, ...
   monsters: true
+  
+  # minecarts
   vehicles: true
   
-# multiplies the error increment according to message properties
-error-scale:
+# scales the (distance increment = 'weight')of a message according to the type of message
+message-type-scale:
+
+  # defines the weight of movement-type messages as c + d
+  movement:
+    # defines c
+    constant: 0.1
+    
+    # defines d, the sum of absolute values for distances in all 3 dimensions
+    distance: 3.0
+    
+  # weight of head-rotation-type messages
+  head-rotation: 0.8
   
-  # incrememented once per conit per tick.
-  staleness: 0.2
+  # weight of body-rotation-type messages
+  rotation: 2.0
+    
+# defines the tick-period for staleness increments. Increase to update more rarely
+ticks-per-staleness: 15
+
+# defines d, where current distance is x and next distance is x+d
+# d = mx + c
+staleness-func:
+
+  # defines c
+  constant: 0.0
   
-  # assign scaling weights to messages. Higher values cause more frequent synchronization.
-  message-type:
-    movement: 1.0
-    head-rotation: 1.0
-    rotation: 1.0
+  # defines m
+  multiply: 0.8
   
+# defines the bounds computation between two entities
+# C*(xd + y(d)^2 + c)
 bounds:
 
   # how frequently bounds are recomputed
-  ticks-per-recompute: 20
+  ticks-per-recompute: 60
 
-  # constant multiplier of bounds. Increase to sync less frequently.
-  constant: 1.0
+  # defines C. Increase to update less frequently.
+  constant: 100.0
   
-  # ratio of contributions for each component to bounds computation
-  numeric-ratios:
-  
-    # ratio of the constant 1.0 component
-    constant: 0.1
+  # ratio of contributions for each component to bounds computation ()
+  # bound is computed as xd + y(d)^2 + c, where d is the geometric distance between the two entities
+  numeric-components:
+    # defines c
+    constant: 0.3
     
-    # ratio of inter-entity distance component
-    distance: 1.0
+    # defines x
+    distance: 0.0
     
-    # ratio of (inter-entity distance)^2 component
-    distance-sqr: 0.0
+    # defines y
+    distance-sqr: 1.0

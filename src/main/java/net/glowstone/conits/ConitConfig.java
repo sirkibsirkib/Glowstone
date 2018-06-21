@@ -1,23 +1,8 @@
 package net.glowstone.conits;
 
-// import static com.google.common.base.Preconditions.checkArgument;
-// import static com.google.common.base.Preconditions.checkNotNull;
-
 import com.flowpowered.network.Message;
 import java.io.File;
-// import java.io.FileInputStream;
-// import java.io.FileOutputStream;
 import java.io.IOException;
-// import java.io.InputStream;
-// import java.io.OutputStream;
-// import java.lang.Math;
-// import java.net.URL;
-// import java.nio.file.Paths;
-// import java.util.Collections;
-// import java.util.HashMap;
-// import java.util.List;
-// import java.util.Map;
-// import java.util.Properties;
 import java.util.function.BiFunction;
 import java.util.function.Function;
 import java.util.function.Predicate;
@@ -32,20 +17,13 @@ import net.glowstone.net.message.play.entity.EntityRotationMessage;
 import net.glowstone.net.message.play.entity.EntityTeleportMessage;
 import net.glowstone.net.message.play.entity.RelativeEntityPositionMessage;
 import net.glowstone.net.message.play.entity.RelativeEntityPositionRotationMessage;
-// import net.glowstone.util.CompatibilityBundle;
-// import net.glowstone.util.DynamicallyTypedMap;
-// import org.bukkit.Difficulty;
-// import org.bukkit.GameMode;
 import org.bukkit.Location;
-// import org.bukkit.WorldType;
-// import org.bukkit.configuration.ConfigurationSection;
 import org.bukkit.configuration.InvalidConfigurationException;
 import org.bukkit.configuration.file.YamlConfiguration;
 import org.bukkit.entity.Animals;
 import org.bukkit.entity.Entity;
 import org.bukkit.entity.Monster;
 import org.bukkit.entity.Vehicle;
-// import org.bukkit.util.FileUtil;
 import org.jetbrains.annotations.NonNls;
 import org.yaml.snakeyaml.error.YAMLException;
 
@@ -57,10 +35,13 @@ public final class ConitConfig {
     private final Function<Message,Float> weigh;
 
     @Getter
-    private final float stalenessIncrement;
+    private final Function<Float,Float> stalenessFunction;
 
     @Getter
     private final int ticksPerRecompute;
+
+    @Getter
+    private final int ticksPerStaleness;
 
     @Getter
     private final BiFunction<GlowEntity,GlowEntity,Float> boundFunction;
@@ -84,30 +65,28 @@ public final class ConitConfig {
             report(configFile, e);
         }
 
-        this.stalenessIncrement = (float) config.getDouble("error-scale.staleness", 0.0);
-        this.ticksPerRecompute = (int) config.getInt("bounds.ticks-per-recompute", 20);
+        this.ticksPerRecompute = (int) config.getInt("bounds.ticks-per-recompute", 60);
+        this.ticksPerStaleness = (int) config.getInt("ticks-per-staleness", 20);
 
         this.weigh = defineWeighFunction(config);
         this.entityPredicate = defineEntityPredicate(config);
         this.boundFunction = defineBoundFunction(config);
+        this.stalenessFunction = defineStalenessFunction(config);
     }
 
     private static BiFunction<GlowEntity,GlowEntity,Float> defineBoundFunction(
             YamlConfiguration config) {
+
         final float bounds_constant = (float) config.getDouble(
             "bounds.constant", 1.0);
-        float ratCns = (float) config.getDouble(
-            "numeric-ratios.constant", 1.0);
-        float ratDist = (float) config.getDouble(
-            "numeric-ratios.distance", 1.0);
-        float ratDistSqr = (float) config.getDouble(
-            "numeric-ratios.distance-sqr", 1.0);
-        float tot = Math.abs(ratCns + ratDist + ratDistSqr);
-        assert tot > 0.0;
+        float cns = (float) config.getDouble(
+            "bounds.numeric-components.constant", 0.2);
+        float dist = (float) config.getDouble(
+            "bounds.numeric-components.distance", 0.0);
+        float distSqr = (float) config.getDouble(
+            "bounds.nnumeric-components.distance-sqr", 1.0);
 
-        final float cns = ratCns / tot;
-        final float dist = ratDist / tot;
-        final float distSqr = ratDistSqr / tot;
+        System.out.printf("%f - %f - %f\n", cns, dist, distSqr);
 
         if (dist == 0.0 && distSqr == 0.0) {
             //super lightweight
@@ -162,12 +141,27 @@ public final class ConitConfig {
         }
     }
 
+    private static Function<Float,Float> defineStalenessFunction(
+            YamlConfiguration config) {
+        final float constant = (float) config.getDouble(
+            "staleness-func.constant", 5.0);
+        final float multiply = (float) config.getDouble(
+            "staleness-func.multiply", 1.1);
+        if (multiply == 0.0) {
+            return current -> current + constant;
+        } else if (constant == 0.0) {
+            return current -> current * multiply
+        } else {
+            return current -> (current + constant) * multiply;
+        }
+    }
+
     private static Predicate<Entity> defineEntityPredicate(YamlConfiguration config) {
-        boolean players = config.getBoolean("enable.players", true);
-        boolean villagers = config.getBoolean("enable.villagers", true);
-        boolean monsters = config.getBoolean("enable.enemies", true);
-        boolean animals = config.getBoolean("enable.enemies", true);
-        boolean vehicles = config.getBoolean("enable.enemies", true);
+        final boolean players = config.getBoolean("enable.players", true);
+        final boolean villagers = config.getBoolean("enable.villagers", true);
+        final boolean monsters = config.getBoolean("enable.enemies", true);
+        final boolean animals = config.getBoolean("enable.enemies", true);
+        final boolean vehicles = config.getBoolean("enable.enemies", true);
         return entity ->
             (players && entity instanceof GlowPlayer)
             || (animals && entity instanceof Animals)
@@ -177,16 +171,16 @@ public final class ConitConfig {
     }
 
     private static Function<Message,Float> defineWeighFunction(YamlConfiguration config) {
-        float movementWeightConstant = (float) config.getDouble(
-            "message-type.movement.constant", 0.002);
-        float movementWeightDistance = (float) config.getDouble(
-            "message-type.movement.distance", 0.0001);
-        float headRotationWeight = (float) config.getDouble(
-            "message-type.head-rotation", 0.2);
-        float movementWeightRotation = (float) config.getDouble(
-            "message-type.rotation", 0.4);
-        float movementWeightTeleport = (float) config.getDouble(
-            "message-type.teleport", 20.0);
+        final float movementWeightConstant = (float) config.getDouble(
+            "message-type-scale.movement.constant", 0.1);
+        final float movementWeightDistance = (float) config.getDouble(
+            "message-type-scale.movement.distance", 3.0);
+        final float headRotationWeight = (float) config.getDouble(
+            "message-type-scale.head-rotation", 0.8);
+        final float movementWeightRotation = (float) config.getDouble(
+            "message-type-scale.rotation", 2.0);
+        final float movementWeightTeleport = (float) config.getDouble(
+            "message-type-scale.teleport", 10.0);
 
         return message -> {
             if (message instanceof EntityHeadRotationMessage) {
@@ -197,16 +191,20 @@ public final class ConitConfig {
                 }
                 RelativeEntityPositionRotationMessage cast =
                     (RelativeEntityPositionRotationMessage) message;
-                return (float) (cast.getDeltaX() + cast.getDeltaY() + cast.getDeltaZ())
+                return (float) (Math.abs(cast.getDeltaX())
+                        + Math.abs(cast.getDeltaY())
+                        + Math.abs(cast.getDeltaZ()))
                     * movementWeightDistance
                     + (movementWeightConstant + movementWeightRotation);
             } else if (message instanceof RelativeEntityPositionMessage) {
                 if (movementWeightDistance == 0.0) {
                     return movementWeightConstant;
                 }
-                RelativeEntityPositionRotationMessage cast =
-                    (RelativeEntityPositionRotationMessage) message;
-                return (float) (cast.getDeltaX() + cast.getDeltaY() + cast.getDeltaZ())
+                RelativeEntityPositionMessage cast =
+                    (RelativeEntityPositionMessage) message;
+                return (float) (Math.abs(cast.getDeltaX())
+                        + Math.abs(cast.getDeltaY())
+                        + Math.abs(cast.getDeltaZ()))
                     * movementWeightDistance
                     + (movementWeightConstant);
             } else if (message instanceof EntityTeleportMessage) {
