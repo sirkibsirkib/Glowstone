@@ -46,34 +46,6 @@ public class Conit {
         } else {
             return null;
         }
-        // if (fromType == EntityType.UNKNOWN) {
-        //     return null;
-        // }
-        // if (message instanceof EntityHeadRotationMessage) {
-        //     return 1.0f;
-        // } else if (message instanceof RelativeEntityPositionRotationMessage) {
-        //     RelativeEntityPositionRotationMessage cast =
-        //         (RelativeEntityPositionRotationMessage) message;
-        //     float val = (float) (cast.getDeltaX()
-        //                        + cast.getDeltaY()
-        //                        + cast.getDeltaZ()) * 0.002f + 0.1f;
-        //     return val;
-        // } else if (message instanceof RelativeEntityPositionMessage) {
-        //     RelativeEntityPositionMessage cast =
-        //         (RelativeEntityPositionMessage) message;
-        //     float val = (float) (cast.getDeltaX()
-        //                        + cast.getDeltaY()
-        //                        + cast.getDeltaZ()) * 0.002f + 0.1f;
-        //     return val;
-        // } else if (message instanceof EntityTeleportMessage) {
-        //     return 20.0f;
-        // } else if (message instanceof EntityRotationMessage) {
-        //     return 0.5f;
-        // }
-        // // else if (message instanceof EntityHeadRotationMessage) {
-        // //     return 1.0f;
-        // // }
-        // return null;
     }
 
     /**
@@ -95,7 +67,7 @@ public class Conit {
             if (bound == null || dist < bound) {
                 // no need to sync yet!
                 distances.put(fromId, dist);
-                // return false;
+                return false;
             }
         }
         // bound exceeded. Syncing
