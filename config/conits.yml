@@ -1,0 +1,38 @@
+enable:
+  players: true
+  villagers: true
+  animals: true
+  monsters: true
+  vehicles: true
+  
+# multiplies the error increment according to message properties
+error-scale:
+  
+  # incrememented once per conit per tick.
+  staleness: 0.2
+  
+  # assign scaling weights to messages. Higher values cause more frequent synchronization.
+  message-type:
+    movement: 1.0
+    head-rotation: 1.0
+    rotation: 1.0
+  
+bounds:
+
+  # how frequently bounds are recomputed
+  ticks-per-recompute: 20
+
+  # constant multiplier of bounds. Increase to sync less frequently.
+  constant: 1.0
+  
+  # ratio of contributions for each component to bounds computation
+  numeric-ratios:
+  
+    # ratio of the constant 1.0 component
+    constant: 0.1
+    
+    # ratio of inter-entity distance component
+    distance: 1.0
+    
+    # ratio of (inter-entity distance)^2 component
+    distance-sqr: 0.0

@@ -577,4 +577,12 @@ public class GlowSession extends BasicSession {
             return "[" + address + "]";
         }
     }
+
+
+    @Override
+    public void send(Message message) {
+        //CHRIS INSERT
+        GlowServer.logger.log(Level.WARNING, "sending " + message);
+        super.send(message);
+    }
 }

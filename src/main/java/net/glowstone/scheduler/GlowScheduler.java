@@ -21,6 +21,7 @@ import java.util.concurrent.TimeUnit;
 import java.util.concurrent.atomic.AtomicInteger;
 import java.util.logging.Level;
 import net.glowstone.GlowServer;
+import net.glowstone.conits.BoundMatrix;
 import net.glowstone.net.SessionRegistry;
 import org.bukkit.Server;
 import org.bukkit.plugin.Plugin;
@@ -180,7 +181,10 @@ public final class GlowScheduler implements BukkitScheduler {
     private void pulse() {
         primaryThread = Thread.currentThread();
 
+        BoundMatrix.pulse(); // CHRIS
+
         // Process player packets
+
         sessionRegistry.pulse();
 
         // Run the relevant tasks.

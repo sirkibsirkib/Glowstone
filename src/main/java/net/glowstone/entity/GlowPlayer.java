@@ -50,6 +50,7 @@ import net.glowstone.block.itemtype.ItemType;
 import net.glowstone.chunk.ChunkManager.ChunkLock;
 import net.glowstone.chunk.GlowChunk;
 import net.glowstone.chunk.GlowChunk.Key;
+import net.glowstone.conits.Conit;
 import net.glowstone.constants.GlowAchievement;
 import net.glowstone.constants.GlowBlockEntity;
 import net.glowstone.constants.GlowEffect;
@@ -543,6 +544,9 @@ public class GlowPlayer extends GlowHumanEntity implements Player {
     @Setter
     private int enderPearlCooldown = 0;
 
+    @Getter
+    private final Conit conit;
+
     /**
      * Returns the current fishing hook.
      *
@@ -563,6 +567,7 @@ public class GlowPlayer extends GlowHumanEntity implements Player {
         super(initLocation(session, reader), profile);
         setBoundingBox(0.6, 1.8);
         this.session = session;
+        this.conit = new Conit(this, session.getServer().getConitConfig());
 
         chunkLock = world.newChunkLock(getName());
 
@@ -922,7 +927,29 @@ public class GlowPlayer extends GlowHumanEntity implements Player {
                 if (!isWithinDistance(entity) || entity.isRemoved()) {
                     destroyEntities.add(entity);
                 } else {
-                    entity.createUpdateMessage(session).forEach(session::send);
+                    // CHRIS LOGIC
+                    for (Message msg : entity.createUpdateMessage(session)) {
+                        // System.out.println(msg.toString());
+                        Float weight = conit.messageWeight(msg, entity);
+                        if (weight == null || weight > -1.0) { // DEBUG
+                            // not a message for the conit.
+                            server.logger.info("normal " + entity.getType().toString()
+                                + ":" + msg.toString());
+                            session.send(msg);
+                        } else {
+                            // a message for the conit
+                            if (conit.feedMessageWeight(weight, entity)) {
+                                server.logger.info("conit SYNC "
+                                    + entity.getType().toString() + ":" + msg.toString());
+                            } else {
+                                server.logger.info("conit ---- "
+                                    + entity.getType().toString() + ":" + msg.toString());
+                            }
+                        }
+                    }
+                    // the weight of time passing at all
+                    // conit.feedMessageWeight(Conit.TICK_TIME_WEIGHT, entity);
+                    // entity.createUpdateMessage(session).forEach(session::send); //OLD
                 }
             }
             if (!destroyEntities.isEmpty()) {

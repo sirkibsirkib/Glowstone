@@ -108,6 +108,8 @@ import net.glowstone.command.minecraft.WeatherCommand;
 import net.glowstone.command.minecraft.WhitelistCommand;
 import net.glowstone.command.minecraft.WorldBorderCommand;
 import net.glowstone.command.minecraft.XpCommand;
+import net.glowstone.conits.BoundMatrix;
+import net.glowstone.conits.ConitConfig;
 import net.glowstone.constants.GlowEnchantment;
 import net.glowstone.constants.GlowPotionEffect;
 import net.glowstone.entity.EntityIdManager;
@@ -281,6 +283,11 @@ public class GlowServer implements Server {
      * The world config for extended world customization.
      */
     private static WorldConfig worldConfig;
+    /**
+     * The world config for extended world customization.
+     */
+    @Getter
+    private static ConitConfig conitConfig;
     /**
      * The list of OPs on the server.
      */
@@ -824,6 +831,10 @@ public class GlowServer implements Server {
         // Finish loading plugins
         enablePlugins(PluginLoadOrder.POSTWORLD);
         commandMap.registerServerAliases();
+
+        conitConfig = new ConitConfig();
+        BoundMatrix.initialize(conitConfig);
+
         scheduler.start();
     }
 

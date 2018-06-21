@@ -223,6 +223,7 @@ public abstract class GlowEntity implements Entity {
     /**
      * This entity's unique id.
      */
+    @Getter
     private UUID uuid;
     /**
      * An EntityDamageEvent representing the last damage cause on this entity.

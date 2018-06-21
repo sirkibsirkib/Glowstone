@@ -40,7 +40,7 @@ public final class PlayerUpdateHandler implements MessageHandler<GlowSession, Pl
           if they move greater than 10 blocks, but less than 100, just warn
           this is NOT robust hack prevention - only to prevent client
           confusion about where its actual location is (e.g. during login)
-        */
+        */        
         if (message.moved() && !player.isDead()) {
             if (player.teleportedTo != null) {
                 if (newLocation.equals(player.teleportedTo)) {
@@ -59,8 +59,9 @@ public final class PlayerUpdateHandler implements MessageHandler<GlowSession, Pl
                 }
             }
         }
-
+        
         // call move event if movement actually occurred and there are handlers registered
+        // this block is NOT responsible for doing the flooding
         if (!oldLocation.equals(newLocation)
             && PlayerMoveEvent.getHandlerList().getRegisteredListeners().length > 0) {
             PlayerMoveEvent event = EventFactory.getInstance()
@@ -83,12 +84,15 @@ public final class PlayerUpdateHandler implements MessageHandler<GlowSession, Pl
                 return;
             }
         }
+        
 
         // move event was not fired or did nothing, simply update location
+        // if (newLocation == null) {
         player.setRawLocation(newLocation);
         if (Position.hasRotated(oldLocation, newLocation)) {
             player.setHeadYaw(newLocation.getYaw());
         }
+        // }
 
         // do stuff with onGround if we need to
         if (player.isOnGround() != message.isOnGround()) {
