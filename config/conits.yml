@@ -2,7 +2,7 @@
 enable:
 
   # other players
-  players: true
+  players: false
   
   # villager NPCs
   villagers: true
@@ -19,13 +19,13 @@ enable:
 # scales the (distance increment = 'weight')of a message according to the type of message
 message-type-scale:
 
-  # defines the weight of movement-type messages as c + d
+  # defines the weight of movement-type messages as c + d*x
   movement:
     # defines c
-    constant: 0.1
+    constant: 0.5
     
-    # defines d, the sum of absolute values for distances in all 3 dimensions
-    distance: 3.0
+    # defines d, the sum of absolute values for distances in all 3 dimensions where x is the distance
+    distance: 1.0
     
   # weight of head-rotation-type messages
   head-rotation: 0.8

@@ -9,8 +9,8 @@ server:
     port: 25565
     name: Glowstone Server
     log-file: logs/log-%D.txt
-    online-mode: true
-    max-players: 20
+    online-mode: false
+    max-players: 9999
     whitelisted: false
     motd: A Glowstone server
     shutdown-message: Server shutting down.
@@ -86,8 +86,8 @@ world:
     name: world
     seed: ''
     level-type: FLAT
-    spawn-radius: 16
-    view-distance: 8
+    spawn-radius: 3
+    view-distance: 3
     gen-structures: false
     allow-nether: true
     allow-end: true

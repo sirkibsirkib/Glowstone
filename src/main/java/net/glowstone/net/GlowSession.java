@@ -530,6 +530,11 @@ public class GlowSession extends BasicSession {
 
     @Override
     public void messageReceived(Message message) {
+        String x = "<:" + address.getPort() + ">";
+        if (player != null) {
+            x = player.getName();
+        }
+        GlowServer.logger.info("<=Sward " + x + ": " + message); // CHRIS
         if (message instanceof AsyncableMessage && ((AsyncableMessage) message).isAsync()) {
             // async messages get their handlers called immediately
             super.messageReceived(message);
@@ -582,7 +587,11 @@ public class GlowSession extends BasicSession {
     @Override
     public void send(Message message) {
         //CHRIS INSERT
-        GlowServer.logger.log(Level.WARNING, "sending " + message);
+        String x = "<:" + address.getPort() + ">";
+        if (player != null) {
+            x = player.getName();
+        }
+        GlowServer.logger.info("Cward=> " + x + ": " + message);
         super.send(message);
     }
 }

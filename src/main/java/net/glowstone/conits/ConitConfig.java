@@ -150,7 +150,7 @@ public final class ConitConfig {
         if (multiply == 0.0) {
             return current -> current + constant;
         } else if (constant == 0.0) {
-            return current -> current * multiply
+            return current -> current * multiply;
         } else {
             return current -> (current + constant) * multiply;
         }
