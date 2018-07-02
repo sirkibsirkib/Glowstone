@@ -935,7 +935,7 @@ public class GlowPlayer extends GlowHumanEntity implements Player {
                         if (weight == null) { // DEBUG
                             // not a message for the conit.
                             server.logger.info("normal " + entity.getType().toString()
-                                + ":" + msg.toString());
+                               + ":" + msg.toString());
                             session.send(msg);
                         } else {
                             // a message for the conit
@@ -951,10 +951,11 @@ public class GlowPlayer extends GlowHumanEntity implements Player {
                     // the weight of time passing at all
                     if (BoundMatrix.getTicksToStale() == 0) {
                         conit.feedStaleness(entity);
-
                     }
                 }
             }
+            conit.tick();
+            
             if (!destroyEntities.isEmpty()) {
                 List<Integer> destroyIds = new ArrayList(destroyEntities.size());
                 for (GlowEntity entity : destroyEntities) {

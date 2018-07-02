@@ -10,7 +10,7 @@ public class BoundMatrix {
 
     private static ConitConfig conitConfig;
 
-    private static int ticksSinceReset = 0;
+    private static int ticksSinceBoundReset = 0;
 
     @Getter
     private static int ticksToStale = 0;
@@ -35,12 +35,12 @@ public class BoundMatrix {
      * resets the bounds map if its been long enough.
      */
     public static void pulse() {
-        ticksSinceReset++;
+        ticksSinceBoundReset++;
         ticksToStale--;
-        if (ticksSinceReset >= conitConfig.getTicksPerRecompute()) {
+        if (ticksSinceBoundReset >= conitConfig.getTicksPerBoundRecompute()) {
             resetAllBounds();
-            System.out.printf("RESETTING BOUNDS\n");
-            ticksSinceReset = 0;
+            //System.out.printf("RESETTING BOUNDS\n");
+            ticksSinceBoundReset = 0;
         }
         if (ticksToStale < 0) {
             ticksToStale = conitConfig.getTicksPerStaleness()-1;
@@ -56,9 +56,7 @@ public class BoundMatrix {
     }
 
     private static Float computeBound(GlowEntity a, GlowEntity b) {
-        Float x = conitConfig.getBoundFunction().apply(a, b);
-        System.out.printf("COMPUTED BOUND BETWEEN %s %s (%f)\n", a, b, x);
-        return x;
+        return conitConfig.getBoundFunction().apply(a, b);
     }
 
     @EqualsAndHashCode

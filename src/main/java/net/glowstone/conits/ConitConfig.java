@@ -38,7 +38,9 @@ public final class ConitConfig {
     private final Function<Float,Float> stalenessFunction;
 
     @Getter
-    private final int ticksPerRecompute;
+    private final int ticksPerBoundRecompute;
+    @Getter
+    private final int ticksPerConitClear;
 
     @Getter
     private final int ticksPerStaleness;
@@ -65,7 +67,9 @@ public final class ConitConfig {
             report(configFile, e);
         }
 
-        this.ticksPerRecompute = (int) config.getInt("bounds.ticks-per-recompute", 60);
+        this.ticksPerConitClear = (int) config.getInt("ticks-per-conit-clear", 200);
+
+        this.ticksPerBoundRecompute = (int) config.getInt("bounds.ticks-per-recompute", 60);
         this.ticksPerStaleness = (int) config.getInt("ticks-per-staleness", 20);
 
         this.weigh = defineWeighFunction(config);
@@ -84,9 +88,9 @@ public final class ConitConfig {
         float dist = (float) config.getDouble(
             "bounds.numeric-components.distance", 0.0);
         float distSqr = (float) config.getDouble(
-            "bounds.nnumeric-components.distance-sqr", 1.0);
+            "bounds.numeric-components.distance-sqr", 1.0);
 
-        System.out.printf("%f - %f - %f\n", cns, dist, distSqr);
+        //System.out.printf("%f - %f - %f\n", cns, dist, distSqr);
 
         if (dist == 0.0 && distSqr == 0.0) {
             //super lightweight

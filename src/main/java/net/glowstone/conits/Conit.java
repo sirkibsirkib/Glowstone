@@ -2,6 +2,7 @@ package net.glowstone.conits;
 
 import com.flowpowered.network.Message;
 import java.util.HashMap;
+import java.util.Random;
 import net.glowstone.entity.GlowEntity;
 import net.glowstone.entity.GlowLivingEntity;
 import net.glowstone.entity.GlowPlayer;
@@ -23,6 +24,8 @@ public class Conit {
     private final HashMap<Integer, Float> distances;
     private final GlowPlayer myself;
     private final ConitConfig conitConfig;
+    private HashMap<Integer, Float> previousDistances;
+    private int ticksSinceClear;
 
     /**
      * Constructs a conit for this player. Manages which messages
@@ -30,8 +33,10 @@ public class Conit {
      */
     public Conit(GlowPlayer myself, ConitConfig conitConfig) {
         this.distances = new HashMap<>();
+        this.previousDistances = new HashMap<>();
         this.myself = myself;
         this.conitConfig = conitConfig;
+        this.ticksSinceClear = new Random().nextInt(conitConfig.getTicksPerConitClear());
     }
 
     /**
@@ -42,11 +47,32 @@ public class Conit {
      */
     public Float messageWeight(Message message, Entity from) {
         if (this.conitConfig.getEntityPredicate().test(from)) {
-            System.out.println("test pass");
+            //System.out.println("test pass");
             return this.conitConfig.getWeigh().apply(message);
         } else {
-            System.out.println("test fail");
+            //System.out.println("test fail");
             return null;
+        }
+    }
+
+    /**
+     * Call once per tick. Performs maintenance on distance values.
+     */
+    public void tick() {
+        ticksSinceClear++;
+        if (ticksSinceClear >= conitConfig.getTicksPerConitClear()) {
+            ticksSinceClear = 0;
+            System.out.println("clear conit");
+            for (Integer key : previousDistances.keySet()) {
+                if (distances.get(key) == previousDistances.get(key)) {
+                    // the value has probably remained unchanged!
+                    distances.remove(key);
+                    System.out.println("remove");
+                } else {
+                    System.out.println("keep");
+                }
+            }
+            previousDistances = (HashMap) distances.clone();
         }
     }
 
@@ -79,7 +105,7 @@ public class Conit {
         if (dist != null) { // null represents infinite distance (must update)
             dist += messageWeight;
             Float bound = BoundMatrix.getBoundBetween(myself, from);
-            System.out.printf("[%f / %f]\n", dist, bound);
+            // System.out.printf("[%f / %f]\n", dist, bound);
             if (bound == null || dist < bound) {
                 // no need to sync yet!
                 distances.put(fromId, dist);

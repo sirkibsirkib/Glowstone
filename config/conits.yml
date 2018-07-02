@@ -2,7 +2,7 @@
 enable:
 
   # other players
-  players: false
+  players: true
   
   # villager NPCs
   villagers: true
@@ -16,25 +16,27 @@ enable:
   # minecarts
   vehicles: true
   
+ticks-per-conit-clear: 200
+  
 # scales the (distance increment = 'weight')of a message according to the type of message
 message-type-scale:
 
   # defines the weight of movement-type messages as c + d*x
   movement:
     # defines c
-    constant: 0.5
+    constant: 2.0
     
     # defines d, the sum of absolute values for distances in all 3 dimensions where x is the distance
-    distance: 1.0
+    distance: 0.2
     
   # weight of head-rotation-type messages
-  head-rotation: 0.8
+  head-rotation: 1.3
   
   # weight of body-rotation-type messages
   rotation: 2.0
     
 # defines the tick-period for staleness increments. Increase to update more rarely
-ticks-per-staleness: 15
+ticks-per-staleness: 10
 
 # defines d, where current distance is x and next distance is x+d
 # d = mx + c
@@ -44,26 +46,26 @@ staleness-func:
   constant: 0.0
   
   # defines m
-  multiply: 0.8
+  multiply: 1.0
   
 # defines the bounds computation between two entities
 # C*(xd + y(d)^2 + c)
 bounds:
 
   # how frequently bounds are recomputed
-  ticks-per-recompute: 60
+  ticks-per-recompute: 30
 
   # defines C. Increase to update less frequently.
-  constant: 100.0
+  constant: 30.0
   
   # ratio of contributions for each component to bounds computation ()
   # bound is computed as xd + y(d)^2 + c, where d is the geometric distance between the two entities
   numeric-components:
     # defines c
-    constant: 0.3
+    constant: 10.0
     
     # defines x
-    distance: 0.0
+    distance: 1.0
     
     # defines y
-    distance-sqr: 1.0
+    distance-sqr: 0.0

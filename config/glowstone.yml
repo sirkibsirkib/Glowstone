@@ -23,11 +23,11 @@ console:
     date-format: HH:mm:ss
     log-date-format: yyyy/MM/dd HH:mm:ss
 game:
-    gamemode: CREATIVE
+    gamemode: SURVIVAL
     gamemode-force: false
-    difficulty: NORMAL
+    difficulty: PEACEFUL
     hardcore: false
-    pvp: true
+    pvp: false
     max-build-height: 256
     announce-achievements: true
     allow-flight: false
@@ -86,8 +86,8 @@ world:
     name: world
     seed: ''
     level-type: FLAT
-    spawn-radius: 3
-    view-distance: 3
+    spawn-radius: 10
+    view-distance: 10
     gen-structures: false
     allow-nether: true
     allow-end: true
