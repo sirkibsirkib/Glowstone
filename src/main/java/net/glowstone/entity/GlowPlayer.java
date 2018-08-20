@@ -919,26 +919,51 @@ public class GlowPlayer extends GlowHumanEntity implements Player {
 
         // Entity IDs are only unique per world, so we can't spawn or teleport between worlds while
         // updating them.
+
+        // CONIT: thisplayer facing
+        double yaw = getLocation().getYaw();
+        System.out.printf("YAW=%f: ", yaw);
+
+
         worldLock.writeLock().lock();
         try {
             // update or remove entities
             List<GlowEntity> destroyEntities = new LinkedList<>();
             for (Iterator<GlowEntity> it = knownEntities.iterator(); it.hasNext(); ) {
                 GlowEntity entity = it.next();
+                // boolean inSight = 
                 if (!isWithinDistance(entity) || entity.isRemoved()) {
                     destroyEntities.add(entity);
                 } else {
-                    // CHRIS LOGIC
+                    // CONIT: logic begins
+                    double dx = entity.getLocation().getX() - getLocation().getX();
+                    double dz = entity.getLocation().getZ() - getLocation().getZ();
+                    double r = Math.atan2(dz, dx);
+                    if (dz < 0.0) {
+                        r += 2*Math.PI;
+                    }
+                    double toward = r * 180.0 / Math.PI;
+                    toward -= 90.0;
+                    if (toward < 0.0) {
+                        toward += 360.0;
+                    }
+
+                    double diff = Math.abs(toward-yaw);
+                    System.out.printf("TOWARD(%f). diff(%f)  ", toward, diff);
+                    if (diff > 90.0 && diff < 270.0) {
+                        System.out.printf("LOOKING AWAY!!", toward, diff);
+                    }
+
+
                     for (Message msg : entity.createUpdateMessage(session)) {
-                        // System.out.println(msg.toString());
                         Float weight = conit.messageWeight(msg, entity);
                         if (weight == null) { // DEBUG
-                            // not a message for the conit.
+                            // CONIT: not a message for the conit.
                             server.logger.info("normal " + entity.getType().toString()
                                + ":" + msg.toString());
                             session.send(msg);
                         } else {
-                            // a message for the conit
+                            // CONIT: a message for the conit
                             if (conit.feedMessageWeight(weight, entity)) {
                                 server.logger.info("conit SYNC "
                                     + entity.getType().toString() + ":" + msg.toString());
@@ -948,13 +973,14 @@ public class GlowPlayer extends GlowHumanEntity implements Player {
                             }
                         }
                     }
-                    // the weight of time passing at all
+                    // CONIT: the weight of time passing at all
                     if (BoundMatrix.getTicksToStale() == 0) {
                         conit.feedStaleness(entity);
                     }
                 }
             }
-            conit.tick();
+            conit.tick(); // CONIT: perform hashmap maintenance
+            System.out.println();
             
             if (!destroyEntities.isEmpty()) {
                 List<Integer> destroyIds = new ArrayList(destroyEntities.size());
@@ -964,6 +990,7 @@ public class GlowPlayer extends GlowHumanEntity implements Player {
                 }
                 session.send(new DestroyEntitiesMessage(destroyIds));
             }
+
             // add entities
             knownChunks.forEach(key ->
                     world.getChunkAt(key.getX(), key.getZ()).getRawEntities().stream()

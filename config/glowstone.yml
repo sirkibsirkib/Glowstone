@@ -23,7 +23,7 @@ console:
     date-format: HH:mm:ss
     log-date-format: yyyy/MM/dd HH:mm:ss
 game:
-    gamemode: SURVIVAL
+    gamemode: CREATIVE
     gamemode-force: false
     difficulty: PEACEFUL
     hardcore: false
