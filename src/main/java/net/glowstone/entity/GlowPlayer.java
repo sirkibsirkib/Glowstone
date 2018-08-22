@@ -806,6 +806,34 @@ public class GlowPlayer extends GlowHumanEntity implements Player {
         return false;
     }
 
+    private boolean inLineOfSight(GlowEntity entity) {
+        double dx = entity.getLocation().getX() - getLocation().getX();
+        double dy = entity.getLocation().getY() - getLocation().getY();
+        double dz = entity.getLocation().getZ() - getLocation().getZ();
+        double hDist = Math.sqrt((dx * dx) + (dz * dz));
+        double vDist = Math.abs(dy);
+        double r = Math.atan2(dz, dx);
+        if (dz < 0.0) {
+            r += 2*Math.PI;
+        }
+        double toward = r * 180.0 / Math.PI;
+        toward -= 90.0;
+        if (toward < 0.0) {
+            toward += 360.0;
+        }
+        double diff = Math.abs(toward-getLocation().getYaw());
+        // System.out.printf("TOWARD(%f). diff(%f)  ", toward, diff);
+        // System.out.printf("HDIST (%f) VIST (%f) ", hDist, vDist);
+        if (diff > 90.0 && diff < 270.0) {
+            // System.out.printf("LOOKING AWAY!!");
+            if (vDist * 2.0 < hDist && hDist > 10.0) {
+                // System.out.printf("SUPPRESS!!");
+                return false;
+            }
+        }
+        return true;
+    }
+
     @Override
     public void pulse() {
         super.pulse();
@@ -921,41 +949,30 @@ public class GlowPlayer extends GlowHumanEntity implements Player {
         // updating them.
 
         // CONIT: thisplayer facing
-        double yaw = getLocation().getYaw();
-        System.out.printf("YAW=%f: ", yaw);
+        // double yaw = getLocation().getYaw();
+        // System.out.printf("PIT=%f: ", getLocation().getPitch());
+        // System.out.printf("YAW=%f: ", yaw);
 
 
         worldLock.writeLock().lock();
+        boolean mustMakeStale = conit.checkAndMaybeSetStalenesClock();
+
         try {
             // update or remove entities
             List<GlowEntity> destroyEntities = new LinkedList<>();
             for (Iterator<GlowEntity> it = knownEntities.iterator(); it.hasNext(); ) {
                 GlowEntity entity = it.next();
-                // boolean inSight = 
+                Boolean isInLineOfSight = null;
                 if (!isWithinDistance(entity) || entity.isRemoved()) {
                     destroyEntities.add(entity);
                 } else {
-                    // CONIT: logic begins
-                    double dx = entity.getLocation().getX() - getLocation().getX();
-                    double dz = entity.getLocation().getZ() - getLocation().getZ();
-                    double r = Math.atan2(dz, dx);
-                    if (dz < 0.0) {
-                        r += 2*Math.PI;
-                    }
-                    double toward = r * 180.0 / Math.PI;
-                    toward -= 90.0;
-                    if (toward < 0.0) {
-                        toward += 360.0;
-                    }
-
-                    double diff = Math.abs(toward-yaw);
-                    System.out.printf("TOWARD(%f). diff(%f)  ", toward, diff);
-                    if (diff > 90.0 && diff < 270.0) {
-                        System.out.printf("LOOKING AWAY!!", toward, diff);
-                    }
-
-
                     for (Message msg : entity.createUpdateMessage(session)) {
+                        // CONIT: logic begins
+
+                        if (isInLineOfSight == null) {
+                            // lazy computation
+                            isInLineOfSight = inLineOfSight(entity);
+                        }
                         Float weight = conit.messageWeight(msg, entity);
                         if (weight == null) { // DEBUG
                             // CONIT: not a message for the conit.
@@ -964,8 +981,8 @@ public class GlowPlayer extends GlowHumanEntity implements Player {
                             session.send(msg);
                         } else {
                             // CONIT: a message for the conit
-                            if (conit.feedMessageWeight(weight, entity)) {
-                                server.logger.info("conit SYNC "
+                            if (conit.feedMessageWeight(weight, entity, isInLineOfSight)) {
+                            server.logger.info("conit SYNC "
                                     + entity.getType().toString() + ":" + msg.toString());
                             } else {
                                 server.logger.info("conit ---- "
@@ -974,13 +991,18 @@ public class GlowPlayer extends GlowHumanEntity implements Player {
                         }
                     }
                     // CONIT: the weight of time passing at all
-                    if (BoundMatrix.getTicksToStale() == 0) {
-                        conit.feedStaleness(entity);
+                    if (mustMakeStale) {
+                        if (isInLineOfSight == null) {
+                            // lazy computation
+                            isInLineOfSight = inLineOfSight(entity);
+                        }
+                        System.out.println("STALENESS FOR ENTITY");
+                        conit.feedStaleness(entity, isInLineOfSight);
                     }
                 }
             }
             conit.tick(); // CONIT: perform hashmap maintenance
-            System.out.println();
+            // System.out.println();
             
             if (!destroyEntities.isEmpty()) {
                 List<Integer> destroyIds = new ArrayList(destroyEntities.size());

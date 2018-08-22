@@ -12,9 +12,6 @@ public class BoundMatrix {
 
     private static int ticksSinceBoundReset = 0;
 
-    @Getter
-    private static int ticksToStale = 0;
-
     /**
      * Returns the max staleness bound between two given entities
      * Return value of `null` represents an infinite bound. (ie never sync)
@@ -36,14 +33,10 @@ public class BoundMatrix {
      */
     public static void pulse() {
         ticksSinceBoundReset++;
-        ticksToStale--;
         if (ticksSinceBoundReset >= conitConfig.getTicksPerBoundRecompute()) {
             resetAllBounds();
             //System.out.printf("RESETTING BOUNDS\n");
             ticksSinceBoundReset = 0;
-        }
-        if (ticksToStale < 0) {
-            ticksToStale = conitConfig.getTicksPerStaleness()-1;
         }
     }
 

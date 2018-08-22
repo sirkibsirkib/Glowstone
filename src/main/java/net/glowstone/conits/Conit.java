@@ -26,6 +26,7 @@ public class Conit {
     private final ConitConfig conitConfig;
     private HashMap<Integer, Float> previousDistances;
     private int ticksSinceClear;
+    private long lastStalenessCheckAt;
 
     /**
      * Constructs a conit for this player. Manages which messages
@@ -37,6 +38,7 @@ public class Conit {
         this.myself = myself;
         this.conitConfig = conitConfig;
         this.ticksSinceClear = new Random().nextInt(conitConfig.getTicksPerConitClear());
+        this.lastStalenessCheckAt = System.currentTimeMillis();
     }
 
     /**
@@ -53,6 +55,19 @@ public class Conit {
             //System.out.println("test fail");
             return null;
         }
+    }
+
+    /**
+     * Returns true if its time for a staleness pulse. when `true` is returned,
+     * the counter has already been incremented for the next time.
+     */
+    public boolean checkAndMaybeSetStalenesClock() {
+        long now = System.currentTimeMillis();
+        if (now - lastStalenessCheckAt >= conitConfig.getStalenessPeriodMillis()) {
+            lastStalenessCheckAt = now;
+            return true;
+        }
+        return false;
     }
 
     /**
@@ -76,16 +91,16 @@ public class Conit {
         }
     }
 
-    public boolean feedStaleness(GlowEntity from) {
+    public boolean feedStaleness(GlowEntity from, boolean isInLineOfSight) {
         Integer fromId = from.getEntityId();
         Float dist = distances.get(fromId);
         if (dist != null) {
             // null represents infinite distance (must update)
             return feedMessageWeight(
-                conitConfig.getStalenessFunction().apply(dist), from);
+                conitConfig.getStalenessFunction().apply(dist), from, isInLineOfSight);
         } else {
             return feedMessageWeight(
-                conitConfig.getStalenessFunction().apply(0.0f), from);
+                conitConfig.getStalenessFunction().apply(0.0f), from, isInLineOfSight);
         }
     }
 
@@ -96,13 +111,17 @@ public class Conit {
      * @param messageWeight Input return of Conit::messageWeight here.
      * @return true if there was a sync event
      */
-    public boolean feedMessageWeight(float messageWeight, GlowEntity from) {
+    public boolean feedMessageWeight(float messageWeight, GlowEntity from, boolean isInLineOfSight) {
         if (messageWeight == 0.0f) {
             return false;
         }
+        if (!isInLineOfSight) {
+            // entity is out of sight. multiply by the configured value
+            messageWeight *= conitConfig.getOutOfSightWeightMultiplier();
+        }
         Integer fromId = from.getEntityId();
         Float dist = distances.get(fromId);
-        if (dist != null) { // null represents infinite distance (must update)
+        if (dist != null) { // null represents infinite distance
             dist += messageWeight;
             Float bound = BoundMatrix.getBoundBetween(myself, from);
             // System.out.printf("[%f / %f]\n", dist, bound);

@@ -1,0 +1,885 @@
+2018/08/22 12:22:31 [WARNING] The server is running in offline mode! Only do this if you know what you''re doing.
+2018/08/22 12:22:32 [INFO] Scanning plugins...
+2018/08/22 12:22:32 [INFO] Preparing spawn for world...
+2018/08/22 12:22:33 [INFO] Preparing spawn for world: done
+2018/08/22 12:22:33 [INFO] Preparing spawn for world_nether...
+2018/08/22 12:22:34 [INFO] Preparing spawn for world_nether: 81%
+2018/08/22 12:22:34 [INFO] Preparing spawn for world_nether: done
+2018/08/22 12:22:34 [INFO] Preparing spawn for world_the_end...
+2018/08/22 12:22:34 [INFO] Preparing spawn for world_the_end: done
+2018/08/22 12:22:35 [INFO] Binding server to 0.0.0.0:25565...
+2018/08/22 12:22:35 [INFO] Successfully bound server to 0.0.0.0:25565.
+2018/08/22 12:22:35 [INFO] Ready for connections.
+2018/08/22 12:23:04 [INFO] Sirkib [/127.0.0.1:63794] connected, UUID: a9890d5f-0625-3d50-82ab-336ea436ba53
+2018/08/22 12:23:04 [INFO] §eSirkib joined the game
+2018/08/22 12:23:04 [INFO] normal COW:EntityPropertyMessage(id=1, properties={generic.maxHealth=net.glowstone.entity.AttributeManager$Property@4651428b})
+2018/08/22 12:23:04 [INFO] conit SYNC COW:EntityTeleportMessage(id=1, x=124.5, y=4.0, z=161.5, rotation=0, pitch=0, onGround=true)
+2018/08/22 12:23:16 [INFO] conit ---- COW:EntityHeadRotationMessage(id=1, rotation=3)
+2018/08/22 12:23:20 [INFO] conit ---- COW:EntityHeadRotationMessage(id=1, rotation=-15)
+2018/08/22 12:23:24 [INFO] conit ---- COW:EntityHeadRotationMessage(id=1, rotation=-37)
+2018/08/22 12:23:26 [INFO] The server is shutting down...
+2018/08/22 12:23:26 [INFO] Sirkib kicked: Server shutting down.
+2018/08/22 12:23:29 [INFO] Saving world: world
+2018/08/22 12:23:29 [INFO] Saving world: world_nether
+2018/08/22 12:23:31 [INFO] Saving world: world_the_end
+2018/08/22 12:49:12 [WARNING] The server is running in offline mode! Only do this if you know what you''re doing.
+2018/08/22 12:49:12 [INFO] Scanning plugins...
+2018/08/22 12:49:12 [INFO] Preparing spawn for world...
+2018/08/22 12:49:13 [INFO] Preparing spawn for world: done
+2018/08/22 12:49:13 [INFO] Preparing spawn for world_nether...
+2018/08/22 12:49:14 [INFO] Preparing spawn for world_nether: done
+2018/08/22 12:49:14 [INFO] Preparing spawn for world_the_end...
+2018/08/22 12:49:14 [INFO] Preparing spawn for world_the_end: done
+2018/08/22 12:49:14 [INFO] Binding server to 0.0.0.0:25565...
+2018/08/22 12:49:14 [INFO] Successfully bound server to 0.0.0.0:25565.
+2018/08/22 12:49:14 [INFO] Ready for connections.
+2018/08/22 12:49:15 [INFO] Sirkib [/127.0.0.1:63868] connected, UUID: a9890d5f-0625-3d50-82ab-336ea436ba53
+2018/08/22 12:49:15 [INFO] §eSirkib joined the game
+2018/08/22 12:49:15 [INFO] normal COW:EntityPropertyMessage(id=1, properties={generic.maxHealth=net.glowstone.entity.AttributeManager$Property@75f86a12})
+2018/08/22 12:49:15 [INFO] conit SYNC COW:EntityHeadRotationMessage(id=1, rotation=-51)
+2018/08/22 12:49:32 [INFO] conit SYNC COW:EntityHeadRotationMessage(id=1, rotation=-100)
+2018/08/22 12:49:36 [INFO] conit ---- COW:EntityHeadRotationMessage(id=1, rotation=-69)
+2018/08/22 12:49:44 [INFO] conit ---- COW:EntityTeleportMessage(id=1, x=124.5, y=4.0, z=161.5, rotation=0, pitch=0, onGround=true)
+2018/08/22 12:53:45 [WARNING] The server is running in offline mode! Only do this if you know what you''re doing.
+2018/08/22 12:53:46 [INFO] Scanning plugins...
+2018/08/22 12:53:46 [INFO] Preparing spawn for world...
+2018/08/22 12:53:46 [INFO] Preparing spawn for world: done
+2018/08/22 12:53:46 [INFO] Preparing spawn for world_nether...
+2018/08/22 12:53:47 [INFO] Preparing spawn for world_nether: done
+2018/08/22 12:53:47 [INFO] Preparing spawn for world_the_end...
+2018/08/22 12:53:47 [INFO] Preparing spawn for world_the_end: done
+2018/08/22 12:53:48 [INFO] Binding server to 0.0.0.0:25565...
+2018/08/22 12:53:48 [INFO] Successfully bound server to 0.0.0.0:25565.
+2018/08/22 12:53:48 [INFO] Ready for connections.
+2018/08/22 12:53:52 [INFO] Sirkib [/127.0.0.1:63943] connected, UUID: a9890d5f-0625-3d50-82ab-336ea436ba53
+2018/08/22 12:53:52 [INFO] §eSirkib joined the game
+2018/08/22 12:53:52 [INFO] normal COW:EntityPropertyMessage(id=1, properties={generic.maxHealth=net.glowstone.entity.AttributeManager$Property@12ae9328})
+2018/08/22 12:54:02 [INFO] conit SYNC COW:EntityHeadRotationMessage(id=1, rotation=7)
+2018/08/22 12:58:09 [WARNING] The server is running in offline mode! Only do this if you know what you''re doing.
+2018/08/22 12:58:10 [INFO] Scanning plugins...
+2018/08/22 12:58:10 [INFO] Preparing spawn for world...
+2018/08/22 12:58:10 [INFO] Preparing spawn for world: done
+2018/08/22 12:58:10 [INFO] Preparing spawn for world_nether...
+2018/08/22 12:58:11 [INFO] Preparing spawn for world_nether: done
+2018/08/22 12:58:11 [INFO] Preparing spawn for world_the_end...
+2018/08/22 12:58:12 [INFO] Preparing spawn for world_the_end: done
+2018/08/22 12:58:12 [INFO] Binding server to 0.0.0.0:25565...
+2018/08/22 12:58:12 [INFO] Successfully bound server to 0.0.0.0:25565.
+2018/08/22 12:58:12 [INFO] Ready for connections.
+2018/08/22 12:58:15 [INFO] Sirkib [/127.0.0.1:63986] connected, UUID: a9890d5f-0625-3d50-82ab-336ea436ba53
+2018/08/22 12:58:15 [INFO] §eSirkib joined the game
+2018/08/22 12:58:15 [INFO] normal COW:EntityPropertyMessage(id=1, properties={generic.maxHealth=net.glowstone.entity.AttributeManager$Property@959227c})
+2018/08/22 12:58:30 [INFO] conit SYNC COW:EntityHeadRotationMessage(id=1, rotation=-3)
+2018/08/22 12:58:42 [INFO] conit ---- COW:EntityTeleportMessage(id=1, x=124.5, y=4.0, z=161.5, rotation=0, pitch=0, onGround=true)
+2018/08/22 12:58:47 [INFO] conit ---- COW:EntityHeadRotationMessage(id=1, rotation=-35)
+2018/08/22 12:59:12 [INFO] conit SYNC COW:EntityTeleportMessage(id=1, x=124.5, y=4.0, z=161.5, rotation=0, pitch=0, onGround=true)
+2018/08/22 12:59:42 [INFO] conit SYNC COW:EntityTeleportMessage(id=1, x=124.5, y=4.0, z=161.5, rotation=0, pitch=0, onGround=true)
+2018/08/22 12:59:50 [INFO] conit ---- COW:EntityHeadRotationMessage(id=1, rotation=-45)
+2018/08/22 13:00:05 [INFO] The server is shutting down...
+2018/08/22 13:00:05 [INFO] Sirkib kicked: Server shutting down.
+2018/08/22 13:00:07 [INFO] Saving world: world
+2018/08/22 13:00:08 [INFO] Saving world: world_nether
+2018/08/22 13:00:09 [INFO] Saving world: world_the_end
+2018/08/22 13:02:41 [WARNING] The server is running in offline mode! Only do this if you know what you''re doing.
+2018/08/22 13:02:42 [INFO] Scanning plugins...
+2018/08/22 13:02:42 [INFO] Preparing spawn for world...
+2018/08/22 13:02:42 [INFO] Preparing spawn for world: done
+2018/08/22 13:02:42 [INFO] Preparing spawn for world_nether...
+2018/08/22 13:02:43 [INFO] Preparing spawn for world_nether: done
+2018/08/22 13:02:43 [INFO] Preparing spawn for world_the_end...
+2018/08/22 13:02:43 [INFO] Preparing spawn for world_the_end: done
+2018/08/22 13:02:44 [INFO] Binding server to 0.0.0.0:25565...
+2018/08/22 13:02:44 [INFO] Successfully bound server to 0.0.0.0:25565.
+2018/08/22 13:02:44 [INFO] Ready for connections.
+2018/08/22 13:02:47 [INFO] Sirkib [/127.0.0.1:64023] connected, UUID: a9890d5f-0625-3d50-82ab-336ea436ba53
+2018/08/22 13:02:47 [INFO] §eSirkib joined the game
+2018/08/22 13:02:47 [INFO] normal COW:EntityPropertyMessage(id=1, properties={generic.maxHealth=net.glowstone.entity.AttributeManager$Property@3209f})
+2018/08/22 13:02:47 [INFO] conit SYNC COW:EntityHeadRotationMessage(id=1, rotation=-7)
+2018/08/22 13:03:12 [INFO] The server is shutting down...
+2018/08/22 13:03:12 [INFO] Sirkib kicked: Server shutting down.
+2018/08/22 13:03:14 [INFO] Saving world: world
+2018/08/22 13:03:14 [INFO] Saving world: world_nether
+2018/08/22 13:03:16 [INFO] Saving world: world_the_end
+2018/08/22 13:18:44 [WARNING] The server is running in offline mode! Only do this if you know what you''re doing.
+2018/08/22 13:18:44 [INFO] Scanning plugins...
+2018/08/22 13:18:45 [INFO] Preparing spawn for world...
+2018/08/22 13:18:45 [INFO] Preparing spawn for world: done
+2018/08/22 13:18:45 [INFO] Preparing spawn for world_nether...
+2018/08/22 13:18:46 [INFO] Preparing spawn for world_nether: done
+2018/08/22 13:18:46 [INFO] Preparing spawn for world_the_end...
+2018/08/22 13:18:46 [INFO] Preparing spawn for world_the_end: done
+2018/08/22 13:18:46 [INFO] Binding server to 0.0.0.0:25565...
+2018/08/22 13:18:47 [INFO] Successfully bound server to 0.0.0.0:25565.
+2018/08/22 13:18:47 [INFO] Ready for connections.
+2018/08/22 13:20:33 [WARNING] The server is running in offline mode! Only do this if you know what you''re doing.
+2018/08/22 13:20:34 [INFO] Scanning plugins...
+2018/08/22 13:20:34 [INFO] Preparing spawn for world...
+2018/08/22 13:20:34 [INFO] Preparing spawn for world: done
+2018/08/22 13:20:34 [INFO] Preparing spawn for world_nether...
+2018/08/22 13:20:35 [INFO] Preparing spawn for world_nether: done
+2018/08/22 13:20:35 [INFO] Preparing spawn for world_the_end...
+2018/08/22 13:20:35 [INFO] Preparing spawn for world_the_end: done
+2018/08/22 13:20:35 [INFO] Binding server to 0.0.0.0:25565...
+2018/08/22 13:20:36 [INFO] Successfully bound server to 0.0.0.0:25565.
+2018/08/22 13:20:36 [INFO] Ready for connections.
+2018/08/22 13:20:37 [INFO] Sirkib [/127.0.0.1:64121] connected, UUID: a9890d5f-0625-3d50-82ab-336ea436ba53
+2018/08/22 13:20:37 [INFO] §eSirkib joined the game
+2018/08/22 13:20:37 [INFO] normal COW:EntityPropertyMessage(id=1, properties={generic.maxHealth=net.glowstone.entity.AttributeManager$Property@6ad0d45e})
+2018/08/22 13:23:03 [WARNING] The server is running in offline mode! Only do this if you know what you''re doing.
+2018/08/22 13:23:03 [INFO] Scanning plugins...
+2018/08/22 13:23:03 [INFO] Preparing spawn for world...
+2018/08/22 13:23:04 [INFO] Preparing spawn for world: done
+2018/08/22 13:23:04 [INFO] Preparing spawn for world_nether...
+2018/08/22 13:23:05 [INFO] Preparing spawn for world_nether: done
+2018/08/22 13:23:05 [INFO] Preparing spawn for world_the_end...
+2018/08/22 13:23:05 [INFO] Preparing spawn for world_the_end: done
+2018/08/22 13:23:05 [INFO] Binding server to 0.0.0.0:25565...
+2018/08/22 13:23:05 [INFO] Successfully bound server to 0.0.0.0:25565.
+2018/08/22 13:23:05 [INFO] Ready for connections.
+2018/08/22 13:23:10 [INFO] Sirkib [/127.0.0.1:64156] connected, UUID: a9890d5f-0625-3d50-82ab-336ea436ba53
+2018/08/22 13:23:10 [INFO] §eSirkib joined the game
+2018/08/22 13:23:11 [INFO] normal COW:EntityPropertyMessage(id=1, properties={generic.maxHealth=net.glowstone.entity.AttributeManager$Property@1935db2e})
+2018/08/22 13:23:15 [INFO] normal COW:EntityMetadataMessage(id=1, entries=[HEALTH=9.0])
+2018/08/22 13:23:15 [INFO] normal COW:EntityVelocityMessage(id=1, velocityX=6203, velocityY=0, velocityZ=4057)
+2018/08/22 13:23:15 [INFO] conit SYNC COW:RelativeEntityPositionMessage(id=1, deltaX=3175, deltaY=0, deltaZ=2077, onGround=true)
+2018/08/22 13:23:15 [INFO] conit SYNC COW:RelativeEntityPositionMessage(id=1, deltaX=3175, deltaY=0, deltaZ=2077, onGround=true)
+2018/08/22 13:23:15 [INFO] conit SYNC COW:RelativeEntityPositionMessage(id=1, deltaX=3175, deltaY=0, deltaZ=2077, onGround=true)
+2018/08/22 13:23:15 [INFO] conit SYNC COW:RelativeEntityPositionMessage(id=1, deltaX=3175, deltaY=0, deltaZ=2077, onGround=true)
+2018/08/22 13:23:15 [INFO] conit SYNC COW:RelativeEntityPositionMessage(id=1, deltaX=3175, deltaY=0, deltaZ=2077, onGround=true)
+2018/08/22 13:23:15 [INFO] conit SYNC COW:RelativeEntityPositionMessage(id=1, deltaX=3175, deltaY=0, deltaZ=2077, onGround=true)
+2018/08/22 13:23:15 [INFO] conit SYNC COW:RelativeEntityPositionMessage(id=1, deltaX=3175, deltaY=0, deltaZ=2077, onGround=true)
+2018/08/22 13:23:16 [INFO] conit SYNC COW:RelativeEntityPositionMessage(id=1, deltaX=3175, deltaY=0, deltaZ=2077, onGround=true)
+2018/08/22 13:23:16 [INFO] conit SYNC COW:RelativeEntityPositionMessage(id=1, deltaX=3175, deltaY=0, deltaZ=2077, onGround=true)
+2018/08/22 13:23:16 [INFO] conit SYNC COW:RelativeEntityPositionMessage(id=1, deltaX=3175, deltaY=0, deltaZ=2077, onGround=true)
+2018/08/22 13:23:16 [INFO] conit SYNC COW:RelativeEntityPositionMessage(id=1, deltaX=3175, deltaY=0, deltaZ=2077, onGround=true)
+2018/08/22 13:23:16 [INFO] conit SYNC COW:RelativeEntityPositionMessage(id=1, deltaX=3175, deltaY=0, deltaZ=2077, onGround=true)
+2018/08/22 13:23:16 [INFO] conit SYNC COW:RelativeEntityPositionMessage(id=1, deltaX=3175, deltaY=0, deltaZ=2077, onGround=true)
+2018/08/22 13:23:16 [INFO] conit SYNC COW:RelativeEntityPositionMessage(id=1, deltaX=3175, deltaY=0, deltaZ=2077, onGround=true)
+2018/08/22 13:23:16 [INFO] conit SYNC COW:RelativeEntityPositionMessage(id=1, deltaX=3175, deltaY=0, deltaZ=2077, onGround=true)
+2018/08/22 13:23:16 [INFO] conit SYNC COW:RelativeEntityPositionMessage(id=1, deltaX=3175, deltaY=0, deltaZ=2077, onGround=true)
+2018/08/22 13:23:16 [INFO] conit SYNC COW:RelativeEntityPositionMessage(id=1, deltaX=3175, deltaY=0, deltaZ=2077, onGround=true)
+2018/08/22 13:23:16 [INFO] conit SYNC COW:RelativeEntityPositionMessage(id=1, deltaX=3175, deltaY=0, deltaZ=2077, onGround=true)
+2018/08/22 13:23:16 [INFO] conit SYNC COW:RelativeEntityPositionMessage(id=1, deltaX=3175, deltaY=0, deltaZ=2077, onGround=true)
+2018/08/22 13:23:16 [INFO] conit SYNC COW:RelativeEntityPositionMessage(id=1, deltaX=3175, deltaY=0, deltaZ=2077, onGround=true)
+2018/08/22 13:23:16 [INFO] conit SYNC COW:RelativeEntityPositionMessage(id=1, deltaX=3175, deltaY=0, deltaZ=2077, onGround=true)
+2018/08/22 13:23:16 [INFO] conit SYNC COW:RelativeEntityPositionMessage(id=1, deltaX=3175, deltaY=0, deltaZ=2077, onGround=true)
+2018/08/22 13:23:16 [INFO] conit SYNC COW:RelativeEntityPositionMessage(id=1, deltaX=3175, deltaY=0, deltaZ=2077, onGround=true)
+2018/08/22 13:23:16 [INFO] conit SYNC COW:RelativeEntityPositionMessage(id=1, deltaX=3175, deltaY=0, deltaZ=2077, onGround=true)
+2018/08/22 13:23:16 [INFO] conit SYNC COW:RelativeEntityPositionMessage(id=1, deltaX=3175, deltaY=0, deltaZ=2077, onGround=true)
+2018/08/22 13:23:16 [INFO] conit SYNC COW:RelativeEntityPositionMessage(id=1, deltaX=3175, deltaY=0, deltaZ=2077, onGround=true)
+2018/08/22 13:23:16 [INFO] conit SYNC COW:RelativeEntityPositionMessage(id=1, deltaX=3175, deltaY=0, deltaZ=2077, onGround=true)
+2018/08/22 13:23:17 [INFO] conit SYNC COW:RelativeEntityPositionMessage(id=1, deltaX=3175, deltaY=0, deltaZ=2077, onGround=true)
+2018/08/22 13:23:17 [INFO] conit SYNC COW:RelativeEntityPositionMessage(id=1, deltaX=3175, deltaY=0, deltaZ=2077, onGround=true)
+2018/08/22 13:23:17 [INFO] conit SYNC COW:RelativeEntityPositionMessage(id=1, deltaX=3175, deltaY=0, deltaZ=2077, onGround=true)
+2018/08/22 13:23:17 [INFO] conit SYNC COW:RelativeEntityPositionMessage(id=1, deltaX=3175, deltaY=0, deltaZ=2077, onGround=true)
+2018/08/22 13:23:17 [INFO] conit SYNC COW:RelativeEntityPositionMessage(id=1, deltaX=3175, deltaY=0, deltaZ=2077, onGround=true)
+2018/08/22 13:23:17 [INFO] conit SYNC COW:RelativeEntityPositionMessage(id=1, deltaX=3175, deltaY=0, deltaZ=2077, onGround=true)
+2018/08/22 13:23:17 [INFO] conit SYNC COW:RelativeEntityPositionMessage(id=1, deltaX=3175, deltaY=0, deltaZ=2077, onGround=true)
+2018/08/22 13:23:17 [INFO] conit ---- COW:RelativeEntityPositionMessage(id=1, deltaX=3175, deltaY=0, deltaZ=2077, onGround=true)
+2018/08/22 13:23:17 [INFO] conit ---- COW:RelativeEntityPositionMessage(id=1, deltaX=3175, deltaY=0, deltaZ=2077, onGround=true)
+2018/08/22 13:23:17 [INFO] conit SYNC COW:RelativeEntityPositionMessage(id=1, deltaX=3175, deltaY=0, deltaZ=2077, onGround=true)
+2018/08/22 13:23:17 [INFO] conit ---- COW:RelativeEntityPositionMessage(id=1, deltaX=3175, deltaY=0, deltaZ=2077, onGround=true)
+2018/08/22 13:23:17 [INFO] conit SYNC COW:RelativeEntityPositionMessage(id=1, deltaX=3175, deltaY=0, deltaZ=2077, onGround=true)
+2018/08/22 13:23:17 [INFO] conit ---- COW:RelativeEntityPositionMessage(id=1, deltaX=3175, deltaY=0, deltaZ=2077, onGround=true)
+2018/08/22 13:23:17 [INFO] conit SYNC COW:RelativeEntityPositionMessage(id=1, deltaX=3175, deltaY=0, deltaZ=2077, onGround=true)
+2018/08/22 13:23:17 [INFO] conit ---- COW:RelativeEntityPositionMessage(id=1, deltaX=3175, deltaY=0, deltaZ=2077, onGround=true)
+2018/08/22 13:23:17 [INFO] conit SYNC COW:RelativeEntityPositionMessage(id=1, deltaX=3175, deltaY=0, deltaZ=2077, onGround=true)
+2018/08/22 13:23:17 [INFO] conit ---- COW:RelativeEntityPositionMessage(id=1, deltaX=3175, deltaY=0, deltaZ=2077, onGround=true)
+2018/08/22 13:23:17 [INFO] conit SYNC COW:RelativeEntityPositionMessage(id=1, deltaX=3175, deltaY=0, deltaZ=2077, onGround=true)
+2018/08/22 13:23:17 [INFO] conit ---- COW:RelativeEntityPositionMessage(id=1, deltaX=3175, deltaY=0, deltaZ=2077, onGround=true)
+2018/08/22 13:23:17 [INFO] conit SYNC COW:RelativeEntityPositionMessage(id=1, deltaX=3175, deltaY=0, deltaZ=2077, onGround=true)
+2018/08/22 13:23:18 [INFO] conit ---- COW:RelativeEntityPositionMessage(id=1, deltaX=3175, deltaY=0, deltaZ=2077, onGround=true)
+2018/08/22 13:23:18 [INFO] conit SYNC COW:RelativeEntityPositionMessage(id=1, deltaX=3175, deltaY=0, deltaZ=2077, onGround=true)
+2018/08/22 13:23:18 [INFO] conit ---- COW:RelativeEntityPositionMessage(id=1, deltaX=3175, deltaY=0, deltaZ=2077, onGround=true)
+2018/08/22 13:23:18 [INFO] conit SYNC COW:RelativeEntityPositionMessage(id=1, deltaX=3175, deltaY=0, deltaZ=2077, onGround=true)
+2018/08/22 13:23:18 [INFO] conit ---- COW:RelativeEntityPositionMessage(id=1, deltaX=3175, deltaY=0, deltaZ=2077, onGround=true)
+2018/08/22 13:23:18 [INFO] conit SYNC COW:RelativeEntityPositionMessage(id=1, deltaX=3175, deltaY=0, deltaZ=2077, onGround=true)
+2018/08/22 13:23:18 [INFO] conit ---- COW:RelativeEntityPositionMessage(id=1, deltaX=3175, deltaY=0, deltaZ=2077, onGround=true)
+2018/08/22 13:23:18 [INFO] conit SYNC COW:RelativeEntityPositionMessage(id=1, deltaX=3175, deltaY=0, deltaZ=2077, onGround=true)
+2018/08/22 13:23:18 [INFO] conit ---- COW:RelativeEntityPositionMessage(id=1, deltaX=3175, deltaY=0, deltaZ=2077, onGround=true)
+2018/08/22 13:23:18 [INFO] conit SYNC COW:RelativeEntityPositionMessage(id=1, deltaX=3175, deltaY=0, deltaZ=2077, onGround=true)
+2018/08/22 13:23:18 [INFO] conit ---- COW:RelativeEntityPositionMessage(id=1, deltaX=3175, deltaY=0, deltaZ=2077, onGround=true)
+2018/08/22 13:23:18 [INFO] conit SYNC COW:RelativeEntityPositionMessage(id=1, deltaX=3175, deltaY=0, deltaZ=2077, onGround=true)
+2018/08/22 13:23:18 [INFO] conit ---- COW:RelativeEntityPositionMessage(id=1, deltaX=3175, deltaY=0, deltaZ=2077, onGround=true)
+2018/08/22 13:23:18 [INFO] conit SYNC COW:RelativeEntityPositionMessage(id=1, deltaX=3175, deltaY=0, deltaZ=2077, onGround=true)
+2018/08/22 13:23:18 [INFO] conit ---- COW:RelativeEntityPositionMessage(id=1, deltaX=3175, deltaY=0, deltaZ=2077, onGround=true)
+2018/08/22 13:23:18 [INFO] conit SYNC COW:RelativeEntityPositionMessage(id=1, deltaX=3175, deltaY=0, deltaZ=2077, onGround=true)
+2018/08/22 13:23:18 [INFO] conit ---- COW:RelativeEntityPositionMessage(id=1, deltaX=3175, deltaY=0, deltaZ=2077, onGround=true)
+2018/08/22 13:23:18 [INFO] conit ---- COW:RelativeEntityPositionMessage(id=1, deltaX=3175, deltaY=0, deltaZ=2077, onGround=true)
+2018/08/22 13:23:18 [INFO] conit ---- COW:RelativeEntityPositionMessage(id=1, deltaX=3175, deltaY=0, deltaZ=2077, onGround=true)
+2018/08/22 13:23:18 [INFO] conit ---- COW:RelativeEntityPositionMessage(id=1, deltaX=3175, deltaY=0, deltaZ=2077, onGround=true)
+2018/08/22 13:23:19 [INFO] conit SYNC COW:RelativeEntityPositionMessage(id=1, deltaX=3175, deltaY=0, deltaZ=2077, onGround=true)
+2018/08/22 13:23:19 [INFO] conit ---- COW:RelativeEntityPositionMessage(id=1, deltaX=3175, deltaY=0, deltaZ=2077, onGround=true)
+2018/08/22 13:23:19 [INFO] conit ---- COW:RelativeEntityPositionMessage(id=1, deltaX=3175, deltaY=0, deltaZ=2077, onGround=true)
+2018/08/22 13:23:19 [INFO] conit SYNC COW:RelativeEntityPositionMessage(id=1, deltaX=3175, deltaY=0, deltaZ=2077, onGround=true)
+2018/08/22 13:23:19 [INFO] conit ---- COW:RelativeEntityPositionMessage(id=1, deltaX=3175, deltaY=0, deltaZ=2077, onGround=true)
+2018/08/22 13:23:19 [INFO] conit ---- COW:RelativeEntityPositionMessage(id=1, deltaX=3175, deltaY=0, deltaZ=2077, onGround=true)
+2018/08/22 13:23:19 [INFO] conit SYNC COW:RelativeEntityPositionMessage(id=1, deltaX=3175, deltaY=0, deltaZ=2077, onGround=true)
+2018/08/22 13:23:19 [INFO] conit ---- COW:RelativeEntityPositionMessage(id=1, deltaX=3175, deltaY=0, deltaZ=2077, onGround=true)
+2018/08/22 13:23:19 [INFO] conit SYNC COW:RelativeEntityPositionMessage(id=1, deltaX=3175, deltaY=0, deltaZ=2077, onGround=true)
+2018/08/22 13:23:19 [INFO] conit ---- COW:RelativeEntityPositionMessage(id=1, deltaX=3175, deltaY=0, deltaZ=2077, onGround=true)
+2018/08/22 13:23:19 [INFO] conit ---- COW:RelativeEntityPositionMessage(id=1, deltaX=3175, deltaY=0, deltaZ=2077, onGround=true)
+2018/08/22 13:23:19 [INFO] conit SYNC COW:RelativeEntityPositionMessage(id=1, deltaX=3175, deltaY=0, deltaZ=2077, onGround=true)
+2018/08/22 13:23:19 [INFO] conit ---- COW:RelativeEntityPositionMessage(id=1, deltaX=3175, deltaY=0, deltaZ=2077, onGround=true)
+2018/08/22 13:23:19 [INFO] conit ---- COW:RelativeEntityPositionMessage(id=1, deltaX=3175, deltaY=0, deltaZ=2077, onGround=true)
+2018/08/22 13:23:19 [INFO] conit SYNC COW:RelativeEntityPositionMessage(id=1, deltaX=3175, deltaY=0, deltaZ=2077, onGround=true)
+2018/08/22 13:23:19 [INFO] conit ---- COW:RelativeEntityPositionMessage(id=1, deltaX=3175, deltaY=0, deltaZ=2077, onGround=true)
+2018/08/22 13:23:19 [INFO] conit ---- COW:RelativeEntityPositionMessage(id=1, deltaX=3175, deltaY=0, deltaZ=2077, onGround=true)
+2018/08/22 13:23:19 [INFO] conit SYNC COW:RelativeEntityPositionMessage(id=1, deltaX=3175, deltaY=0, deltaZ=2077, onGround=true)
+2018/08/22 13:23:19 [INFO] conit ---- COW:RelativeEntityPositionMessage(id=1, deltaX=3175, deltaY=0, deltaZ=2077, onGround=true)
+2018/08/22 13:23:19 [INFO] conit ---- COW:RelativeEntityPositionMessage(id=1, deltaX=3175, deltaY=0, deltaZ=2077, onGround=true)
+2018/08/22 13:23:20 [INFO] conit SYNC COW:RelativeEntityPositionMessage(id=1, deltaX=3175, deltaY=0, deltaZ=2077, onGround=true)
+2018/08/22 13:23:20 [INFO] conit ---- COW:RelativeEntityPositionMessage(id=1, deltaX=3175, deltaY=0, deltaZ=2077, onGround=true)
+2018/08/22 13:23:20 [INFO] conit ---- COW:RelativeEntityPositionMessage(id=1, deltaX=3175, deltaY=0, deltaZ=2077, onGround=true)
+2018/08/22 13:23:20 [INFO] conit SYNC COW:RelativeEntityPositionMessage(id=1, deltaX=3175, deltaY=0, deltaZ=2077, onGround=true)
+2018/08/22 13:23:20 [INFO] conit ---- COW:RelativeEntityPositionMessage(id=1, deltaX=3175, deltaY=0, deltaZ=2077, onGround=true)
+2018/08/22 13:23:20 [INFO] conit ---- COW:RelativeEntityPositionMessage(id=1, deltaX=3175, deltaY=0, deltaZ=2077, onGround=true)
+2018/08/22 13:23:20 [INFO] conit SYNC COW:RelativeEntityPositionMessage(id=1, deltaX=3175, deltaY=0, deltaZ=2077, onGround=true)
+2018/08/22 13:23:20 [INFO] conit ---- COW:RelativeEntityPositionMessage(id=1, deltaX=3175, deltaY=0, deltaZ=2077, onGround=true)
+2018/08/22 13:23:20 [INFO] conit SYNC COW:RelativeEntityPositionMessage(id=1, deltaX=3175, deltaY=0, deltaZ=2077, onGround=true)
+2018/08/22 13:23:20 [INFO] conit ---- COW:RelativeEntityPositionMessage(id=1, deltaX=3175, deltaY=0, deltaZ=2077, onGround=true)
+2018/08/22 13:23:20 [INFO] conit ---- COW:RelativeEntityPositionMessage(id=1, deltaX=3175, deltaY=0, deltaZ=2077, onGround=true)
+2018/08/22 13:23:20 [INFO] conit SYNC COW:RelativeEntityPositionMessage(id=1, deltaX=3175, deltaY=0, deltaZ=2077, onGround=true)
+2018/08/22 13:23:20 [INFO] conit ---- COW:RelativeEntityPositionMessage(id=1, deltaX=3175, deltaY=0, deltaZ=2077, onGround=true)
+2018/08/22 13:23:20 [INFO] conit ---- COW:RelativeEntityPositionMessage(id=1, deltaX=3175, deltaY=0, deltaZ=2077, onGround=true)
+2018/08/22 13:23:20 [INFO] conit SYNC COW:RelativeEntityPositionMessage(id=1, deltaX=3175, deltaY=0, deltaZ=2077, onGround=true)
+2018/08/22 13:23:20 [INFO] conit ---- COW:RelativeEntityPositionMessage(id=1, deltaX=3175, deltaY=0, deltaZ=2077, onGround=true)
+2018/08/22 13:23:20 [INFO] conit ---- COW:RelativeEntityPositionMessage(id=1, deltaX=3175, deltaY=0, deltaZ=2077, onGround=true)
+2018/08/22 13:23:20 [INFO] conit SYNC COW:RelativeEntityPositionMessage(id=1, deltaX=3175, deltaY=0, deltaZ=2077, onGround=true)
+2018/08/22 13:23:20 [INFO] conit ---- COW:RelativeEntityPositionMessage(id=1, deltaX=3175, deltaY=0, deltaZ=2077, onGround=true)
+2018/08/22 13:23:20 [INFO] conit ---- COW:RelativeEntityPositionMessage(id=1, deltaX=3175, deltaY=0, deltaZ=2077, onGround=true)
+2018/08/22 13:23:21 [INFO] conit SYNC COW:RelativeEntityPositionMessage(id=1, deltaX=3175, deltaY=0, deltaZ=2077, onGround=true)
+2018/08/22 13:23:21 [INFO] conit ---- COW:RelativeEntityPositionMessage(id=1, deltaX=3175, deltaY=0, deltaZ=2077, onGround=true)
+2018/08/22 13:23:21 [INFO] conit ---- COW:RelativeEntityPositionMessage(id=1, deltaX=3175, deltaY=0, deltaZ=2077, onGround=true)
+2018/08/22 13:23:21 [INFO] conit SYNC COW:RelativeEntityPositionMessage(id=1, deltaX=3175, deltaY=0, deltaZ=2077, onGround=true)
+2018/08/22 13:23:21 [INFO] conit ---- COW:RelativeEntityPositionMessage(id=1, deltaX=3175, deltaY=0, deltaZ=2077, onGround=true)
+2018/08/22 13:23:21 [INFO] conit ---- COW:RelativeEntityPositionMessage(id=1, deltaX=3175, deltaY=0, deltaZ=2077, onGround=true)
+2018/08/22 13:23:21 [INFO] conit SYNC COW:RelativeEntityPositionMessage(id=1, deltaX=3175, deltaY=0, deltaZ=2077, onGround=true)
+2018/08/22 13:23:21 [INFO] conit ---- COW:RelativeEntityPositionMessage(id=1, deltaX=3175, deltaY=0, deltaZ=2077, onGround=true)
+2018/08/22 13:23:21 [INFO] conit SYNC COW:RelativeEntityPositionMessage(id=1, deltaX=3175, deltaY=0, deltaZ=2077, onGround=true)
+2018/08/22 13:23:21 [INFO] conit ---- COW:RelativeEntityPositionMessage(id=1, deltaX=3175, deltaY=0, deltaZ=2077, onGround=true)
+2018/08/22 13:23:21 [INFO] conit ---- COW:RelativeEntityPositionMessage(id=1, deltaX=3175, deltaY=0, deltaZ=2077, onGround=true)
+2018/08/22 13:23:21 [INFO] conit SYNC COW:RelativeEntityPositionMessage(id=1, deltaX=3175, deltaY=0, deltaZ=2077, onGround=true)
+2018/08/22 13:23:21 [INFO] conit ---- COW:RelativeEntityPositionMessage(id=1, deltaX=3175, deltaY=0, deltaZ=2077, onGround=true)
+2018/08/22 13:23:21 [INFO] conit ---- COW:RelativeEntityPositionMessage(id=1, deltaX=3175, deltaY=0, deltaZ=2077, onGround=true)
+2018/08/22 13:23:21 [INFO] conit SYNC COW:RelativeEntityPositionMessage(id=1, deltaX=3175, deltaY=0, deltaZ=2077, onGround=true)
+2018/08/22 13:23:21 [INFO] conit ---- COW:RelativeEntityPositionMessage(id=1, deltaX=3175, deltaY=0, deltaZ=2077, onGround=true)
+2018/08/22 13:23:21 [INFO] conit ---- COW:RelativeEntityPositionMessage(id=1, deltaX=3175, deltaY=0, deltaZ=2077, onGround=true)
+2018/08/22 13:23:21 [INFO] conit ---- COW:RelativeEntityPositionMessage(id=1, deltaX=3175, deltaY=0, deltaZ=2077, onGround=true)
+2018/08/22 13:23:21 [INFO] conit ---- COW:RelativeEntityPositionMessage(id=1, deltaX=3175, deltaY=0, deltaZ=2077, onGround=true)
+2018/08/22 13:23:21 [INFO] conit ---- COW:RelativeEntityPositionMessage(id=1, deltaX=3175, deltaY=0, deltaZ=2077, onGround=true)
+2018/08/22 13:23:22 [INFO] conit ---- COW:RelativeEntityPositionMessage(id=1, deltaX=3175, deltaY=0, deltaZ=2077, onGround=true)
+2018/08/22 13:23:22 [INFO] conit SYNC COW:RelativeEntityPositionMessage(id=1, deltaX=3175, deltaY=0, deltaZ=2077, onGround=true)
+2018/08/22 13:23:22 [INFO] conit ---- COW:RelativeEntityPositionMessage(id=1, deltaX=3175, deltaY=0, deltaZ=2077, onGround=true)
+2018/08/22 13:23:22 [INFO] conit ---- COW:RelativeEntityPositionMessage(id=1, deltaX=3175, deltaY=0, deltaZ=2077, onGround=true)
+2018/08/22 13:23:22 [INFO] conit ---- COW:RelativeEntityPositionMessage(id=1, deltaX=3175, deltaY=0, deltaZ=2077, onGround=true)
+2018/08/22 13:23:22 [INFO] conit SYNC COW:RelativeEntityPositionMessage(id=1, deltaX=3175, deltaY=0, deltaZ=2077, onGround=true)
+2018/08/22 13:23:22 [INFO] conit ---- COW:RelativeEntityPositionMessage(id=1, deltaX=3175, deltaY=0, deltaZ=2077, onGround=true)
+2018/08/22 13:23:22 [INFO] conit ---- COW:RelativeEntityPositionMessage(id=1, deltaX=3175, deltaY=0, deltaZ=2077, onGround=true)
+2018/08/22 13:23:22 [INFO] conit ---- COW:RelativeEntityPositionMessage(id=1, deltaX=3175, deltaY=0, deltaZ=2077, onGround=true)
+2018/08/22 13:23:22 [INFO] conit ---- COW:RelativeEntityPositionMessage(id=1, deltaX=3175, deltaY=0, deltaZ=2077, onGround=true)
+2018/08/22 13:23:22 [INFO] conit ---- COW:RelativeEntityPositionMessage(id=1, deltaX=3175, deltaY=0, deltaZ=2077, onGround=true)
+2018/08/22 13:23:22 [INFO] conit SYNC COW:RelativeEntityPositionMessage(id=1, deltaX=3175, deltaY=0, deltaZ=2077, onGround=true)
+2018/08/22 13:23:22 [INFO] conit ---- COW:RelativeEntityPositionMessage(id=1, deltaX=3175, deltaY=0, deltaZ=2077, onGround=true)
+2018/08/22 13:23:22 [INFO] conit ---- COW:RelativeEntityPositionMessage(id=1, deltaX=3175, deltaY=0, deltaZ=2077, onGround=true)
+2018/08/22 13:23:22 [INFO] conit ---- COW:RelativeEntityPositionMessage(id=1, deltaX=3175, deltaY=0, deltaZ=2077, onGround=true)
+2018/08/22 13:23:22 [INFO] conit SYNC COW:RelativeEntityPositionMessage(id=1, deltaX=3175, deltaY=0, deltaZ=2077, onGround=true)
+2018/08/22 13:23:22 [INFO] conit ---- COW:RelativeEntityPositionMessage(id=1, deltaX=3175, deltaY=0, deltaZ=2077, onGround=true)
+2018/08/22 13:23:22 [INFO] conit ---- COW:RelativeEntityPositionMessage(id=1, deltaX=3175, deltaY=0, deltaZ=2077, onGround=true)
+2018/08/22 13:23:22 [INFO] conit ---- COW:RelativeEntityPositionMessage(id=1, deltaX=3175, deltaY=0, deltaZ=2077, onGround=true)
+2018/08/22 13:23:22 [INFO] conit ---- COW:RelativeEntityPositionMessage(id=1, deltaX=3175, deltaY=0, deltaZ=2077, onGround=true)
+2018/08/22 13:23:23 [INFO] conit ---- COW:RelativeEntityPositionMessage(id=1, deltaX=3175, deltaY=0, deltaZ=2077, onGround=true)
+2018/08/22 13:23:23 [INFO] conit SYNC COW:RelativeEntityPositionMessage(id=1, deltaX=3175, deltaY=0, deltaZ=2077, onGround=true)
+2018/08/22 13:23:23 [INFO] conit ---- COW:RelativeEntityPositionMessage(id=1, deltaX=3175, deltaY=0, deltaZ=2077, onGround=true)
+2018/08/22 13:23:23 [INFO] conit ---- COW:RelativeEntityPositionMessage(id=1, deltaX=3175, deltaY=0, deltaZ=2077, onGround=true)
+2018/08/22 13:23:23 [INFO] conit ---- COW:RelativeEntityPositionMessage(id=1, deltaX=3175, deltaY=0, deltaZ=2077, onGround=true)
+2018/08/22 13:23:23 [INFO] conit SYNC COW:RelativeEntityPositionMessage(id=1, deltaX=3175, deltaY=0, deltaZ=2077, onGround=true)
+2018/08/22 13:23:23 [INFO] conit ---- COW:RelativeEntityPositionMessage(id=1, deltaX=3175, deltaY=0, deltaZ=2077, onGround=true)
+2018/08/22 13:23:23 [INFO] conit ---- COW:RelativeEntityPositionMessage(id=1, deltaX=3175, deltaY=0, deltaZ=2077, onGround=true)
+2018/08/22 13:23:23 [INFO] conit ---- COW:RelativeEntityPositionMessage(id=1, deltaX=3175, deltaY=0, deltaZ=2077, onGround=true)
+2018/08/22 13:23:23 [INFO] conit ---- COW:RelativeEntityPositionMessage(id=1, deltaX=3175, deltaY=0, deltaZ=2077, onGround=true)
+2018/08/22 13:23:23 [INFO] conit ---- COW:RelativeEntityPositionMessage(id=1, deltaX=3175, deltaY=0, deltaZ=2077, onGround=true)
+2018/08/22 13:23:23 [INFO] conit SYNC COW:RelativeEntityPositionMessage(id=1, deltaX=3175, deltaY=0, deltaZ=2077, onGround=true)
+2018/08/22 13:23:23 [INFO] conit ---- COW:RelativeEntityPositionMessage(id=1, deltaX=3175, deltaY=0, deltaZ=2077, onGround=true)
+2018/08/22 13:23:23 [INFO] conit ---- COW:RelativeEntityPositionMessage(id=1, deltaX=3175, deltaY=0, deltaZ=2077, onGround=true)
+2018/08/22 13:23:23 [INFO] conit ---- COW:RelativeEntityPositionMessage(id=1, deltaX=3175, deltaY=0, deltaZ=2077, onGround=true)
+2018/08/22 13:23:23 [INFO] conit SYNC COW:RelativeEntityPositionMessage(id=1, deltaX=3175, deltaY=0, deltaZ=2077, onGround=true)
+2018/08/22 13:23:23 [INFO] conit ---- COW:RelativeEntityPositionMessage(id=1, deltaX=3175, deltaY=0, deltaZ=2077, onGround=true)
+2018/08/22 13:23:23 [INFO] conit ---- COW:RelativeEntityPositionMessage(id=1, deltaX=3175, deltaY=0, deltaZ=2077, onGround=true)
+2018/08/22 13:23:23 [INFO] conit ---- COW:RelativeEntityPositionMessage(id=1, deltaX=3175, deltaY=0, deltaZ=2077, onGround=true)
+2018/08/22 13:23:23 [INFO] conit ---- COW:RelativeEntityPositionMessage(id=1, deltaX=3175, deltaY=0, deltaZ=2077, onGround=true)
+2018/08/22 13:23:24 [INFO] conit ---- COW:RelativeEntityPositionMessage(id=1, deltaX=3175, deltaY=0, deltaZ=2077, onGround=true)
+2018/08/22 13:23:24 [INFO] conit SYNC COW:RelativeEntityPositionMessage(id=1, deltaX=3175, deltaY=0, deltaZ=2077, onGround=true)
+2018/08/22 13:23:24 [INFO] conit ---- COW:RelativeEntityPositionMessage(id=1, deltaX=3175, deltaY=0, deltaZ=2077, onGround=true)
+2018/08/22 13:23:24 [INFO] conit ---- COW:RelativeEntityPositionMessage(id=1, deltaX=3175, deltaY=0, deltaZ=2077, onGround=true)
+2018/08/22 13:23:24 [INFO] conit ---- COW:RelativeEntityPositionMessage(id=1, deltaX=3175, deltaY=0, deltaZ=2077, onGround=true)
+2018/08/22 13:23:24 [INFO] conit SYNC COW:RelativeEntityPositionMessage(id=1, deltaX=3175, deltaY=0, deltaZ=2077, onGround=true)
+2018/08/22 13:23:24 [INFO] conit ---- COW:RelativeEntityPositionMessage(id=1, deltaX=3175, deltaY=0, deltaZ=2077, onGround=true)
+2018/08/22 13:23:24 [INFO] conit ---- COW:RelativeEntityPositionMessage(id=1, deltaX=3175, deltaY=0, deltaZ=2077, onGround=true)
+2018/08/22 13:23:24 [INFO] conit ---- COW:RelativeEntityPositionMessage(id=1, deltaX=3175, deltaY=0, deltaZ=2077, onGround=true)
+2018/08/22 13:23:24 [INFO] conit ---- COW:RelativeEntityPositionMessage(id=1, deltaX=3175, deltaY=0, deltaZ=2077, onGround=true)
+2018/08/22 13:23:24 [INFO] conit ---- COW:RelativeEntityPositionMessage(id=1, deltaX=3175, deltaY=0, deltaZ=2077, onGround=true)
+2018/08/22 13:23:24 [INFO] conit SYNC COW:RelativeEntityPositionMessage(id=1, deltaX=3175, deltaY=0, deltaZ=2077, onGround=true)
+2018/08/22 13:23:24 [INFO] conit ---- COW:RelativeEntityPositionMessage(id=1, deltaX=3175, deltaY=0, deltaZ=2077, onGround=true)
+2018/08/22 13:23:24 [INFO] conit ---- COW:RelativeEntityPositionMessage(id=1, deltaX=3175, deltaY=0, deltaZ=2077, onGround=true)
+2018/08/22 13:23:24 [INFO] conit ---- COW:RelativeEntityPositionMessage(id=1, deltaX=3175, deltaY=0, deltaZ=2077, onGround=true)
+2018/08/22 13:23:24 [INFO] conit SYNC COW:RelativeEntityPositionMessage(id=1, deltaX=3175, deltaY=0, deltaZ=2077, onGround=true)
+2018/08/22 13:23:24 [INFO] conit ---- COW:RelativeEntityPositionMessage(id=1, deltaX=3175, deltaY=0, deltaZ=2077, onGround=true)
+2018/08/22 13:23:24 [INFO] conit ---- COW:RelativeEntityPositionMessage(id=1, deltaX=3175, deltaY=0, deltaZ=2077, onGround=true)
+2018/08/22 13:23:24 [INFO] conit SYNC COW:RelativeEntityPositionMessage(id=1, deltaX=3175, deltaY=0, deltaZ=2077, onGround=true)
+2018/08/22 13:23:24 [INFO] conit ---- COW:RelativeEntityPositionMessage(id=1, deltaX=3175, deltaY=0, deltaZ=2077, onGround=true)
+2018/08/22 13:23:25 [INFO] conit ---- COW:RelativeEntityPositionMessage(id=1, deltaX=3175, deltaY=0, deltaZ=2077, onGround=true)
+2018/08/22 13:23:25 [INFO] conit ---- COW:RelativeEntityPositionMessage(id=1, deltaX=3175, deltaY=0, deltaZ=2077, onGround=true)
+2018/08/22 13:23:25 [INFO] conit ---- COW:RelativeEntityPositionMessage(id=1, deltaX=3175, deltaY=0, deltaZ=2077, onGround=true)
+2018/08/22 13:23:25 [INFO] conit SYNC COW:RelativeEntityPositionMessage(id=1, deltaX=3175, deltaY=0, deltaZ=2077, onGround=true)
+2018/08/22 13:23:25 [INFO] conit ---- COW:RelativeEntityPositionMessage(id=1, deltaX=3175, deltaY=0, deltaZ=2077, onGround=true)
+2018/08/22 13:23:25 [INFO] conit ---- COW:RelativeEntityPositionMessage(id=1, deltaX=3175, deltaY=0, deltaZ=2077, onGround=true)
+2018/08/22 13:23:25 [INFO] conit ---- COW:RelativeEntityPositionMessage(id=1, deltaX=3175, deltaY=0, deltaZ=2077, onGround=true)
+2018/08/22 13:23:25 [INFO] conit ---- COW:RelativeEntityPositionMessage(id=1, deltaX=3175, deltaY=0, deltaZ=2077, onGround=true)
+2018/08/22 13:23:25 [INFO] conit ---- COW:RelativeEntityPositionMessage(id=1, deltaX=3175, deltaY=0, deltaZ=2077, onGround=true)
+2018/08/22 13:23:25 [INFO] conit ---- COW:RelativeEntityPositionMessage(id=1, deltaX=3175, deltaY=0, deltaZ=2077, onGround=true)
+2018/08/22 13:23:25 [INFO] conit ---- COW:RelativeEntityPositionMessage(id=1, deltaX=3175, deltaY=0, deltaZ=2077, onGround=true)
+2018/08/22 13:23:25 [INFO] conit ---- COW:RelativeEntityPositionMessage(id=1, deltaX=3175, deltaY=0, deltaZ=2077, onGround=true)
+2018/08/22 13:23:25 [INFO] conit SYNC COW:RelativeEntityPositionMessage(id=1, deltaX=3175, deltaY=0, deltaZ=2077, onGround=true)
+2018/08/22 13:23:25 [INFO] conit ---- COW:RelativeEntityPositionMessage(id=1, deltaX=3175, deltaY=0, deltaZ=2077, onGround=true)
+2018/08/22 13:23:25 [INFO] conit ---- COW:RelativeEntityPositionMessage(id=1, deltaX=3175, deltaY=0, deltaZ=2077, onGround=true)
+2018/08/22 13:23:25 [INFO] conit ---- COW:RelativeEntityPositionMessage(id=1, deltaX=3175, deltaY=0, deltaZ=2077, onGround=true)
+2018/08/22 13:23:25 [INFO] conit ---- COW:RelativeEntityPositionMessage(id=1, deltaX=3175, deltaY=0, deltaZ=2077, onGround=true)
+2018/08/22 13:23:25 [INFO] conit SYNC COW:RelativeEntityPositionMessage(id=1, deltaX=3175, deltaY=0, deltaZ=2077, onGround=true)
+2018/08/22 13:23:25 [INFO] conit ---- COW:RelativeEntityPositionMessage(id=1, deltaX=3175, deltaY=0, deltaZ=2077, onGround=true)
+2018/08/22 13:23:25 [INFO] conit ---- COW:RelativeEntityPositionMessage(id=1, deltaX=3175, deltaY=0, deltaZ=2077, onGround=true)
+2018/08/22 13:23:26 [INFO] conit ---- COW:RelativeEntityPositionMessage(id=1, deltaX=3175, deltaY=0, deltaZ=2077, onGround=true)
+2018/08/22 13:23:26 [INFO] conit ---- COW:RelativeEntityPositionMessage(id=1, deltaX=3175, deltaY=0, deltaZ=2077, onGround=true)
+2018/08/22 13:23:26 [INFO] conit SYNC COW:RelativeEntityPositionMessage(id=1, deltaX=3175, deltaY=0, deltaZ=2077, onGround=true)
+2018/08/22 13:23:26 [INFO] conit ---- COW:RelativeEntityPositionMessage(id=1, deltaX=3175, deltaY=0, deltaZ=2077, onGround=true)
+2018/08/22 13:23:26 [INFO] conit ---- COW:RelativeEntityPositionMessage(id=1, deltaX=3175, deltaY=0, deltaZ=2077, onGround=true)
+2018/08/22 13:23:26 [INFO] conit ---- COW:RelativeEntityPositionMessage(id=1, deltaX=3175, deltaY=0, deltaZ=2077, onGround=true)
+2018/08/22 13:23:26 [INFO] conit ---- COW:RelativeEntityPositionMessage(id=1, deltaX=3175, deltaY=0, deltaZ=2077, onGround=true)
+2018/08/22 13:23:26 [INFO] conit SYNC COW:RelativeEntityPositionMessage(id=1, deltaX=3175, deltaY=0, deltaZ=2077, onGround=true)
+2018/08/22 13:23:26 [INFO] conit ---- COW:RelativeEntityPositionMessage(id=1, deltaX=3175, deltaY=0, deltaZ=2077, onGround=true)
+2018/08/22 13:23:26 [INFO] conit ---- COW:RelativeEntityPositionMessage(id=1, deltaX=3175, deltaY=0, deltaZ=2077, onGround=true)
+2018/08/22 13:23:26 [INFO] conit ---- COW:RelativeEntityPositionMessage(id=1, deltaX=3175, deltaY=0, deltaZ=2077, onGround=true)
+2018/08/22 13:23:26 [INFO] conit ---- COW:RelativeEntityPositionMessage(id=1, deltaX=3175, deltaY=0, deltaZ=2077, onGround=true)
+2018/08/22 13:23:26 [INFO] conit SYNC COW:RelativeEntityPositionMessage(id=1, deltaX=3175, deltaY=0, deltaZ=2077, onGround=true)
+2018/08/22 13:23:26 [INFO] conit ---- COW:RelativeEntityPositionMessage(id=1, deltaX=3175, deltaY=0, deltaZ=2077, onGround=true)
+2018/08/22 13:23:26 [INFO] conit ---- COW:RelativeEntityPositionMessage(id=1, deltaX=3175, deltaY=0, deltaZ=2077, onGround=true)
+2018/08/22 13:23:26 [INFO] conit ---- COW:RelativeEntityPositionMessage(id=1, deltaX=3175, deltaY=0, deltaZ=2077, onGround=true)
+2018/08/22 13:23:26 [INFO] conit ---- COW:RelativeEntityPositionMessage(id=1, deltaX=3175, deltaY=0, deltaZ=2077, onGround=true)
+2018/08/22 13:23:26 [INFO] conit SYNC COW:RelativeEntityPositionMessage(id=1, deltaX=3175, deltaY=0, deltaZ=2077, onGround=true)
+2018/08/22 13:23:26 [INFO] conit ---- COW:RelativeEntityPositionMessage(id=1, deltaX=3175, deltaY=0, deltaZ=2077, onGround=true)
+2018/08/22 13:23:26 [INFO] conit ---- COW:RelativeEntityPositionMessage(id=1, deltaX=3175, deltaY=0, deltaZ=2077, onGround=true)
+2018/08/22 13:23:27 [INFO] conit ---- COW:RelativeEntityPositionMessage(id=1, deltaX=3175, deltaY=0, deltaZ=2077, onGround=true)
+2018/08/22 13:23:27 [INFO] conit ---- COW:RelativeEntityPositionMessage(id=1, deltaX=3175, deltaY=0, deltaZ=2077, onGround=true)
+2018/08/22 13:23:27 [INFO] conit SYNC COW:RelativeEntityPositionMessage(id=1, deltaX=3175, deltaY=0, deltaZ=2077, onGround=true)
+2018/08/22 13:23:27 [INFO] conit ---- COW:RelativeEntityPositionMessage(id=1, deltaX=3175, deltaY=0, deltaZ=2077, onGround=true)
+2018/08/22 13:23:27 [INFO] conit ---- COW:RelativeEntityPositionMessage(id=1, deltaX=3175, deltaY=0, deltaZ=2077, onGround=true)
+2018/08/22 13:23:27 [INFO] conit ---- COW:RelativeEntityPositionMessage(id=1, deltaX=3175, deltaY=0, deltaZ=2077, onGround=true)
+2018/08/22 13:23:27 [INFO] conit ---- COW:RelativeEntityPositionMessage(id=1, deltaX=3175, deltaY=0, deltaZ=2077, onGround=true)
+2018/08/22 13:23:27 [INFO] conit SYNC COW:RelativeEntityPositionMessage(id=1, deltaX=3175, deltaY=0, deltaZ=2077, onGround=true)
+2018/08/22 13:23:27 [INFO] conit ---- COW:RelativeEntityPositionMessage(id=1, deltaX=3175, deltaY=0, deltaZ=2077, onGround=true)
+2018/08/22 13:23:27 [INFO] conit ---- COW:RelativeEntityPositionMessage(id=1, deltaX=3175, deltaY=0, deltaZ=2077, onGround=true)
+2018/08/22 13:23:27 [INFO] conit ---- COW:RelativeEntityPositionMessage(id=1, deltaX=3175, deltaY=0, deltaZ=2077, onGround=true)
+2018/08/22 13:23:27 [INFO] conit ---- COW:RelativeEntityPositionMessage(id=1, deltaX=3175, deltaY=0, deltaZ=2077, onGround=true)
+2018/08/22 13:23:27 [INFO] conit SYNC COW:RelativeEntityPositionMessage(id=1, deltaX=3175, deltaY=0, deltaZ=2077, onGround=true)
+2018/08/22 13:23:27 [INFO] conit ---- COW:RelativeEntityPositionMessage(id=1, deltaX=3175, deltaY=0, deltaZ=2077, onGround=true)
+2018/08/22 13:23:27 [INFO] conit ---- COW:RelativeEntityPositionMessage(id=1, deltaX=3175, deltaY=0, deltaZ=2077, onGround=true)
+2018/08/22 13:23:27 [INFO] conit ---- COW:RelativeEntityPositionMessage(id=1, deltaX=3175, deltaY=0, deltaZ=2077, onGround=true)
+2018/08/22 13:23:27 [INFO] conit ---- COW:RelativeEntityPositionMessage(id=1, deltaX=3175, deltaY=0, deltaZ=2077, onGround=true)
+2018/08/22 13:23:27 [INFO] conit SYNC COW:RelativeEntityPositionMessage(id=1, deltaX=3175, deltaY=0, deltaZ=2077, onGround=true)
+2018/08/22 13:23:27 [INFO] conit ---- COW:RelativeEntityPositionMessage(id=1, deltaX=3175, deltaY=0, deltaZ=2077, onGround=true)
+2018/08/22 13:23:27 [INFO] conit ---- COW:RelativeEntityPositionMessage(id=1, deltaX=3175, deltaY=0, deltaZ=2077, onGround=true)
+2018/08/22 13:23:28 [INFO] conit ---- COW:RelativeEntityPositionMessage(id=1, deltaX=3175, deltaY=0, deltaZ=2077, onGround=true)
+2018/08/22 13:23:28 [INFO] conit ---- COW:RelativeEntityPositionMessage(id=1, deltaX=3175, deltaY=0, deltaZ=2077, onGround=true)
+2018/08/22 13:23:28 [INFO] conit SYNC COW:RelativeEntityPositionMessage(id=1, deltaX=3175, deltaY=0, deltaZ=2077, onGround=true)
+2018/08/22 13:23:28 [INFO] conit ---- COW:RelativeEntityPositionMessage(id=1, deltaX=3175, deltaY=0, deltaZ=2077, onGround=true)
+2018/08/22 13:23:28 [INFO] conit ---- COW:RelativeEntityPositionMessage(id=1, deltaX=3175, deltaY=0, deltaZ=2077, onGround=true)
+2018/08/22 13:23:28 [INFO] conit ---- COW:RelativeEntityPositionMessage(id=1, deltaX=3175, deltaY=0, deltaZ=2077, onGround=true)
+2018/08/22 13:23:28 [INFO] conit ---- COW:RelativeEntityPositionMessage(id=1, deltaX=3175, deltaY=0, deltaZ=2077, onGround=true)
+2018/08/22 13:23:28 [INFO] conit SYNC COW:RelativeEntityPositionMessage(id=1, deltaX=3175, deltaY=0, deltaZ=2077, onGround=true)
+2018/08/22 13:23:28 [INFO] conit ---- COW:RelativeEntityPositionMessage(id=1, deltaX=3175, deltaY=0, deltaZ=2077, onGround=true)
+2018/08/22 13:23:28 [INFO] conit ---- COW:RelativeEntityPositionMessage(id=1, deltaX=3175, deltaY=0, deltaZ=2077, onGround=true)
+2018/08/22 13:23:28 [INFO] conit ---- COW:RelativeEntityPositionMessage(id=1, deltaX=3175, deltaY=0, deltaZ=2077, onGround=true)
+2018/08/22 13:23:31 [INFO] normal COW:EntityPropertyMessage(id=42, properties={generic.maxHealth=net.glowstone.entity.AttributeManager$Property@46319065})
+2018/08/22 13:23:35 [INFO] conit SYNC COW:EntityHeadRotationMessage(id=42, rotation=-84)
+2018/08/22 13:23:35 [INFO] conit ---- COW:EntityHeadRotationMessage(id=42, rotation=-88)
+2018/08/22 13:23:36 [INFO] conit ---- COW:EntityHeadRotationMessage(id=42, rotation=-94)
+2018/08/22 13:23:36 [INFO] conit ---- COW:EntityHeadRotationMessage(id=42, rotation=-105)
+2018/08/22 13:23:36 [INFO] conit ---- COW:EntityHeadRotationMessage(id=42, rotation=-106)
+2018/08/22 13:23:36 [INFO] conit ---- COW:EntityHeadRotationMessage(id=42, rotation=-106)
+2018/08/22 13:23:36 [INFO] conit ---- COW:EntityHeadRotationMessage(id=42, rotation=-101)
+2018/08/22 13:23:36 [INFO] conit ---- COW:EntityHeadRotationMessage(id=42, rotation=-95)
+2018/08/22 13:23:36 [INFO] conit ---- COW:EntityHeadRotationMessage(id=42, rotation=-92)
+2018/08/22 13:23:36 [INFO] conit ---- COW:EntityHeadRotationMessage(id=42, rotation=-90)
+2018/08/22 13:23:36 [INFO] conit ---- COW:EntityHeadRotationMessage(id=42, rotation=-89)
+2018/08/22 13:23:36 [INFO] conit ---- COW:EntityHeadRotationMessage(id=42, rotation=-88)
+2018/08/22 13:23:37 [INFO] conit ---- COW:EntityHeadRotationMessage(id=42, rotation=-88)
+2018/08/22 13:23:37 [INFO] conit ---- COW:EntityHeadRotationMessage(id=42, rotation=-88)
+2018/08/22 13:23:37 [INFO] conit ---- COW:EntityHeadRotationMessage(id=42, rotation=-88)
+2018/08/22 13:23:37 [INFO] conit ---- COW:EntityHeadRotationMessage(id=42, rotation=-88)
+2018/08/22 13:23:37 [INFO] conit ---- COW:EntityHeadRotationMessage(id=42, rotation=-88)
+2018/08/22 13:23:37 [INFO] conit ---- COW:EntityHeadRotationMessage(id=42, rotation=-88)
+2018/08/22 13:23:37 [INFO] conit ---- COW:EntityHeadRotationMessage(id=42, rotation=-88)
+2018/08/22 13:23:37 [INFO] conit ---- COW:EntityHeadRotationMessage(id=42, rotation=-88)
+2018/08/22 13:23:37 [INFO] conit ---- COW:EntityHeadRotationMessage(id=42, rotation=-88)
+2018/08/22 13:23:37 [INFO] conit ---- COW:EntityHeadRotationMessage(id=42, rotation=-88)
+2018/08/22 13:23:38 [INFO] conit ---- COW:EntityHeadRotationMessage(id=42, rotation=-88)
+2018/08/22 13:23:38 [INFO] conit ---- COW:EntityHeadRotationMessage(id=42, rotation=-88)
+2018/08/22 13:23:38 [INFO] conit ---- COW:EntityHeadRotationMessage(id=42, rotation=-88)
+2018/08/22 13:23:38 [INFO] conit ---- COW:EntityHeadRotationMessage(id=42, rotation=-88)
+2018/08/22 13:23:38 [INFO] conit ---- COW:EntityHeadRotationMessage(id=42, rotation=-88)
+2018/08/22 13:23:38 [INFO] conit ---- COW:EntityHeadRotationMessage(id=42, rotation=-88)
+2018/08/22 13:23:38 [INFO] conit ---- COW:EntityHeadRotationMessage(id=42, rotation=-88)
+2018/08/22 13:23:38 [INFO] conit ---- COW:EntityHeadRotationMessage(id=42, rotation=-88)
+2018/08/22 13:23:38 [INFO] conit ---- COW:EntityHeadRotationMessage(id=42, rotation=-88)
+2018/08/22 13:23:38 [INFO] conit ---- COW:EntityHeadRotationMessage(id=42, rotation=-88)
+2018/08/22 13:23:39 [INFO] conit ---- COW:EntityHeadRotationMessage(id=42, rotation=-88)
+2018/08/22 13:23:39 [INFO] conit ---- COW:EntityHeadRotationMessage(id=42, rotation=-88)
+2018/08/22 13:23:39 [INFO] conit ---- COW:EntityHeadRotationMessage(id=42, rotation=-88)
+2018/08/22 13:23:39 [INFO] conit ---- COW:EntityHeadRotationMessage(id=42, rotation=-88)
+2018/08/22 13:23:39 [INFO] conit ---- COW:EntityHeadRotationMessage(id=42, rotation=-88)
+2018/08/22 13:23:39 [INFO] conit ---- COW:EntityHeadRotationMessage(id=42, rotation=-88)
+2018/08/22 13:23:39 [INFO] conit ---- COW:EntityHeadRotationMessage(id=42, rotation=-88)
+2018/08/22 13:23:39 [INFO] conit ---- COW:EntityHeadRotationMessage(id=42, rotation=-88)
+2018/08/22 13:23:39 [INFO] conit ---- COW:EntityHeadRotationMessage(id=42, rotation=-88)
+2018/08/22 13:23:39 [INFO] conit ---- COW:EntityHeadRotationMessage(id=42, rotation=-88)
+2018/08/22 13:23:40 [INFO] conit ---- COW:EntityHeadRotationMessage(id=42, rotation=-88)
+2018/08/22 13:23:40 [INFO] conit ---- COW:EntityHeadRotationMessage(id=42, rotation=-86)
+2018/08/22 13:23:40 [INFO] conit ---- COW:EntityHeadRotationMessage(id=42, rotation=-85)
+2018/08/22 13:23:40 [INFO] conit ---- COW:EntityHeadRotationMessage(id=42, rotation=-83)
+2018/08/22 13:23:40 [INFO] conit ---- COW:EntityHeadRotationMessage(id=42, rotation=-82)
+2018/08/22 13:23:40 [INFO] conit ---- COW:EntityHeadRotationMessage(id=42, rotation=-82)
+2018/08/22 13:23:40 [INFO] conit ---- COW:EntityHeadRotationMessage(id=42, rotation=-81)
+2018/08/22 13:23:40 [INFO] conit ---- COW:EntityHeadRotationMessage(id=42, rotation=-81)
+2018/08/22 13:23:40 [INFO] conit ---- COW:EntityHeadRotationMessage(id=42, rotation=-81)
+2018/08/22 13:23:40 [INFO] conit ---- COW:EntityHeadRotationMessage(id=42, rotation=-81)
+2018/08/22 13:23:41 [INFO] conit ---- COW:EntityHeadRotationMessage(id=42, rotation=-81)
+2018/08/22 13:23:41 [INFO] conit ---- COW:EntityHeadRotationMessage(id=42, rotation=-81)
+2018/08/22 13:23:41 [INFO] conit ---- COW:EntityHeadRotationMessage(id=42, rotation=-81)
+2018/08/22 13:23:41 [INFO] conit ---- COW:EntityHeadRotationMessage(id=42, rotation=-81)
+2018/08/22 13:23:41 [INFO] conit ---- COW:EntityHeadRotationMessage(id=42, rotation=-81)
+2018/08/22 13:23:41 [INFO] conit ---- COW:EntityHeadRotationMessage(id=42, rotation=-81)
+2018/08/22 13:23:41 [INFO] conit ---- COW:EntityHeadRotationMessage(id=42, rotation=-81)
+2018/08/22 13:23:42 [INFO] conit ---- COW:EntityHeadRotationMessage(id=42, rotation=-81)
+2018/08/22 13:23:42 [INFO] conit ---- COW:EntityHeadRotationMessage(id=42, rotation=-81)
+2018/08/22 13:23:42 [INFO] conit ---- COW:EntityHeadRotationMessage(id=42, rotation=-81)
+2018/08/22 13:23:42 [INFO] conit ---- COW:EntityHeadRotationMessage(id=42, rotation=-81)
+2018/08/22 13:23:42 [INFO] conit ---- COW:EntityHeadRotationMessage(id=42, rotation=-81)
+2018/08/22 13:23:42 [INFO] conit ---- COW:EntityHeadRotationMessage(id=42, rotation=-81)
+2018/08/22 13:23:42 [INFO] conit ---- COW:EntityHeadRotationMessage(id=42, rotation=-81)
+2018/08/22 13:23:43 [INFO] conit ---- COW:EntityHeadRotationMessage(id=42, rotation=-81)
+2018/08/22 13:23:43 [INFO] conit ---- COW:EntityHeadRotationMessage(id=42, rotation=-81)
+2018/08/22 13:23:43 [INFO] conit ---- COW:EntityHeadRotationMessage(id=42, rotation=-81)
+2018/08/22 13:23:43 [INFO] conit ---- COW:EntityHeadRotationMessage(id=42, rotation=-81)
+2018/08/22 13:23:43 [INFO] conit ---- COW:EntityHeadRotationMessage(id=42, rotation=-81)
+2018/08/22 13:23:43 [INFO] conit ---- COW:EntityHeadRotationMessage(id=42, rotation=-81)
+2018/08/22 13:23:43 [INFO] conit ---- COW:EntityHeadRotationMessage(id=42, rotation=-81)
+2018/08/22 13:23:43 [INFO] conit ---- COW:EntityHeadRotationMessage(id=42, rotation=-81)
+2018/08/22 13:23:43 [INFO] conit ---- COW:EntityHeadRotationMessage(id=42, rotation=-81)
+2018/08/22 13:23:43 [INFO] conit ---- COW:EntityHeadRotationMessage(id=42, rotation=-81)
+2018/08/22 13:23:44 [INFO] conit ---- COW:EntityHeadRotationMessage(id=42, rotation=-81)
+2018/08/22 13:23:44 [INFO] conit ---- COW:EntityHeadRotationMessage(id=42, rotation=-81)
+2018/08/22 13:23:44 [INFO] conit ---- COW:EntityHeadRotationMessage(id=42, rotation=-81)
+2018/08/22 13:23:44 [INFO] conit ---- COW:EntityHeadRotationMessage(id=42, rotation=-81)
+2018/08/22 13:23:44 [INFO] conit ---- COW:EntityHeadRotationMessage(id=42, rotation=-81)
+2018/08/22 13:23:44 [INFO] conit ---- COW:EntityHeadRotationMessage(id=42, rotation=-81)
+2018/08/22 13:23:44 [INFO] conit ---- COW:EntityHeadRotationMessage(id=42, rotation=-81)
+2018/08/22 13:23:44 [INFO] conit ---- COW:EntityHeadRotationMessage(id=42, rotation=-81)
+2018/08/22 13:23:44 [INFO] conit ---- COW:EntityHeadRotationMessage(id=42, rotation=-81)
+2018/08/22 13:23:44 [INFO] conit ---- COW:EntityHeadRotationMessage(id=42, rotation=-81)
+2018/08/22 13:23:45 [INFO] conit ---- COW:EntityHeadRotationMessage(id=42, rotation=-81)
+2018/08/22 13:23:45 [INFO] conit ---- COW:EntityHeadRotationMessage(id=42, rotation=-81)
+2018/08/22 13:23:45 [INFO] conit ---- COW:EntityHeadRotationMessage(id=42, rotation=-81)
+2018/08/22 13:23:45 [INFO] conit ---- COW:EntityHeadRotationMessage(id=42, rotation=-81)
+2018/08/22 13:23:45 [INFO] conit ---- COW:EntityHeadRotationMessage(id=42, rotation=-81)
+2018/08/22 13:23:45 [INFO] conit ---- COW:EntityHeadRotationMessage(id=42, rotation=-81)
+2018/08/22 13:23:45 [INFO] conit ---- COW:EntityHeadRotationMessage(id=42, rotation=-81)
+2018/08/22 13:23:45 [INFO] conit ---- COW:EntityHeadRotationMessage(id=42, rotation=-81)
+2018/08/22 13:23:45 [INFO] conit ---- COW:EntityHeadRotationMessage(id=42, rotation=-81)
+2018/08/22 13:23:45 [INFO] conit ---- COW:EntityHeadRotationMessage(id=42, rotation=-81)
+2018/08/22 13:23:46 [INFO] conit ---- COW:EntityHeadRotationMessage(id=42, rotation=-81)
+2018/08/22 13:23:46 [INFO] conit ---- COW:EntityHeadRotationMessage(id=42, rotation=-81)
+2018/08/22 13:23:46 [INFO] conit ---- COW:EntityHeadRotationMessage(id=42, rotation=-81)
+2018/08/22 13:23:46 [INFO] conit ---- COW:EntityHeadRotationMessage(id=42, rotation=-81)
+2018/08/22 13:23:46 [INFO] conit ---- COW:EntityHeadRotationMessage(id=42, rotation=-81)
+2018/08/22 13:23:46 [INFO] conit ---- COW:EntityHeadRotationMessage(id=42, rotation=-81)
+2018/08/22 13:23:46 [INFO] conit ---- COW:EntityHeadRotationMessage(id=42, rotation=-81)
+2018/08/22 13:23:46 [INFO] conit ---- COW:EntityHeadRotationMessage(id=42, rotation=-80)
+2018/08/22 13:23:46 [INFO] conit ---- COW:EntityHeadRotationMessage(id=42, rotation=-80)
+2018/08/22 13:23:59 [INFO] conit ---- COW:EntityTeleportMessage(id=42, x=189.5, y=4.0, z=205.5, rotation=-80, pitch=0, onGround=true)
+2018/08/22 13:24:00 [INFO] conit ---- COW:EntityTeleportMessage(id=42, x=189.5, y=4.0, z=205.5, rotation=-80, pitch=0, onGround=true)
+2018/08/22 13:24:00 [INFO] conit ---- COW:EntityTeleportMessage(id=42, x=189.5, y=4.0, z=205.5, rotation=-80, pitch=0, onGround=true)
+2018/08/22 13:24:01 [INFO] conit ---- COW:EntityTeleportMessage(id=42, x=189.5, y=4.0, z=205.5, rotation=-80, pitch=0, onGround=true)
+2018/08/22 13:24:06 [INFO] conit ---- COW:EntityTeleportMessage(id=42, x=189.5, y=4.0, z=205.5, rotation=-80, pitch=0, onGround=true)
+2018/08/22 13:24:11 [INFO] conit ---- COW:EntityTeleportMessage(id=42, x=189.5, y=4.0, z=205.5, rotation=-80, pitch=0, onGround=true)
+2018/08/22 13:24:26 [WARNING] The server is running in offline mode! Only do this if you know what you''re doing.
+2018/08/22 13:24:26 [INFO] Scanning plugins...
+2018/08/22 13:24:26 [INFO] Preparing spawn for world...
+2018/08/22 13:24:27 [INFO] Preparing spawn for world: done
+2018/08/22 13:24:27 [INFO] Preparing spawn for world_nether...
+2018/08/22 13:24:28 [INFO] Preparing spawn for world_nether: done
+2018/08/22 13:24:28 [INFO] Preparing spawn for world_the_end...
+2018/08/22 13:24:28 [INFO] Preparing spawn for world_the_end: done
+2018/08/22 13:24:28 [INFO] Binding server to 0.0.0.0:25565...
+2018/08/22 13:24:28 [INFO] Successfully bound server to 0.0.0.0:25565.
+2018/08/22 13:24:28 [INFO] Ready for connections.
+2018/08/22 13:24:31 [INFO] Sirkib [/127.0.0.1:64192] connected, UUID: a9890d5f-0625-3d50-82ab-336ea436ba53
+2018/08/22 13:24:31 [INFO] §eSirkib joined the game
+2018/08/22 13:24:31 [INFO] normal COW:EntityPropertyMessage(id=1, properties={generic.maxHealth=net.glowstone.entity.AttributeManager$Property@1e3c0ed8})
+2018/08/22 13:24:58 [INFO] conit SYNC COW:EntityTeleportMessage(id=1, x=124.5, y=4.0, z=161.5, rotation=0, pitch=0, onGround=true)
+2018/08/22 13:25:02 [INFO] conit ---- COW:EntityHeadRotationMessage(id=1, rotation=54)
+2018/08/22 13:25:10 [INFO] conit ---- COW:EntityHeadRotationMessage(id=1, rotation=71)
+2018/08/22 13:25:27 [INFO] normal COW:EntityVelocityMessage(id=1, velocityX=0, velocityY=0, velocityZ=0)
+2018/08/22 13:25:27 [INFO] normal COW:EntityVelocityMessage(id=1, velocityX=0, velocityY=0, velocityZ=0)
+2018/08/22 13:25:27 [INFO] conit SYNC COW:RelativeEntityPositionMessage(id=1, deltaX=-178, deltaY=0, deltaZ=160, onGround=true)
+2018/08/22 13:25:27 [INFO] normal COW:EntityVelocityMessage(id=1, velocityX=-349, velocityY=0, velocityZ=314)
+2018/08/22 13:25:27 [INFO] normal COW:EntityVelocityMessage(id=1, velocityX=0, velocityY=0, velocityZ=0)
+2018/08/22 13:25:27 [INFO] normal COW:EntityVelocityMessage(id=1, velocityX=0, velocityY=0, velocityZ=0)
+2018/08/22 13:25:27 [INFO] normal COW:EntityVelocityMessage(id=1, velocityX=0, velocityY=0, velocityZ=0)
+2018/08/22 13:25:27 [INFO] normal COW:EntityVelocityMessage(id=1, velocityX=0, velocityY=0, velocityZ=0)
+2018/08/22 13:25:27 [INFO] normal COW:EntityVelocityMessage(id=1, velocityX=0, velocityY=0, velocityZ=0)
+2018/08/22 13:25:27 [INFO] normal COW:EntityVelocityMessage(id=1, velocityX=0, velocityY=0, velocityZ=0)
+2018/08/22 13:25:27 [INFO] normal COW:EntityVelocityMessage(id=1, velocityX=0, velocityY=0, velocityZ=0)
+2018/08/22 13:25:27 [INFO] normal COW:EntityVelocityMessage(id=1, velocityX=0, velocityY=0, velocityZ=0)
+2018/08/22 13:25:27 [INFO] normal COW:EntityVelocityMessage(id=1, velocityX=0, velocityY=0, velocityZ=0)
+2018/08/22 13:25:27 [INFO] normal COW:EntityVelocityMessage(id=1, velocityX=0, velocityY=0, velocityZ=0)
+2018/08/22 13:25:27 [INFO] conit ---- COW:RelativeEntityPositionMessage(id=1, deltaX=-182, deltaY=0, deltaZ=164, onGround=true)
+2018/08/22 13:25:27 [INFO] normal COW:EntityVelocityMessage(id=1, velocityX=-356, velocityY=0, velocityZ=321)
+2018/08/22 13:25:27 [INFO] conit ---- COW:RelativeEntityPositionMessage(id=1, deltaX=-192, deltaY=0, deltaZ=174, onGround=true)
+2018/08/22 13:25:27 [INFO] normal COW:EntityVelocityMessage(id=1, velocityX=-375, velocityY=0, velocityZ=340)
+2018/08/22 13:25:27 [INFO] conit ---- COW:RelativeEntityPositionMessage(id=1, deltaX=-204, deltaY=0, deltaZ=186, onGround=true)
+2018/08/22 13:25:27 [INFO] normal COW:EntityVelocityMessage(id=1, velocityX=-399, velocityY=0, velocityZ=364)
+2018/08/22 13:25:27 [INFO] conit ---- COW:RelativeEntityPositionMessage(id=1, deltaX=-218, deltaY=0, deltaZ=200, onGround=true)
+2018/08/22 13:25:27 [INFO] normal COW:EntityVelocityMessage(id=1, velocityX=-425, velocityY=0, velocityZ=391)
+2018/08/22 13:25:28 [INFO] conit SYNC COW:RelativeEntityPositionMessage(id=1, deltaX=-232, deltaY=0, deltaZ=215, onGround=true)
+2018/08/22 13:25:28 [INFO] normal COW:EntityVelocityMessage(id=1, velocityX=-453, velocityY=0, velocityZ=421)
+2018/08/22 13:25:28 [INFO] conit ---- COW:RelativeEntityPositionMessage(id=1, deltaX=-247, deltaY=0, deltaZ=231, onGround=true)
+2018/08/22 13:25:28 [INFO] normal COW:EntityVelocityMessage(id=1, velocityX=-482, velocityY=0, velocityZ=452)
+2018/08/22 13:25:28 [INFO] conit ---- COW:RelativeEntityPositionMessage(id=1, deltaX=-261, deltaY=0, deltaZ=248, onGround=true)
+2018/08/22 13:25:28 [INFO] normal COW:EntityVelocityMessage(id=1, velocityX=-511, velocityY=0, velocityZ=484)
+2018/08/22 13:25:28 [INFO] conit ---- COW:RelativeEntityPositionMessage(id=1, deltaX=-276, deltaY=0, deltaZ=264, onGround=true)
+2018/08/22 13:25:28 [INFO] normal COW:EntityVelocityMessage(id=1, velocityX=-539, velocityY=0, velocityZ=516)
+2018/08/22 13:25:28 [INFO] conit ---- COW:RelativeEntityPositionMessage(id=1, deltaX=-290, deltaY=0, deltaZ=280, onGround=true)
+2018/08/22 13:25:28 [INFO] normal COW:EntityVelocityMessage(id=1, velocityX=-567, velocityY=0, velocityZ=548)
+2018/08/22 13:25:28 [INFO] conit ---- COW:RelativeEntityPositionMessage(id=1, deltaX=-304, deltaY=0, deltaZ=296, onGround=true)
+2018/08/22 13:25:28 [INFO] normal COW:EntityVelocityMessage(id=1, velocityX=-595, velocityY=0, velocityZ=579)
+2018/08/22 13:25:28 [INFO] conit ---- COW:RelativeEntityPositionMessage(id=1, deltaX=-318, deltaY=0, deltaZ=312, onGround=true)
+2018/08/22 13:25:28 [INFO] normal COW:EntityVelocityMessage(id=1, velocityX=-622, velocityY=0, velocityZ=610)
+2018/08/22 13:25:28 [INFO] conit ---- COW:RelativeEntityPositionMessage(id=1, deltaX=-319, deltaY=0, deltaZ=314, onGround=true)
+2018/08/22 13:25:28 [INFO] normal COW:EntityVelocityMessage(id=1, velocityX=-623, velocityY=0, velocityZ=614)
+2018/08/22 13:25:28 [INFO] conit SYNC COW:RelativeEntityPositionMessage(id=1, deltaX=-312, deltaY=0, deltaZ=308, onGround=true)
+2018/08/22 13:25:28 [INFO] normal COW:EntityVelocityMessage(id=1, velocityX=-610, velocityY=0, velocityZ=602)
+2018/08/22 13:25:28 [INFO] conit ---- COW:RelativeEntityPositionMessage(id=1, deltaX=-302, deltaY=0, deltaZ=299, onGround=true)
+2018/08/22 13:25:28 [INFO] normal COW:EntityVelocityMessage(id=1, velocityX=-591, velocityY=0, velocityZ=584)
+2018/08/22 13:25:28 [INFO] normal COW:EntityVelocityMessage(id=1, velocityX=0, velocityY=0, velocityZ=0)
+2018/08/22 13:25:28 [INFO] normal COW:EntityVelocityMessage(id=1, velocityX=0, velocityY=0, velocityZ=0)
+2018/08/22 13:25:28 [INFO] conit ---- COW:RelativeEntityPositionMessage(id=1, deltaX=-293, deltaY=0, deltaZ=290, onGround=true)
+2018/08/22 13:25:28 [INFO] normal COW:EntityVelocityMessage(id=1, velocityX=-573, velocityY=0, velocityZ=567)
+2018/08/22 13:25:28 [INFO] normal COW:EntityVelocityMessage(id=1, velocityX=0, velocityY=0, velocityZ=0)
+2018/08/22 13:25:28 [INFO] normal COW:EntityVelocityMessage(id=1, velocityX=0, velocityY=0, velocityZ=0)
+2018/08/22 13:25:28 [INFO] normal COW:EntityVelocityMessage(id=1, velocityX=0, velocityY=0, velocityZ=0)
+2018/08/22 13:25:28 [INFO] normal COW:EntityVelocityMessage(id=1, velocityX=0, velocityY=0, velocityZ=0)
+2018/08/22 13:25:28 [INFO] normal COW:EntityVelocityMessage(id=1, velocityX=0, velocityY=0, velocityZ=0)
+2018/08/22 13:25:28 [INFO] normal COW:EntityVelocityMessage(id=1, velocityX=0, velocityY=0, velocityZ=0)
+2018/08/22 13:25:28 [INFO] normal COW:EntityVelocityMessage(id=1, velocityX=0, velocityY=0, velocityZ=0)
+2018/08/22 13:25:29 [INFO] normal COW:EntityVelocityMessage(id=1, velocityX=0, velocityY=0, velocityZ=0)
+2018/08/22 13:25:29 [INFO] normal COW:EntityVelocityMessage(id=1, velocityX=0, velocityY=0, velocityZ=0)
+2018/08/22 13:25:29 [INFO] normal COW:EntityVelocityMessage(id=1, velocityX=0, velocityY=0, velocityZ=0)
+2018/08/22 13:25:29 [INFO] normal COW:EntityVelocityMessage(id=1, velocityX=0, velocityY=0, velocityZ=0)
+2018/08/22 13:25:29 [INFO] normal COW:EntityVelocityMessage(id=1, velocityX=0, velocityY=0, velocityZ=0)
+2018/08/22 13:25:29 [INFO] normal COW:EntityVelocityMessage(id=1, velocityX=0, velocityY=0, velocityZ=0)
+2018/08/22 13:25:29 [INFO] normal COW:EntityVelocityMessage(id=1, velocityX=0, velocityY=0, velocityZ=0)
+2018/08/22 13:25:29 [INFO] normal COW:EntityVelocityMessage(id=1, velocityX=0, velocityY=0, velocityZ=0)
+2018/08/22 13:25:29 [INFO] normal COW:EntityVelocityMessage(id=1, velocityX=0, velocityY=0, velocityZ=0)
+2018/08/22 13:25:29 [INFO] normal COW:EntityVelocityMessage(id=1, velocityX=0, velocityY=0, velocityZ=0)
+2018/08/22 13:25:29 [INFO] normal COW:EntityVelocityMessage(id=1, velocityX=0, velocityY=0, velocityZ=0)
+2018/08/22 13:25:29 [INFO] normal COW:EntityVelocityMessage(id=1, velocityX=0, velocityY=0, velocityZ=0)
+2018/08/22 13:25:29 [INFO] normal COW:EntityVelocityMessage(id=1, velocityX=0, velocityY=0, velocityZ=0)
+2018/08/22 13:25:29 [INFO] normal COW:EntityVelocityMessage(id=1, velocityX=0, velocityY=0, velocityZ=0)
+2018/08/22 13:25:29 [INFO] normal COW:EntityVelocityMessage(id=1, velocityX=0, velocityY=0, velocityZ=0)
+2018/08/22 13:25:29 [INFO] normal COW:EntityVelocityMessage(id=1, velocityX=0, velocityY=0, velocityZ=0)
+2018/08/22 13:25:29 [INFO] normal COW:EntityVelocityMessage(id=1, velocityX=0, velocityY=0, velocityZ=0)
+2018/08/22 13:25:29 [INFO] normal COW:EntityVelocityMessage(id=1, velocityX=0, velocityY=0, velocityZ=0)
+2018/08/22 13:25:29 [INFO] normal COW:EntityVelocityMessage(id=1, velocityX=0, velocityY=0, velocityZ=0)
+2018/08/22 13:25:29 [INFO] normal COW:EntityVelocityMessage(id=1, velocityX=0, velocityY=0, velocityZ=0)
+2018/08/22 13:25:30 [INFO] normal COW:EntityVelocityMessage(id=1, velocityX=0, velocityY=0, velocityZ=0)
+2018/08/22 13:25:30 [INFO] normal COW:EntityVelocityMessage(id=1, velocityX=0, velocityY=0, velocityZ=0)
+2018/08/22 13:25:30 [INFO] normal COW:EntityVelocityMessage(id=1, velocityX=0, velocityY=0, velocityZ=0)
+2018/08/22 13:25:30 [INFO] normal COW:EntityVelocityMessage(id=1, velocityX=0, velocityY=0, velocityZ=0)
+2018/08/22 13:25:30 [INFO] normal COW:EntityVelocityMessage(id=1, velocityX=0, velocityY=0, velocityZ=0)
+2018/08/22 13:25:30 [INFO] conit ---- COW:RelativeEntityPositionMessage(id=1, deltaX=-292, deltaY=0, deltaZ=290, onGround=true)
+2018/08/22 13:25:30 [INFO] normal COW:EntityVelocityMessage(id=1, velocityX=-570, velocityY=0, velocityZ=568)
+2018/08/22 13:25:30 [INFO] conit ---- COW:RelativeEntityPositionMessage(id=1, deltaX=-295, deltaY=0, deltaZ=299, onGround=true)
+2018/08/22 13:25:30 [INFO] normal COW:EntityVelocityMessage(id=1, velocityX=-578, velocityY=0, velocityZ=584)
+2018/08/22 13:25:30 [INFO] conit ---- COW:RelativeEntityPositionMessage(id=1, deltaX=-301, deltaY=0, deltaZ=312, onGround=true)
+2018/08/22 13:25:30 [INFO] normal COW:EntityVelocityMessage(id=1, velocityX=-588, velocityY=0, velocityZ=609)
+2018/08/22 13:25:30 [INFO] conit SYNC COW:RelativeEntityPositionMessage(id=1, deltaX=-306, deltaY=0, deltaZ=327, onGround=true)
+2018/08/22 13:25:30 [INFO] normal COW:EntityVelocityMessage(id=1, velocityX=-598, velocityY=0, velocityZ=639)
+2018/08/22 13:25:30 [INFO] conit ---- COW:RelativeEntityPositionMessage(id=1, deltaX=-310, deltaY=0, deltaZ=343, onGround=true)
+2018/08/22 13:25:30 [INFO] normal COW:EntityVelocityMessage(id=1, velocityX=-605, velocityY=0, velocityZ=671)
+2018/08/22 13:25:30 [INFO] conit ---- COW:RelativeEntityPositionMessage(id=1, deltaX=-312, deltaY=0, deltaZ=360, onGround=true)
+2018/08/22 13:25:30 [INFO] normal COW:EntityVelocityMessage(id=1, velocityX=-610, velocityY=0, velocityZ=704)
+2018/08/22 13:25:30 [INFO] conit ---- COW:RelativeEntityPositionMessage(id=1, deltaX=-313, deltaY=0, deltaZ=377, onGround=true)
+2018/08/22 13:25:30 [INFO] normal COW:EntityVelocityMessage(id=1, velocityX=-613, velocityY=0, velocityZ=738)
+2018/08/22 13:25:30 [INFO] conit SYNC COW:RelativeEntityPositionMessage(id=1, deltaX=-314, deltaY=0, deltaZ=395, onGround=true)
+2018/08/22 13:25:30 [INFO] normal COW:EntityVelocityMessage(id=1, velocityX=-614, velocityY=0, velocityZ=771)
+2018/08/22 13:25:30 [INFO] conit ---- COW:RelativeEntityPositionMessage(id=1, deltaX=-314, deltaY=0, deltaZ=412, onGround=true)
+2018/08/22 13:25:30 [INFO] normal COW:EntityVelocityMessage(id=1, velocityX=-614, velocityY=0, velocityZ=805)
+2018/08/22 13:25:30 [INFO] conit ---- COW:RelativeEntityPositionMessage(id=1, deltaX=-314, deltaY=0, deltaZ=429, onGround=true)
+2018/08/22 13:25:30 [INFO] normal COW:EntityVelocityMessage(id=1, velocityX=-614, velocityY=0, velocityZ=838)
+2018/08/22 13:25:30 [INFO] conit ---- COW:RelativeEntityPositionMessage(id=1, deltaX=-313, deltaY=0, deltaZ=445, onGround=true)
+2018/08/22 13:25:30 [INFO] normal COW:EntityVelocityMessage(id=1, velocityX=-612, velocityY=0, velocityZ=870)
+2018/08/22 13:25:30 [INFO] conit ---- COW:RelativeEntityPositionMessage(id=1, deltaX=-312, deltaY=0, deltaZ=462, onGround=true)
+2018/08/22 13:25:30 [INFO] normal COW:EntityVelocityMessage(id=1, velocityX=-610, velocityY=0, velocityZ=902)
+2018/08/22 13:25:30 [INFO] conit SYNC COW:RelativeEntityPositionMessage(id=1, deltaX=-310, deltaY=0, deltaZ=478, onGround=true)
+2018/08/22 13:25:30 [INFO] normal COW:EntityVelocityMessage(id=1, velocityX=-607, velocityY=0, velocityZ=934)
+2018/08/22 13:25:30 [INFO] conit ---- COW:RelativeEntityPositionMessage(id=1, deltaX=-309, deltaY=0, deltaZ=494, onGround=true)
+2018/08/22 13:25:30 [INFO] normal COW:EntityVelocityMessage(id=1, velocityX=-603, velocityY=0, velocityZ=965)
+2018/08/22 13:25:30 [INFO] conit ---- COW:RelativeEntityPositionMessage(id=1, deltaX=-306, deltaY=0, deltaZ=509, onGround=true)
+2018/08/22 13:25:30 [INFO] normal COW:EntityVelocityMessage(id=1, velocityX=-599, velocityY=0, velocityZ=995)
+2018/08/22 13:25:31 [INFO] conit SYNC COW:RelativeEntityPositionMessage(id=1, deltaX=-304, deltaY=0, deltaZ=524, onGround=true)
+2018/08/22 13:25:31 [INFO] normal COW:EntityVelocityMessage(id=1, velocityX=-595, velocityY=0, velocityZ=1024)
+2018/08/22 13:25:31 [INFO] conit ---- COW:RelativeEntityPositionMessage(id=1, deltaX=-302, deltaY=0, deltaZ=539, onGround=true)
+2018/08/22 13:25:31 [INFO] normal COW:EntityVelocityMessage(id=1, velocityX=-590, velocityY=0, velocityZ=1052)
+2018/08/22 13:25:31 [INFO] conit ---- COW:RelativeEntityPositionMessage(id=1, deltaX=-299, deltaY=0, deltaZ=553, onGround=true)
+2018/08/22 13:25:31 [INFO] normal COW:EntityVelocityMessage(id=1, velocityX=-585, velocityY=0, velocityZ=1080)
+2018/08/22 13:25:31 [INFO] conit SYNC COW:RelativeEntityPositionMessage(id=1, deltaX=-297, deltaY=0, deltaZ=567, onGround=true)
+2018/08/22 13:25:31 [INFO] normal COW:EntityVelocityMessage(id=1, velocityX=-580, velocityY=0, velocityZ=1107)
+2018/08/22 13:25:31 [INFO] conit ---- COW:RelativeEntityPositionMessage(id=1, deltaX=-294, deltaY=0, deltaZ=580, onGround=true)
+2018/08/22 13:25:31 [INFO] normal COW:EntityVelocityMessage(id=1, velocityX=-574, velocityY=0, velocityZ=1134)
+2018/08/22 13:25:31 [INFO] conit SYNC COW:RelativeEntityPositionMessage(id=1, deltaX=-291, deltaY=0, deltaZ=593, onGround=true)
+2018/08/22 13:25:31 [INFO] normal COW:EntityVelocityMessage(id=1, velocityX=-569, velocityY=0, velocityZ=1159)
+2018/08/22 13:25:31 [INFO] conit ---- COW:RelativeEntityPositionMessage(id=1, deltaX=-288, deltaY=0, deltaZ=606, onGround=true)
+2018/08/22 13:25:31 [INFO] normal COW:EntityVelocityMessage(id=1, velocityX=-563, velocityY=0, velocityZ=1184)
+2018/08/22 13:25:31 [INFO] conit ---- COW:RelativeEntityPositionMessage(id=1, deltaX=-285, deltaY=0, deltaZ=618, onGround=true)
+2018/08/22 13:25:31 [INFO] normal COW:EntityVelocityMessage(id=1, velocityX=-557, velocityY=0, velocityZ=1208)
+2018/08/22 13:25:31 [INFO] conit SYNC COW:RelativeEntityPositionMessage(id=1, deltaX=-282, deltaY=0, deltaZ=630, onGround=true)
+2018/08/22 13:25:31 [INFO] normal COW:EntityVelocityMessage(id=1, velocityX=-551, velocityY=0, velocityZ=1231)
+2018/08/22 13:25:31 [INFO] conit ---- COW:RelativeEntityPositionMessage(id=1, deltaX=-278, deltaY=0, deltaZ=641, onGround=true)
+2018/08/22 13:25:31 [INFO] normal COW:EntityVelocityMessage(id=1, velocityX=-543, velocityY=0, velocityZ=1253)
+2018/08/22 13:25:31 [INFO] conit ---- COW:RelativeEntityPositionMessage(id=1, deltaX=-274, deltaY=0, deltaZ=652, onGround=true)
+2018/08/22 13:25:31 [INFO] normal COW:EntityVelocityMessage(id=1, velocityX=-535, velocityY=0, velocityZ=1274)
+2018/08/22 13:25:31 [INFO] conit SYNC COW:RelativeEntityPositionMessage(id=1, deltaX=-269, deltaY=0, deltaZ=662, onGround=true)
+2018/08/22 13:25:31 [INFO] normal COW:EntityVelocityMessage(id=1, velocityX=-527, velocityY=0, velocityZ=1294)
+2018/08/22 13:25:31 [INFO] conit ---- COW:RelativeEntityPositionMessage(id=1, deltaX=-265, deltaY=0, deltaZ=672, onGround=true)
+2018/08/22 13:25:31 [INFO] normal COW:EntityVelocityMessage(id=1, velocityX=-517, velocityY=0, velocityZ=1313)
+2018/08/22 13:25:31 [INFO] conit ---- COW:RelativeEntityPositionMessage(id=1, deltaX=-260, deltaY=0, deltaZ=682, onGround=true)
+2018/08/22 13:25:31 [INFO] normal COW:EntityVelocityMessage(id=1, velocityX=-507, velocityY=0, velocityZ=1332)
+2018/08/22 13:25:31 [INFO] conit SYNC COW:RelativeEntityPositionMessage(id=1, deltaX=-254, deltaY=0, deltaZ=691, onGround=true)
+2018/08/22 13:25:31 [INFO] normal COW:EntityVelocityMessage(id=1, velocityX=-497, velocityY=0, velocityZ=1350)
+2018/08/22 13:25:31 [INFO] conit ---- COW:RelativeEntityPositionMessage(id=1, deltaX=-249, deltaY=0, deltaZ=700, onGround=true)
+2018/08/22 13:25:31 [INFO] normal COW:EntityVelocityMessage(id=1, velocityX=-486, velocityY=0, velocityZ=1367)
+2018/08/22 13:25:31 [INFO] conit ---- COW:RelativeEntityPositionMessage(id=1, deltaX=-243, deltaY=0, deltaZ=708, onGround=true)
+2018/08/22 13:25:31 [INFO] normal COW:EntityVelocityMessage(id=1, velocityX=-476, velocityY=0, velocityZ=1384)
+2018/08/22 13:25:31 [INFO] conit SYNC COW:RelativeEntityPositionMessage(id=1, deltaX=-238, deltaY=0, deltaZ=716, onGround=true)
+2018/08/22 13:25:31 [INFO] normal COW:EntityVelocityMessage(id=1, velocityX=-465, velocityY=0, velocityZ=1399)
+2018/08/22 13:25:31 [INFO] conit ---- COW:RelativeEntityPositionMessage(id=1, deltaX=-232, deltaY=0, deltaZ=724, onGround=true)
+2018/08/22 13:25:31 [INFO] normal COW:EntityVelocityMessage(id=1, velocityX=-454, velocityY=0, velocityZ=1415)
+2018/08/22 13:25:31 [INFO] conit ---- COW:RelativeEntityPositionMessage(id=1, deltaX=-227, deltaY=0, deltaZ=731, onGround=true)
+2018/08/22 13:25:31 [INFO] normal COW:EntityVelocityMessage(id=1, velocityX=-444, velocityY=0, velocityZ=1429)
+2018/08/22 13:25:32 [INFO] conit SYNC COW:RelativeEntityPositionMessage(id=1, deltaX=-221, deltaY=0, deltaZ=739, onGround=true)
+2018/08/22 13:25:32 [INFO] normal COW:EntityVelocityMessage(id=1, velocityX=-433, velocityY=0, velocityZ=1443)
+2018/08/22 13:25:32 [INFO] conit ---- COW:RelativeEntityPositionMessage(id=1, deltaX=-216, deltaY=0, deltaZ=746, onGround=true)
+2018/08/22 13:25:32 [INFO] normal COW:EntityVelocityMessage(id=1, velocityX=-422, velocityY=0, velocityZ=1457)
+2018/08/22 13:25:32 [INFO] conit ---- COW:RelativeEntityPositionMessage(id=1, deltaX=-219, deltaY=0, deltaZ=806, onGround=true)
+2018/08/22 13:25:32 [INFO] normal COW:EntityVelocityMessage(id=1, velocityX=-428, velocityY=0, velocityZ=1574)
+2018/08/22 13:25:32 [INFO] normal COW:EntityVelocityMessage(id=1, velocityX=0, velocityY=0, velocityZ=0)
+2018/08/22 13:25:32 [INFO] conit SYNC COW:RelativeEntityPositionMessage(id=1, deltaX=-220, deltaY=0, deltaZ=865, onGround=true)
+2018/08/22 13:25:32 [INFO] normal COW:EntityVelocityMessage(id=1, velocityX=-431, velocityY=0, velocityZ=1690)
+2018/08/22 13:25:32 [INFO] normal COW:EntityVelocityMessage(id=1, velocityX=0, velocityY=0, velocityZ=0)
+2018/08/22 13:25:32 [INFO] conit ---- COW:RelativeEntityPositionMessage(id=1, deltaX=-214, deltaY=0, deltaZ=865, onGround=true)
+2018/08/22 13:25:32 [INFO] normal COW:EntityVelocityMessage(id=1, velocityX=-418, velocityY=0, velocityZ=1689)
+2018/08/22 13:25:32 [INFO] conit ---- COW:RelativeEntityPositionMessage(id=1, deltaX=-207, deltaY=0, deltaZ=864, onGround=true)
+2018/08/22 13:25:32 [INFO] normal COW:EntityVelocityMessage(id=1, velocityX=-405, velocityY=0, velocityZ=1689)
+2018/08/22 13:25:32 [INFO] conit SYNC COW:RelativeEntityPositionMessage(id=1, deltaX=-201, deltaY=0, deltaZ=864, onGround=true)
+2018/08/22 13:25:32 [INFO] normal COW:EntityVelocityMessage(id=1, velocityX=-393, velocityY=0, velocityZ=1688)
+2018/08/22 13:25:32 [INFO] conit ---- COW:RelativeEntityPositionMessage(id=1, deltaX=-195, deltaY=0, deltaZ=864, onGround=true)
+2018/08/22 13:25:32 [INFO] normal COW:EntityVelocityMessage(id=1, velocityX=-381, velocityY=0, velocityZ=1688)
+2018/08/22 13:25:32 [INFO] conit ---- COW:RelativeEntityPositionMessage(id=1, deltaX=-189, deltaY=0, deltaZ=864, onGround=true)
+2018/08/22 13:25:32 [INFO] normal COW:EntityVelocityMessage(id=1, velocityX=-370, velocityY=0, velocityZ=1688)
+2018/08/22 13:25:32 [INFO] conit SYNC COW:RelativeEntityPositionMessage(id=1, deltaX=-190, deltaY=0, deltaZ=922, onGround=true)
+2018/08/22 13:25:32 [INFO] normal COW:EntityVelocityMessage(id=1, velocityX=-372, velocityY=0, velocityZ=1802)
+2018/08/22 13:25:32 [INFO] normal COW:EntityVelocityMessage(id=1, velocityX=0, velocityY=0, velocityZ=0)
+2018/08/22 13:25:32 [INFO] conit ---- COW:RelativeEntityPositionMessage(id=1, deltaX=-191, deltaY=0, deltaZ=978, onGround=true)
+2018/08/22 13:25:32 [INFO] normal COW:EntityVelocityMessage(id=1, velocityX=-373, velocityY=0, velocityZ=1911)
+2018/08/22 13:25:32 [INFO] conit ---- COW:RelativeEntityPositionMessage(id=1, deltaX=-184, deltaY=0, deltaZ=971, onGround=true)
+2018/08/22 13:25:32 [INFO] normal COW:EntityVelocityMessage(id=1, velocityX=-360, velocityY=0, velocityZ=1896)
+2018/08/22 13:25:32 [INFO] conit ---- COW:RelativeEntityPositionMessage(id=1, deltaX=-178, deltaY=0, deltaZ=964, onGround=true)
+2018/08/22 13:25:32 [INFO] normal COW:EntityVelocityMessage(id=1, velocityX=-347, velocityY=0, velocityZ=1883)
+2018/08/22 13:25:32 [INFO] conit ---- COW:RelativeEntityPositionMessage(id=1, deltaX=-172, deltaY=0, deltaZ=957, onGround=true)
+2018/08/22 13:25:32 [INFO] normal COW:EntityVelocityMessage(id=1, velocityX=-336, velocityY=0, velocityZ=1870)
+2018/08/22 13:25:32 [INFO] conit SYNC COW:RelativeEntityPositionMessage(id=1, deltaX=-166, deltaY=0, deltaZ=951, onGround=true)
+2018/08/22 13:25:32 [INFO] normal COW:EntityVelocityMessage(id=1, velocityX=-325, velocityY=0, velocityZ=1859)
+2018/08/22 13:25:32 [INFO] conit ---- COW:RelativeEntityPositionMessage(id=1, deltaX=-160, deltaY=0, deltaZ=946, onGround=true)
+2018/08/22 13:25:32 [INFO] normal COW:EntityVelocityMessage(id=1, velocityX=-314, velocityY=0, velocityZ=1848)
+2018/08/22 13:25:32 [INFO] conit ---- COW:RelativeEntityPositionMessage(id=1, deltaX=-155, deltaY=0, deltaZ=941, onGround=true)
+2018/08/22 13:25:32 [INFO] normal COW:EntityVelocityMessage(id=1, velocityX=-304, velocityY=0, velocityZ=1838)
+2018/08/22 13:25:33 [INFO] conit SYNC COW:RelativeEntityPositionMessage(id=1, deltaX=-150, deltaY=0, deltaZ=936, onGround=true)
+2018/08/22 13:25:33 [INFO] normal COW:EntityVelocityMessage(id=1, velocityX=-294, velocityY=0, velocityZ=1829)
+2018/08/22 13:25:33 [INFO] conit ---- COW:RelativeEntityPositionMessage(id=1, deltaX=-143, deltaY=0, deltaZ=905, onGround=true)
+2018/08/22 13:25:33 [INFO] normal COW:EntityVelocityMessage(id=1, velocityX=-280, velocityY=0, velocityZ=1769)
+2018/08/22 13:25:33 [INFO] conit ---- COW:RelativeEntityPositionMessage(id=1, deltaX=-135, deltaY=0, deltaZ=863, onGround=true)
+2018/08/22 13:25:33 [INFO] normal COW:EntityVelocityMessage(id=1, velocityX=-264, velocityY=0, velocityZ=1685)
+2018/08/22 13:25:33 [INFO] conit SYNC COW:RelativeEntityPositionMessage(id=1, deltaX=-127, deltaY=0, deltaZ=816, onGround=true)
+2018/08/22 13:25:33 [INFO] normal COW:EntityVelocityMessage(id=1, velocityX=-249, velocityY=0, velocityZ=1595)
+2018/08/22 13:25:33 [INFO] normal COW:EntityVelocityMessage(id=1, velocityX=0, velocityY=0, velocityZ=0)
+2018/08/22 13:25:33 [INFO] normal COW:EntityVelocityMessage(id=1, velocityX=0, velocityY=0, velocityZ=0)
+2018/08/22 13:25:33 [INFO] conit ---- COW:RelativeEntityPositionMessage(id=1, deltaX=-120, deltaY=0, deltaZ=774, onGround=true)
+2018/08/22 13:25:33 [INFO] normal COW:EntityVelocityMessage(id=1, velocityX=-234, velocityY=0, velocityZ=1512)
+2018/08/22 13:25:33 [INFO] normal COW:EntityVelocityMessage(id=1, velocityX=0, velocityY=0, velocityZ=0)
+2018/08/22 13:25:33 [INFO] normal COW:EntityVelocityMessage(id=1, velocityX=0, velocityY=0, velocityZ=0)
+2018/08/22 13:25:33 [INFO] normal COW:EntityVelocityMessage(id=1, velocityX=0, velocityY=0, velocityZ=0)
+2018/08/22 13:25:33 [INFO] normal COW:EntityVelocityMessage(id=1, velocityX=0, velocityY=0, velocityZ=0)
+2018/08/22 13:25:33 [INFO] normal COW:EntityVelocityMessage(id=1, velocityX=0, velocityY=0, velocityZ=0)
+2018/08/22 13:25:33 [INFO] normal COW:EntityVelocityMessage(id=1, velocityX=0, velocityY=0, velocityZ=0)
+2018/08/22 13:25:33 [INFO] normal COW:EntityVelocityMessage(id=1, velocityX=0, velocityY=0, velocityZ=0)
+2018/08/22 13:25:33 [INFO] conit ---- COW:RelativeEntityPositionMessage(id=1, deltaX=-108, deltaY=0, deltaZ=704, onGround=true)
+2018/08/22 13:25:33 [INFO] normal COW:EntityVelocityMessage(id=1, velocityX=-211, velocityY=0, velocityZ=1376)
+2018/08/22 13:25:33 [INFO] conit ---- COW:RelativeEntityPositionMessage(id=1, deltaX=-95, deltaY=0, deltaZ=629, onGround=true)
+2018/08/22 13:25:33 [INFO] normal COW:EntityVelocityMessage(id=1, velocityX=-186, velocityY=0, velocityZ=1229)
+2018/08/22 13:25:33 [INFO] conit ---- COW:RelativeEntityPositionMessage(id=1, deltaX=-82, deltaY=0, deltaZ=556, onGround=true)
+2018/08/22 13:25:33 [INFO] normal COW:EntityVelocityMessage(id=1, velocityX=-162, velocityY=0, velocityZ=1086)
+2018/08/22 13:25:33 [INFO] conit ---- COW:RelativeEntityPositionMessage(id=1, deltaX=-71, deltaY=0, deltaZ=487, onGround=true)
+2018/08/22 13:25:33 [INFO] normal COW:EntityVelocityMessage(id=1, velocityX=-139, velocityY=0, velocityZ=952)
+2018/08/22 13:25:33 [INFO] conit ---- COW:RelativeEntityPositionMessage(id=1, deltaX=-60, deltaY=0, deltaZ=425, onGround=true)
+2018/08/22 13:25:33 [INFO] normal COW:EntityVelocityMessage(id=1, velocityX=-118, velocityY=0, velocityZ=831)
+2018/08/22 13:25:33 [INFO] conit SYNC COW:RelativeEntityPositionMessage(id=1, deltaX=-51, deltaY=0, deltaZ=369, onGround=true)
+2018/08/22 13:25:33 [INFO] normal COW:EntityVelocityMessage(id=1, velocityX=-100, velocityY=0, velocityZ=721)
+2018/08/22 13:25:34 [INFO] conit ---- COW:RelativeEntityPositionMessage(id=1, deltaX=-42, deltaY=0, deltaZ=318, onGround=true)
+2018/08/22 13:25:34 [INFO] normal COW:EntityVelocityMessage(id=1, velocityX=-83, velocityY=0, velocityZ=622)
+2018/08/22 13:25:34 [INFO] conit ---- COW:RelativeEntityPositionMessage(id=1, deltaX=-35, deltaY=0, deltaZ=273, onGround=true)
+2018/08/22 13:25:34 [INFO] normal COW:EntityVelocityMessage(id=1, velocityX=-69, velocityY=0, velocityZ=534)
+2018/08/22 13:25:34 [INFO] conit ---- COW:RelativeEntityPositionMessage(id=1, deltaX=-29, deltaY=0, deltaZ=233, onGround=true)
+2018/08/22 13:25:34 [INFO] normal COW:EntityVelocityMessage(id=1, velocityX=-56, velocityY=0, velocityZ=456)
+2018/08/22 13:25:34 [INFO] conit ---- COW:RelativeEntityPositionMessage(id=1, deltaX=-23, deltaY=0, deltaZ=197, onGround=true)
+2018/08/22 13:25:34 [INFO] normal COW:EntityVelocityMessage(id=1, velocityX=-45, velocityY=0, velocityZ=386)
+2018/08/22 13:25:34 [INFO] normal COW:EntityVelocityMessage(id=1, velocityX=0, velocityY=0, velocityZ=0)
+2018/08/22 13:25:34 [INFO] normal COW:AttachEntityMessage(attached=1, holding=-1)
+2018/08/22 13:25:34 [INFO] conit ---- COW:EntityHeadRotationMessage(id=1, rotation=55)
+2018/08/22 13:26:01 [INFO] conit SYNC COW:EntityHeadRotationMessage(id=1, rotation=95)
+2018/08/22 13:26:18 [INFO] The server is shutting down...
+2018/08/22 13:26:18 [INFO] Sirkib kicked: Server shutting down.
+2018/08/22 13:26:20 [INFO] Saving world: world
+2018/08/22 13:26:21 [INFO] Saving world: world_nether
+2018/08/22 13:26:22 [INFO] Saving world: world_the_end
+2018/08/22 14:14:22 [WARNING] The server is running in offline mode! Only do this if you know what you''re doing.
+2018/08/22 14:14:23 [INFO] Scanning plugins...
+2018/08/22 14:14:23 [INFO] Preparing spawn for world...
+2018/08/22 14:14:23 [INFO] Preparing spawn for world: done
+2018/08/22 14:14:23 [INFO] Preparing spawn for world_nether...
+2018/08/22 14:14:24 [INFO] Preparing spawn for world_nether: done
+2018/08/22 14:14:24 [INFO] Preparing spawn for world_the_end...
+2018/08/22 14:14:24 [INFO] Preparing spawn for world_the_end: done
+2018/08/22 14:14:25 [INFO] Binding server to 0.0.0.0:25565...
+2018/08/22 14:14:25 [INFO] Successfully bound server to 0.0.0.0:25565.
+2018/08/22 14:14:25 [INFO] Ready for connections.
+2018/08/22 14:14:34 [INFO] Sirkib [/127.0.0.1:64477] connected, UUID: a9890d5f-0625-3d50-82ab-336ea436ba53
+2018/08/22 14:14:34 [INFO] §eSirkib joined the game
+2018/08/22 14:14:34 [INFO] normal COW:EntityPropertyMessage(id=1, properties={generic.maxHealth=net.glowstone.entity.AttributeManager$Property@5681da44})
+2018/08/22 14:14:45 [INFO] Sirkib issued command: /time set 0
+2018/08/22 14:14:47 [INFO] conit SYNC COW:EntityHeadRotationMessage(id=1, rotation=34)
+2018/08/22 14:14:51 [INFO] conit ---- COW:EntityHeadRotationMessage(id=1, rotation=26)
+2018/08/22 14:14:54 [INFO] conit ---- COW:EntityTeleportMessage(id=1, x=119.91722006403985, y=4.0, z=172.80305737380718, rotation=0, pitch=0, onGround=true)
+2018/08/22 14:15:02 [INFO] conit ---- COW:EntityHeadRotationMessage(id=1, rotation=-19)
+2018/08/22 14:15:24 [INFO] conit SYNC COW:EntityTeleportMessage(id=1, x=119.91722006403985, y=4.0, z=172.80305737380718, rotation=0, pitch=0, onGround=true)
+2018/08/22 14:15:51 [INFO] conit SYNC COW:EntityHeadRotationMessage(id=1, rotation=-67)
+2018/08/22 14:15:54 [INFO] conit ---- COW:EntityTeleportMessage(id=1, x=119.91722006403985, y=4.0, z=172.80305737380718, rotation=0, pitch=0, onGround=true)
+2018/08/22 14:16:04 [INFO] conit ---- COW:EntityHeadRotationMessage(id=1, rotation=-51)
+2018/08/22 14:16:11 [INFO] conit ---- COW:EntityHeadRotationMessage(id=1, rotation=-19)
+2018/08/22 14:16:24 [INFO] conit ---- COW:EntityTeleportMessage(id=1, x=119.91722006403985, y=4.0, z=172.80305737380718, rotation=0, pitch=0, onGround=true)
+2018/08/22 14:16:43 [INFO] conit SYNC COW:EntityHeadRotationMessage(id=1, rotation=-42)
+2018/08/22 14:16:47 [INFO] conit ---- COW:EntityHeadRotationMessage(id=1, rotation=11)
+2018/08/22 14:16:54 [INFO] conit ---- COW:EntityTeleportMessage(id=1, x=119.91722006403985, y=4.0, z=172.80305737380718, rotation=0, pitch=0, onGround=true)
+2018/08/22 14:17:01 [INFO] conit ---- COW:EntityHeadRotationMessage(id=1, rotation=37)
+2018/08/22 14:17:10 [INFO] conit ---- COW:EntityHeadRotationMessage(id=1, rotation=31)
+2018/08/22 14:17:24 [INFO] conit ---- COW:EntityTeleportMessage(id=1, x=119.91722006403985, y=4.0, z=172.80305737380718, rotation=0, pitch=0, onGround=true)
+2018/08/22 14:17:54 [INFO] conit SYNC COW:EntityTeleportMessage(id=1, x=119.91722006403985, y=4.0, z=172.80305737380718, rotation=0, pitch=0, onGround=true)
+2018/08/22 14:17:59 [INFO] conit ---- COW:EntityHeadRotationMessage(id=1, rotation=15)
+2018/08/22 14:18:10 [INFO] conit ---- COW:EntityHeadRotationMessage(id=1, rotation=52)
+2018/08/22 14:18:24 [INFO] conit ---- COW:EntityTeleportMessage(id=1, x=119.91722006403985, y=4.0, z=172.80305737380718, rotation=0, pitch=0, onGround=true)
+2018/08/22 14:18:54 [INFO] conit SYNC COW:EntityTeleportMessage(id=1, x=119.91722006403985, y=4.0, z=172.80305737380718, rotation=0, pitch=0, onGround=true)
+2018/08/22 14:19:02 [INFO] conit ---- COW:EntityHeadRotationMessage(id=1, rotation=1)
+2018/08/22 14:19:24 [INFO] conit SYNC COW:EntityTeleportMessage(id=1, x=119.91722006403985, y=4.0, z=172.80305737380718, rotation=0, pitch=0, onGround=true)
+2018/08/22 14:19:54 [INFO] conit SYNC COW:EntityTeleportMessage(id=1, x=119.91722006403985, y=4.0, z=172.80305737380718, rotation=0, pitch=0, onGround=true)
+2018/08/22 14:20:16 [INFO] conit SYNC COW:EntityHeadRotationMessage(id=1, rotation=43)
+2018/08/22 14:20:24 [INFO] conit ---- COW:EntityTeleportMessage(id=1, x=119.91722006403985, y=4.0, z=172.80305737380718, rotation=0, pitch=0, onGround=true)
+2018/08/22 14:20:34 [INFO] conit ---- COW:EntityHeadRotationMessage(id=1, rotation=10)
+2018/08/22 14:20:54 [INFO] conit ---- COW:EntityTeleportMessage(id=1, x=119.91722006403985, y=4.0, z=172.80305737380718, rotation=0, pitch=0, onGround=true)
+2018/08/22 14:21:11 [INFO] conit SYNC COW:EntityHeadRotationMessage(id=1, rotation=8)
+2018/08/22 14:21:24 [INFO] conit ---- COW:EntityTeleportMessage(id=1, x=119.91722006403985, y=4.0, z=172.80305737380718, rotation=0, pitch=0, onGround=true)
+2018/08/22 14:21:54 [INFO] conit SYNC COW:EntityTeleportMessage(id=1, x=119.91722006403985, y=4.0, z=172.80305737380718, rotation=0, pitch=0, onGround=true)
+2018/08/22 14:22:02 [INFO] conit ---- COW:EntityHeadRotationMessage(id=1, rotation=20)
+2018/08/22 14:22:09 [INFO] conit ---- COW:EntityHeadRotationMessage(id=1, rotation=14)
+2018/08/22 14:22:24 [INFO] conit ---- COW:EntityTeleportMessage(id=1, x=119.91722006403985, y=4.0, z=172.80305737380718, rotation=0, pitch=0, onGround=true)
+2018/08/22 14:22:28 [INFO] conit ---- COW:EntityHeadRotationMessage(id=1, rotation=10)
+2018/08/22 14:22:54 [INFO] conit SYNC COW:EntityTeleportMessage(id=1, x=119.91722006403985, y=4.0, z=172.80305737380718, rotation=0, pitch=0, onGround=true)
+2018/08/22 14:22:56 [INFO] The server is shutting down...
+2018/08/22 14:22:56 [INFO] Sirkib kicked: Server shutting down.
+2018/08/22 14:22:58 [INFO] Saving world: world
+2018/08/22 14:22:58 [INFO] Saving world: world_nether
+2018/08/22 14:22:59 [INFO] Saving world: world_the_end
+2018/08/22 17:53:54 [WARNING] The server is running in offline mode! Only do this if you know what you''re doing.
+2018/08/22 17:53:54 [INFO] Scanning plugins...
+2018/08/22 17:53:54 [INFO] Preparing spawn for world...
+2018/08/22 17:53:55 [INFO] Preparing spawn for world: done
+2018/08/22 17:53:55 [INFO] Preparing spawn for world_nether...
+2018/08/22 17:53:56 [INFO] Preparing spawn for world_nether: done
+2018/08/22 17:53:56 [INFO] Preparing spawn for world_the_end...
+2018/08/22 17:53:56 [INFO] Preparing spawn for world_the_end: done
+2018/08/22 17:53:56 [INFO] Binding server to 0.0.0.0:25565...
+2018/08/22 17:53:56 [INFO] Successfully bound server to 0.0.0.0:25565.
+2018/08/22 17:53:56 [INFO] Ready for connections.
+2018/08/22 17:54:00 [INFO] Sirkib [/127.0.0.1:64954] connected, UUID: a9890d5f-0625-3d50-82ab-336ea436ba53
+2018/08/22 17:54:00 [INFO] §eSirkib joined the game
+2018/08/22 17:54:00 [INFO] normal COW:EntityPropertyMessage(id=1, properties={generic.maxHealth=net.glowstone.entity.AttributeManager$Property@54cdce21})
+2018/08/22 17:54:06 [INFO] conit SYNC COW:EntityHeadRotationMessage(id=1, rotation=89)
+2018/08/22 17:54:26 [INFO] conit SYNC COW:EntityTeleportMessage(id=1, x=119.91722006403985, y=4.0, z=172.80305737380718, rotation=0, pitch=0, onGround=true)
+2018/08/22 17:54:29 [INFO] normal CHICKEN:EntityPropertyMessage(id=42, properties={generic.maxHealth=net.glowstone.entity.AttributeManager$Property@7ece6ddd})
+2018/08/22 17:54:31 [INFO] conit SYNC CHICKEN:EntityHeadRotationMessage(id=42, rotation=-58)
+2018/08/22 17:54:32 [INFO] conit ---- CHICKEN:EntityHeadRotationMessage(id=42, rotation=-27)
+2018/08/22 17:54:39 [INFO] conit ---- CHICKEN:EntityHeadRotationMessage(id=42, rotation=-67)
+2018/08/22 17:54:56 [INFO] conit SYNC COW:EntityTeleportMessage(id=1, x=119.91722006403985, y=4.0, z=172.80305737380718, rotation=0, pitch=0, onGround=true)
+2018/08/22 17:54:59 [INFO] conit ---- CHICKEN:EntityTeleportMessage(id=42, x=122.5, y=4.0, z=176.5, rotation=0, pitch=0, onGround=true)
+2018/08/22 17:55:01 [INFO] conit ---- COW:EntityHeadRotationMessage(id=1, rotation=65)
+2018/08/22 17:55:06 [INFO] conit ---- CHICKEN:EntityHeadRotationMessage(id=42, rotation=-53)
+2018/08/22 17:55:26 [INFO] conit SYNC COW:EntityTeleportMessage(id=1, x=119.91722006403985, y=4.0, z=172.80305737380718, rotation=0, pitch=0, onGround=true)
+2018/08/22 17:55:27 [INFO] conit ---- COW:EntityHeadRotationMessage(id=1, rotation=115)
+2018/08/22 17:55:29 [INFO] conit ---- CHICKEN:EntityTeleportMessage(id=42, x=122.5, y=4.0, z=176.5, rotation=0, pitch=0, onGround=true)
+2018/08/22 17:55:31 [INFO] conit ---- COW:EntityHeadRotationMessage(id=1, rotation=52)
+2018/08/22 18:15:42 [WARNING] The server is running in offline mode! Only do this if you know what you''re doing.
+2018/08/22 18:15:42 [INFO] Scanning plugins...
+2018/08/22 18:15:42 [INFO] Preparing spawn for world...
+2018/08/22 18:15:43 [INFO] Preparing spawn for world: done
+2018/08/22 18:15:43 [INFO] Preparing spawn for world_nether...
+2018/08/22 18:15:44 [INFO] Preparing spawn for world_nether: done
+2018/08/22 18:15:44 [INFO] Preparing spawn for world_the_end...
+2018/08/22 18:15:44 [INFO] Preparing spawn for world_the_end: done
+2018/08/22 18:15:44 [INFO] Binding server to 0.0.0.0:25565...
+2018/08/22 18:15:44 [INFO] Successfully bound server to 0.0.0.0:25565.
+2018/08/22 18:15:44 [INFO] Ready for connections.
+2018/08/22 18:15:48 [INFO] Sirkib [/127.0.0.1:65094] connected, UUID: a9890d5f-0625-3d50-82ab-336ea436ba53
+2018/08/22 18:15:48 [INFO] §eSirkib joined the game
+2018/08/22 18:15:48 [INFO] normal COW:EntityPropertyMessage(id=1, properties={generic.maxHealth=net.glowstone.entity.AttributeManager$Property@33bdaa3e})
+2018/08/22 18:15:56 [INFO] conit SYNC COW:EntityHeadRotationMessage(id=1, rotation=-72)
+2018/08/22 18:16:13 [INFO] conit ---- COW:EntityHeadRotationMessage(id=1, rotation=-70)
+2018/08/22 18:16:13 [INFO] The server is shutting down...
+2018/08/22 18:16:13 [INFO] Sirkib kicked: Server shutting down.
+2018/08/22 18:16:15 [INFO] Saving world: world
+2018/08/22 18:16:16 [INFO] Saving world: world_nether
+2018/08/22 18:16:18 [INFO] Saving world: world_the_end
+2018/08/22 18:18:19 [WARNING] The server is running in offline mode! Only do this if you know what you''re doing.
+2018/08/22 18:18:20 [INFO] Scanning plugins...
+2018/08/22 18:18:20 [INFO] Preparing spawn for world...
+2018/08/22 18:18:21 [INFO] Preparing spawn for world: done
+2018/08/22 18:18:21 [INFO] Preparing spawn for world_nether...
+2018/08/22 18:18:21 [INFO] Preparing spawn for world_nether: done
+2018/08/22 18:18:21 [INFO] Preparing spawn for world_the_end...
+2018/08/22 18:18:22 [INFO] Preparing spawn for world_the_end: done
+2018/08/22 18:18:22 [INFO] Binding server to 0.0.0.0:25565...
+2018/08/22 18:18:22 [INFO] Successfully bound server to 0.0.0.0:25565.
+2018/08/22 18:18:22 [INFO] Ready for connections.
+2018/08/22 18:18:24 [INFO] Sirkib [/127.0.0.1:65132] connected, UUID: a9890d5f-0625-3d50-82ab-336ea436ba53
+2018/08/22 18:18:24 [INFO] §eSirkib joined the game
+2018/08/22 18:18:24 [INFO] normal COW:EntityPropertyMessage(id=1, properties={generic.maxHealth=net.glowstone.entity.AttributeManager$Property@6af9e91f})
+2018/08/22 18:18:24 [INFO] conit SYNC COW:EntityHeadRotationMessage(id=1, rotation=65)
+2018/08/22 18:18:25 [INFO] conit ---- COW:EntityHeadRotationMessage(id=1, rotation=48)
+2018/08/22 18:18:35 [INFO] conit ---- COW:EntityHeadRotationMessage(id=1, rotation=32)

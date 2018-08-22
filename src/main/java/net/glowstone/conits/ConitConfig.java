@@ -43,7 +43,10 @@ public final class ConitConfig {
     private final int ticksPerConitClear;
 
     @Getter
-    private final int ticksPerStaleness;
+    private final int stalenessPeriodMillis;
+
+    @Getter
+    private final double outOfSightWeightMultiplier;
 
     @Getter
     private final BiFunction<GlowEntity,GlowEntity,Float> boundFunction;
@@ -70,7 +73,8 @@ public final class ConitConfig {
         this.ticksPerConitClear = (int) config.getInt("ticks-per-conit-clear", 200);
 
         this.ticksPerBoundRecompute = (int) config.getInt("bounds.ticks-per-recompute", 60);
-        this.ticksPerStaleness = (int) config.getInt("ticks-per-staleness", 20);
+        this.stalenessPeriodMillis = (int) config.getInt("staleness-period-millis", 3000);
+        this.outOfSightWeightMultiplier = (double) config.getDouble("out-of-sight-weight-multiplier", 0.5);
 
         this.weigh = defineWeighFunction(config);
         this.entityPredicate = defineEntityPredicate(config);

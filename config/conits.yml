@@ -36,7 +36,10 @@ message-type-scale:
   rotation: 2.0
     
 # defines the tick-period for staleness increments. Increase to update more rarely
-ticks-per-staleness: 10
+staleness-period-millis: 3000 
+
+# when entities are out of sight of the player, message weights are multiplied by this value (suggest 0.5)
+out-of-sight-weight-multiplier: 0.2
 
 # defines d, where current distance is x and next distance is x+d
 # d = mx + c
