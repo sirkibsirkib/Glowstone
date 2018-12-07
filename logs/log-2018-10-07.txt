@@ -1,0 +1,151 @@
+2018/10/07 10:44:21 [WARNING] The server is running in offline mode! Only do this if you know what you''re doing.
+2018/10/07 10:44:21 [INFO] Scanning plugins...
+2018/10/07 10:44:21 [INFO] Preparing spawn for world...
+2018/10/07 10:44:22 [INFO] Preparing spawn for world: done
+2018/10/07 10:44:22 [INFO] Preparing spawn for world_nether...
+2018/10/07 10:44:43 [WARNING] The server is running in offline mode! Only do this if you know what you''re doing.
+2018/10/07 10:44:43 [INFO] Scanning plugins...
+2018/10/07 10:44:43 [INFO] Preparing spawn for world...
+2018/10/07 10:44:44 [INFO] Preparing spawn for world: done
+2018/10/07 10:44:44 [INFO] Preparing spawn for world_nether...
+2018/10/07 10:44:45 [INFO] Preparing spawn for world_nether: done
+2018/10/07 10:44:45 [INFO] Preparing spawn for world_the_end...
+2018/10/07 10:44:45 [INFO] Preparing spawn for world_the_end: done
+2018/10/07 10:44:45 [INFO] Binding server to 0.0.0.0:25565...
+2018/10/07 10:44:46 [INFO] Successfully bound server to 0.0.0.0:25565.
+2018/10/07 10:44:46 [INFO] Ready for connections.
+2018/10/07 10:44:59 [WARNING] The server is running in offline mode! Only do this if you know what you''re doing.
+2018/10/07 10:44:59 [INFO] Scanning plugins...
+2018/10/07 10:44:59 [INFO] Preparing spawn for world...
+2018/10/07 10:45:00 [INFO] Preparing spawn for world: done
+2018/10/07 10:45:00 [INFO] Preparing spawn for world_nether...
+2018/10/07 10:45:00 [INFO] Preparing spawn for world_nether: done
+2018/10/07 10:45:00 [INFO] Preparing spawn for world_the_end...
+2018/10/07 10:45:00 [INFO] Preparing spawn for world_the_end: done
+2018/10/07 10:45:01 [INFO] Binding server to 0.0.0.0:25565...
+2018/10/07 10:45:01 [INFO] Successfully bound server to 0.0.0.0:25565.
+2018/10/07 10:45:01 [INFO] Ready for connections.
+2018/10/07 10:45:03 [INFO] §7Unknown command "exit", try "help"
+2018/10/07 10:45:11 [INFO] §7Unknown command "exit", try "help"
+2018/10/07 10:45:17 [INFO] §7Unknown command "shutdown", try "help"
+2018/10/07 10:45:20 [INFO] §e--------- §fHelp: Index §e---------------------------
+2018/10/07 10:45:20 [INFO] §7Use /help [n] to get page n of help.
+2018/10/07 10:45:20 [INFO] §6Aliases: §fLists command aliases
+2018/10/07 10:45:20 [INFO] §6Bukkit: §fAll commands for Bukkit
+2018/10/07 10:45:20 [INFO] §6/ban: §fBans a player from the server.
+2018/10/07 10:45:20 [INFO] §6/ban-ip: §fBans an IP address from the server.
+2018/10/07 10:45:20 [INFO] §6/banlist: §fDisplays the server's blacklist.
+2018/10/07 10:45:20 [INFO] §6/clear: §fClears the content of a player's inventory.
+2018/10/07 10:45:20 [INFO] §6/clone: §fClones a section of the world.
+2018/10/07 10:45:20 [INFO] §6/colors: §fDisplay all colors.
+2018/10/07 10:45:20 [INFO] §6/defaultgamemode: §fSets the default game mode (creative, survival, etc.) for new players entering a multiplayer server.
+2018/10/07 10:45:20 [INFO] §6/deop: §fRemoves server operator status from a player.
+2018/10/07 10:45:20 [INFO] §6/difficulty: §fSets the difficulty level.
+2018/10/07 10:45:20 [INFO] §6/effect: §fGives a player an effect
+2018/10/07 10:45:20 [INFO] §6/enchant: §fAdds an enchantment to the currently by a player held item
+2018/10/07 10:45:20 [INFO] §6/function: §fExecute a function
+2018/10/07 10:45:20 [INFO] §6/gamemode: §fChange the game mode of a player.
+2018/10/07 10:45:20 [INFO] §6/gamerule: §fChanges the rules of the server.
+2018/10/07 10:45:20 [INFO] §6/give: §fGives an item to a player.
+2018/10/07 10:45:20 [INFO] §6/glowstone: §fA handful of Glowstone commands for debugging purposes
+2018/10/07 10:45:20 [INFO] §6/help: §fShows the help menu
+2018/10/07 10:45:20 [INFO] §6/kick: §fRemoves a player from the server.
+2018/10/07 10:45:20 [INFO] §6/kill: §fDestroy entities.
+2018/10/07 10:45:20 [INFO] §6/list: §fLists players on the server.
+2018/10/07 10:45:20 [INFO] §6/me: §fDisplays a message about yourself.
+2018/10/07 10:45:20 [INFO] §6/op: §fTurns a player into a server operator.
+2018/10/07 10:45:20 [INFO] §6/pardon: §fUnbans a player from the server.
+2018/10/07 10:45:20 [INFO] §6/pardon-ip: §fUnbans an IP address from the server.
+2018/10/07 10:45:20 [INFO] §6/playsound: §fPlays a sound.
+2018/10/07 10:45:20 [INFO] §6/plugins: §fGets a list of plugins running on the server
+2018/10/07 10:45:20 [INFO] §6/reload: §fReloads the server configuration and plugins
+2018/10/07 10:45:20 [INFO] §6/save-all: §fSaves the server to disk.
+2018/10/07 10:45:20 [INFO] §6/save-off: §fDisables automatic sever saves.
+2018/10/07 10:45:20 [INFO] §6/save-on: §fEnables automatic server saves.
+2018/10/07 10:45:20 [INFO] §6/say: §fSay a message.
+2018/10/07 10:45:20 [INFO] §6/seed: §fDisplays the world seed.
+2018/10/07 10:45:20 [INFO] §6/setblock: §fChanges a block to another block.
+2018/10/07 10:45:20 [INFO] §6/setidletimeout: §fSets the time before idle players are kicked from the server.
+2018/10/07 10:45:20 [INFO] §6/setworldspawn: §fSets the world spawn.
+2018/10/07 10:45:20 [INFO] §6/spawnpoint: §fSets the spawn point for a player.
+2018/10/07 10:45:20 [INFO] §6/stop: §fGracefully stops the server.
+2018/10/07 10:45:20 [INFO] §6/summon: §fSummons an entity.
+2018/10/07 10:45:20 [INFO] §6/teleport: §fTeleports entities to coordinates relative to the sender
+2018/10/07 10:45:20 [INFO] §6/tell: §fSend a private message.
+2018/10/07 10:45:20 [INFO] §6/tellraw: §fSend a private JSON message to the given player
+2018/10/07 10:45:20 [INFO] §6/testfor: §fTests for a certain target in game
+2018/10/07 10:45:20 [INFO] §6/testforblock: §fTests for a certain block at a given location
+2018/10/07 10:45:20 [INFO] §6/testforblocks: §fTests whether the blocks in two regions match.
+2018/10/07 10:45:20 [INFO] §6/time: §fChanges the time of the world.
+2018/10/07 10:45:20 [INFO] §6/timings: §fManages Spigot Timings data to see performance of the server.
+2018/10/07 10:45:20 [INFO] §6/title: §fSends a title to the specified player(s)
+2018/10/07 10:45:20 [INFO] §6/toggledownfall: §fToggles the weather.
+2018/10/07 10:45:20 [INFO] §6/tp: §fTeleports an entity to another entity or to specific coordinates.
+2018/10/07 10:45:20 [INFO] §6/version: §fGets the version of this server including any plugins in use
+2018/10/07 10:45:20 [INFO] §6/weather: §fChanges the weather in the world.
+2018/10/07 10:45:20 [INFO] §6/whitelist: §fManage the server whitelist.
+2018/10/07 10:45:20 [INFO] §6/worldborder: §f
+2018/10/07 10:45:20 [INFO] §6/xp: §fAdds experience to a player.
+2018/10/07 10:45:29 [INFO] §e--------- §fHelp: Index §e---------------------------
+2018/10/07 10:45:29 [INFO] §7Use /help [n] to get page n of help.
+2018/10/07 10:45:29 [INFO] §6Aliases: §fLists command aliases
+2018/10/07 10:45:29 [INFO] §6Bukkit: §fAll commands for Bukkit
+2018/10/07 10:45:29 [INFO] §6/ban: §fBans a player from the server.
+2018/10/07 10:45:29 [INFO] §6/ban-ip: §fBans an IP address from the server.
+2018/10/07 10:45:29 [INFO] §6/banlist: §fDisplays the server's blacklist.
+2018/10/07 10:45:29 [INFO] §6/clear: §fClears the content of a player's inventory.
+2018/10/07 10:45:29 [INFO] §6/clone: §fClones a section of the world.
+2018/10/07 10:45:29 [INFO] §6/colors: §fDisplay all colors.
+2018/10/07 10:45:29 [INFO] §6/defaultgamemode: §fSets the default game mode (creative, survival, etc.) for new players entering a multiplayer server.
+2018/10/07 10:45:29 [INFO] §6/deop: §fRemoves server operator status from a player.
+2018/10/07 10:45:29 [INFO] §6/difficulty: §fSets the difficulty level.
+2018/10/07 10:45:29 [INFO] §6/effect: §fGives a player an effect
+2018/10/07 10:45:29 [INFO] §6/enchant: §fAdds an enchantment to the currently by a player held item
+2018/10/07 10:45:29 [INFO] §6/function: §fExecute a function
+2018/10/07 10:45:29 [INFO] §6/gamemode: §fChange the game mode of a player.
+2018/10/07 10:45:29 [INFO] §6/gamerule: §fChanges the rules of the server.
+2018/10/07 10:45:29 [INFO] §6/give: §fGives an item to a player.
+2018/10/07 10:45:29 [INFO] §6/glowstone: §fA handful of Glowstone commands for debugging purposes
+2018/10/07 10:45:29 [INFO] §6/help: §fShows the help menu
+2018/10/07 10:45:29 [INFO] §6/kick: §fRemoves a player from the server.
+2018/10/07 10:45:29 [INFO] §6/kill: §fDestroy entities.
+2018/10/07 10:45:29 [INFO] §6/list: §fLists players on the server.
+2018/10/07 10:45:29 [INFO] §6/me: §fDisplays a message about yourself.
+2018/10/07 10:45:29 [INFO] §6/op: §fTurns a player into a server operator.
+2018/10/07 10:45:29 [INFO] §6/pardon: §fUnbans a player from the server.
+2018/10/07 10:45:29 [INFO] §6/pardon-ip: §fUnbans an IP address from the server.
+2018/10/07 10:45:29 [INFO] §6/playsound: §fPlays a sound.
+2018/10/07 10:45:29 [INFO] §6/plugins: §fGets a list of plugins running on the server
+2018/10/07 10:45:29 [INFO] §6/reload: §fReloads the server configuration and plugins
+2018/10/07 10:45:29 [INFO] §6/save-all: §fSaves the server to disk.
+2018/10/07 10:45:29 [INFO] §6/save-off: §fDisables automatic sever saves.
+2018/10/07 10:45:29 [INFO] §6/save-on: §fEnables automatic server saves.
+2018/10/07 10:45:29 [INFO] §6/say: §fSay a message.
+2018/10/07 10:45:29 [INFO] §6/seed: §fDisplays the world seed.
+2018/10/07 10:45:29 [INFO] §6/setblock: §fChanges a block to another block.
+2018/10/07 10:45:29 [INFO] §6/setidletimeout: §fSets the time before idle players are kicked from the server.
+2018/10/07 10:45:29 [INFO] §6/setworldspawn: §fSets the world spawn.
+2018/10/07 10:45:29 [INFO] §6/spawnpoint: §fSets the spawn point for a player.
+2018/10/07 10:45:29 [INFO] §6/stop: §fGracefully stops the server.
+2018/10/07 10:45:29 [INFO] §6/summon: §fSummons an entity.
+2018/10/07 10:45:29 [INFO] §6/teleport: §fTeleports entities to coordinates relative to the sender
+2018/10/07 10:45:29 [INFO] §6/tell: §fSend a private message.
+2018/10/07 10:45:29 [INFO] §6/tellraw: §fSend a private JSON message to the given player
+2018/10/07 10:45:29 [INFO] §6/testfor: §fTests for a certain target in game
+2018/10/07 10:45:29 [INFO] §6/testforblock: §fTests for a certain block at a given location
+2018/10/07 10:45:29 [INFO] §6/testforblocks: §fTests whether the blocks in two regions match.
+2018/10/07 10:45:29 [INFO] §6/time: §fChanges the time of the world.
+2018/10/07 10:45:29 [INFO] §6/timings: §fManages Spigot Timings data to see performance of the server.
+2018/10/07 10:45:29 [INFO] §6/title: §fSends a title to the specified player(s)
+2018/10/07 10:45:29 [INFO] §6/toggledownfall: §fToggles the weather.
+2018/10/07 10:45:29 [INFO] §6/tp: §fTeleports an entity to another entity or to specific coordinates.
+2018/10/07 10:45:29 [INFO] §6/version: §fGets the version of this server including any plugins in use
+2018/10/07 10:45:29 [INFO] §6/weather: §fChanges the weather in the world.
+2018/10/07 10:45:29 [INFO] §6/whitelist: §fManage the server whitelist.
+2018/10/07 10:45:29 [INFO] §6/worldborder: §f
+2018/10/07 10:45:29 [INFO] §6/xp: §fAdds experience to a player.
+2018/10/07 10:45:45 [INFO] §7Unknown command "q", try "help"
+2018/10/07 10:45:49 [INFO] The server is shutting down...
+2018/10/07 10:45:51 [INFO] Saving world: world
+2018/10/07 10:45:51 [INFO] Saving world: world_nether
+2018/10/07 10:45:53 [INFO] Saving world: world_the_end

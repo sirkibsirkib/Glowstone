@@ -1,3 +1,4 @@
+<!-- No changes for Yardstick made yet -->
 <project xmlns="http://maven.apache.org/POM/4.0.0"
   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0
@@ -47,6 +48,23 @@
   </distributionManagement>
 
   <dependencies>
+
+    <!-- Yardstick -->
+<!--     <dependency>
+        <groupId>com.atlarge</groupId>
+        <artifactId>yscollector</artifactId>
+        <version>0.2</version>
+    </dependency> -->
+
+    <dependency>
+      <groupId>com.atlarge</groupId>  
+       <artifactId>yscollector</artifactId>  
+       <version>0.2</version> 
+      <scope>system</scope>
+      <systemPath>C:\Git\opencraft\Glowstone\yscollector-0.2.jar</systemPath>
+  </dependency>
+
+
     <dependency>
       <groupId>org.slf4j</groupId>
       <artifactId>slf4j-jdk14</artifactId>
@@ -183,6 +201,28 @@
     <defaultGoal>package</defaultGoal>
 
     <plugins>
+
+      <!-- LOAD YARDSTICK FROM LIB? -->
+      <plugin>
+        <groupId>com.googlecode.addjars-maven-plugin</groupId>
+        <artifactId>addjars-maven-plugin</artifactId>
+        <version>1.0.5</version>
+        <executions>
+          <execution>
+          <goals>
+            <goal>add-jars</goal>
+          </goals>
+          <configuration>
+            <resources>
+              <resource>
+                <directory>${basedir}/lib</directory>
+              </resource>
+            </resources>
+          </configuration>
+          </execution>
+        </executions>
+      </plugin>
+
       <plugin>
         <groupId>net.md-5</groupId>
         <artifactId>scriptus</artifactId>
