@@ -179,18 +179,18 @@ public final class GlowScheduler implements BukkitScheduler {
      * todo: Add watchdog system to make sure ticks advance
      */
     private void pulse() {
-        // com.atlarge.yscollector.YSCollector.start("tick", "The duration of a tick."); // YSCollector
+        com.atlarge.yscollector.YSCollector.start("tick", "The duration of a tick."); // YSCollector
         primaryThread = Thread.currentThread();
 
         BoundMatrix.pulse(); // CHRIS
 
         // Process player packets
-        // com.atlarge.yscollector.YSCollector.start("tick_network", "The duration of a tick processing the network"); // YSCollector
+        com.atlarge.yscollector.YSCollector.start("tick_network", "The duration of a tick processing the network"); // YSCollector
         sessionRegistry.pulse();
-        // com.atlarge.yscollector.YSCollector.stop("tick_network"); // YSCollector
+        com.atlarge.yscollector.YSCollector.stop("tick_network"); // YSCollector
 
         // Run the relevant tasks.
-        // com.atlarge.yscollector.YSCollector.start("tick_jobs", "Duration of the server tick spent processing jobs"); // YSCollector
+        com.atlarge.yscollector.YSCollector.start("tick_jobs", "Duration of the server tick spent processing jobs"); // YSCollector
         for (Iterator<GlowTask> it = tasks.values().iterator(); it.hasNext(); ) {
             GlowTask task = it.next();
             switch (task.shouldExecute()) {
@@ -208,9 +208,9 @@ public final class GlowScheduler implements BukkitScheduler {
                     // do nothing
             }
         }
-        // com.atlarge.yscollector.YSCollector.stop("tick_jobs");
+        com.atlarge.yscollector.YSCollector.stop("tick_jobs");
         
-        // com.atlarge.yscollector.YSCollector.start("tick_worlds", "Duration of a tick processing worlds");
+        com.atlarge.yscollector.YSCollector.start("tick_worlds", "Duration of a tick processing worlds");
         try {
             int currentTick = worlds.beginTick();
             try {
@@ -233,8 +233,8 @@ public final class GlowScheduler implements BukkitScheduler {
         } catch (InterruptedException e) {
             Thread.currentThread().interrupt();
         }
-        // com.atlarge.yscollector.YSCollector.stop("tick_worlds"); // YSCollector
-        // com.atlarge.yscollector.YSCollector.stop("tick"); // YSCollector
+        com.atlarge.yscollector.YSCollector.stop("tick_worlds"); // YSCollector
+        com.atlarge.yscollector.YSCollector.stop("tick"); // YSCollector
     }
 
     @Override
