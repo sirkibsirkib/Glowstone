@@ -6,7 +6,7 @@ public abstract class YardstickHandle {
 	private static boolean determine_enabled() {
 		String got = System.getProperty("yardstick.gateway.enabled", "false");
 		System.out.println("GOT "+ got);
-		if (got == "true") {
+		if (got.equals("true")) {
 			System.out.println("!! Gateway enabled!");
 			return true;
 		} else {
