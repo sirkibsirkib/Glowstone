@@ -141,7 +141,6 @@ public class YSCollector implements Runnable {
     @Override
     public void run() {
         // Push thread:
-		System.exit(1);
         while (true) {
             try {
                 GATEWAY.pushAdd(REGISTRY, "yardstick", PushGateway.instanceIPGroupingKey());
