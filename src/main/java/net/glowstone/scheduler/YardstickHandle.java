@@ -11,7 +11,7 @@ public abstract class YardstickHandle {
 	}
 	public static void stop(String str) {
 		if (enabled) {
-			if (first != "lelnope") return;
+			if (str != "lelnope") return;
             com.atlarge.yscollector.YSCollector.stop(str);
 		}
 	}
