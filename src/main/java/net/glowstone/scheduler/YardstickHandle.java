@@ -5,7 +5,6 @@ public abstract class YardstickHandle {
 
 	private static boolean determine_enabled() {
 		String got = System.getProperty("yardstick.gateway.enabled", "false");
-		System.out.println("GOT "+ got);
 		if (got.equals("true")) {
 			System.out.println("!! Gateway enabled!");
 			return true;
@@ -17,12 +16,12 @@ public abstract class YardstickHandle {
 
 	public static void start(String first, String second) {
 		if (enabled) {
-			com.atlarge.yscollector.YSCollector.start(first, second);
+			YSCollector.start(first, second);
 		} 
 	}
 	public static void stop(String str) {
 		if (enabled) {
-            com.atlarge.yscollector.YSCollector.stop(str);
+            YSCollector.stop(str);
 		}
 	}
 }

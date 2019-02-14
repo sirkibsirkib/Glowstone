@@ -48,23 +48,26 @@
   </distributionManagement>
 
   <dependencies>
-
-    <!-- Yardstick -->
-<!--     <dependency>
-        <groupId>com.atlarge</groupId>
-        <artifactId>yscollector</artifactId>
-        <version>0.2</version>
-    </dependency> -->
-
+	<!--
     <dependency>
       <groupId>com.atlarge</groupId>  
        <artifactId>yscollector</artifactId>  
-       <version>0.2</version> 
+       <version>0.3</version> 
       <scope>system</scope>
-      <systemPath>C:\Git\opencraft\Glowstone\yscollector-0.2.jar</systemPath>
+      <systemPath>C:\Git\opencraft\Glowstone\yscollector_not_broken2.jar</systemPath>
   </dependency>
-
-
+  -->
+	
+	<dependency>
+		<groupId>io.prometheus</groupId>
+		<artifactId>simpleclient</artifactId>
+		<version>0.0.19</version>
+	</dependency>
+	<dependency>
+		<groupId>io.prometheus</groupId>
+		<artifactId>simpleclient_pushgateway</artifactId>
+		<version>0.0.19</version>
+	</dependency>
     <dependency>
       <groupId>org.slf4j</groupId>
       <artifactId>slf4j-jdk14</artifactId>
