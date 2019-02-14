@@ -996,7 +996,7 @@ public class GlowPlayer extends GlowHumanEntity implements Player {
                             // lazy computation
                             isInLineOfSight = inLineOfSight(entity);
                         }
-                        System.out.println("STALENESS FOR ENTITY");
+                        //System.out.println("STALENESS FOR ENTITY");
                         conit.feedStaleness(entity, isInLineOfSight);
                     }
                 }

@@ -1,7 +1,7 @@
 package net.glowstone.scheduler;
 
 public abstract class YardstickHandle {
-	private static final boolean enabled = false;
+	private static final boolean enabled = true;
 
 	public static void start(String first, String second) {
 		if (enabled) {
