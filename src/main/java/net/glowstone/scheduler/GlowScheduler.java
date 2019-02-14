@@ -180,7 +180,7 @@ public final class GlowScheduler implements BukkitScheduler {
      * todo: Add watchdog system to make sure ticks advance
      */
     private void pulse() {
-        com.atlarge.yscollector.YSCollector.start("tick", "The duration of a tick."); // YSCollector
+        YardstickHandle.start("tick", "The duration of a tick."); // YSCollector
         primaryThread = Thread.currentThread();
 
         BoundMatrix.pulse(); // CHRIS

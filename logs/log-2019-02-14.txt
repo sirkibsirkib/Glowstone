@@ -1,0 +1,407 @@
+2019/02/14 10:35:04 [WARNING] The server is running in offline mode! Only do this if you know what you''re doing.
+2019/02/14 10:35:04 [INFO] Scanning plugins...
+2019/02/14 10:35:04 [INFO] Preparing spawn for world...
+2019/02/14 10:35:05 [INFO] Preparing spawn for world: done
+2019/02/14 10:35:05 [INFO] Preparing spawn for world_nether...
+2019/02/14 10:35:06 [INFO] Preparing spawn for world_nether: done
+2019/02/14 10:35:06 [INFO] Preparing spawn for world_the_end...
+2019/02/14 10:35:06 [INFO] Preparing spawn for world_the_end: done
+2019/02/14 10:35:06 [INFO] Loaded YSCollector v0.2
+2019/02/14 10:35:06 [INFO] Started push thread
+2019/02/14 10:35:06 [INFO] Added metric: tick
+2019/02/14 10:35:06 [SEVERE] Timing: tick started twice!
+2019/02/14 10:35:06 [SEVERE] Timing: tick started twice!
+2019/02/14 10:35:06 [INFO] Binding server to 0.0.0.0:25565...
+2019/02/14 10:35:06 [SEVERE] Timing: tick started twice!
+2019/02/14 10:35:06 [SEVERE] Timing: tick started twice!
+2019/02/14 10:35:06 [SEVERE] Timing: tick started twice!
+2019/02/14 10:35:06 [SEVERE] Timing: tick started twice!
+2019/02/14 10:35:06 [SEVERE] Timing: tick started twice!
+2019/02/14 10:35:06 [SEVERE] Timing: tick started twice!
+2019/02/14 10:35:06 [SEVERE] Timing: tick started twice!
+2019/02/14 10:35:07 [SEVERE] Timing: tick started twice!
+2019/02/14 10:35:07 [SEVERE] Timing: tick started twice!
+2019/02/14 10:35:07 [SEVERE] Timing: tick started twice!
+2019/02/14 10:35:07 [SEVERE] Timing: tick started twice!
+2019/02/14 10:35:07 [SEVERE] Timing: tick started twice!
+2019/02/14 10:35:07 [SEVERE] Timing: tick started twice!
+2019/02/14 10:35:07 [SEVERE] Timing: tick started twice!
+2019/02/14 10:35:07 [INFO] Successfully bound server to 0.0.0.0:25565.
+2019/02/14 10:35:07 [INFO] Ready for connections.
+2019/02/14 10:35:07 [SEVERE] Timing: tick started twice!
+2019/02/14 10:35:07 [SEVERE] Timing: tick started twice!
+2019/02/14 10:35:07 [SEVERE] Timing: tick started twice!
+2019/02/14 10:35:07 [SEVERE] Timing: tick started twice!
+2019/02/14 10:35:07 [SEVERE] Could not push statistics
+java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+	at java.net.PlainSocketImpl.connect(Unknown Source)
+	at java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at sun.net.NetworkClient.doConnect(Unknown Source)
+	at sun.net.www.http.HttpClient.openServer(Unknown Source)
+	at sun.net.www.http.HttpClient.openServer(Unknown Source)
+	at sun.net.www.http.HttpClient.<init>(Unknown Source)
+	at sun.net.www.http.HttpClient.New(Unknown Source)
+	at sun.net.www.http.HttpClient.New(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.connect(Unknown Source)
+	at io.prometheus.client.exporter.PushGateway.doRequest(PushGateway.java:253)
+	at io.prometheus.client.exporter.PushGateway.pushAdd(PushGateway.java:140)
+	at com.atlarge.yscollector.YSCollector.run(YSCollector.java:140)
+	at java.lang.Thread.run(Unknown Source)
+2019/02/14 10:35:07 [SEVERE] Timing: tick started twice!
+2019/02/14 10:35:07 [SEVERE] Timing: tick started twice!
+2019/02/14 10:35:07 [SEVERE] Timing: tick started twice!
+2019/02/14 10:35:07 [SEVERE] Timing: tick started twice!
+2019/02/14 10:35:07 [SEVERE] Timing: tick started twice!
+2019/02/14 10:35:07 [SEVERE] Timing: tick started twice!
+2019/02/14 10:35:07 [SEVERE] Timing: tick started twice!
+2019/02/14 10:35:07 [SEVERE] Timing: tick started twice!
+2019/02/14 10:35:07 [SEVERE] Timing: tick started twice!
+2019/02/14 10:35:08 [SEVERE] Timing: tick started twice!
+2019/02/14 10:35:08 [SEVERE] Timing: tick started twice!
+2019/02/14 10:35:08 [SEVERE] Timing: tick started twice!
+2019/02/14 10:35:08 [SEVERE] Timing: tick started twice!
+2019/02/14 10:35:08 [SEVERE] Timing: tick started twice!
+2019/02/14 10:35:08 [SEVERE] Timing: tick started twice!
+2019/02/14 10:35:08 [SEVERE] Timing: tick started twice!
+2019/02/14 10:35:08 [SEVERE] Timing: tick started twice!
+2019/02/14 10:35:08 [SEVERE] Timing: tick started twice!
+2019/02/14 10:35:08 [SEVERE] Timing: tick started twice!
+2019/02/14 10:35:08 [SEVERE] Timing: tick started twice!
+2019/02/14 10:35:08 [SEVERE] Timing: tick started twice!
+2019/02/14 10:35:08 [SEVERE] Timing: tick started twice!
+2019/02/14 10:35:08 [SEVERE] Timing: tick started twice!
+2019/02/14 10:35:08 [SEVERE] Timing: tick started twice!
+2019/02/14 10:35:08 [SEVERE] Timing: tick started twice!
+2019/02/14 10:35:08 [SEVERE] Timing: tick started twice!
+2019/02/14 10:35:08 [SEVERE] Timing: tick started twice!
+2019/02/14 10:35:08 [SEVERE] Timing: tick started twice!
+2019/02/14 10:35:08 [SEVERE] Timing: tick started twice!
+2019/02/14 10:35:09 [SEVERE] Timing: tick started twice!
+2019/02/14 10:35:09 [SEVERE] Timing: tick started twice!
+2019/02/14 10:35:09 [SEVERE] Timing: tick started twice!
+2019/02/14 10:35:09 [SEVERE] Timing: tick started twice!
+2019/02/14 10:35:09 [SEVERE] Timing: tick started twice!
+2019/02/14 10:35:09 [SEVERE] Timing: tick started twice!
+2019/02/14 10:35:09 [SEVERE] Timing: tick started twice!
+2019/02/14 10:35:09 [SEVERE] Timing: tick started twice!
+2019/02/14 10:35:09 [SEVERE] Timing: tick started twice!
+2019/02/14 10:35:09 [SEVERE] Timing: tick started twice!
+2019/02/14 10:35:09 [SEVERE] Timing: tick started twice!
+2019/02/14 10:35:09 [SEVERE] Timing: tick started twice!
+2019/02/14 10:35:09 [SEVERE] Timing: tick started twice!
+2019/02/14 10:35:09 [SEVERE] Timing: tick started twice!
+2019/02/14 10:35:09 [SEVERE] Timing: tick started twice!
+2019/02/14 10:35:09 [SEVERE] Timing: tick started twice!
+2019/02/14 10:35:09 [SEVERE] Timing: tick started twice!
+2019/02/14 10:35:09 [SEVERE] Timing: tick started twice!
+2019/02/14 10:35:09 [SEVERE] Timing: tick started twice!
+2019/02/14 10:35:09 [SEVERE] Timing: tick started twice!
+2019/02/14 10:35:10 [SEVERE] Timing: tick started twice!
+2019/02/14 10:35:10 [SEVERE] Timing: tick started twice!
+2019/02/14 10:35:10 [SEVERE] Timing: tick started twice!
+2019/02/14 10:35:10 [SEVERE] Timing: tick started twice!
+2019/02/14 10:35:10 [SEVERE] Timing: tick started twice!
+2019/02/14 10:35:10 [SEVERE] Timing: tick started twice!
+2019/02/14 10:35:10 [SEVERE] Timing: tick started twice!
+2019/02/14 10:35:10 [SEVERE] Timing: tick started twice!
+2019/02/14 10:35:10 [SEVERE] Timing: tick started twice!
+2019/02/14 10:35:10 [SEVERE] Timing: tick started twice!
+2019/02/14 10:35:10 [SEVERE] Timing: tick started twice!
+2019/02/14 10:35:10 [SEVERE] Timing: tick started twice!
+2019/02/14 10:35:10 [SEVERE] Timing: tick started twice!
+2019/02/14 10:35:10 [SEVERE] Timing: tick started twice!
+2019/02/14 10:35:10 [SEVERE] Timing: tick started twice!
+2019/02/14 10:35:10 [SEVERE] Timing: tick started twice!
+2019/02/14 10:35:10 [SEVERE] Timing: tick started twice!
+2019/02/14 10:35:10 [SEVERE] Timing: tick started twice!
+2019/02/14 10:35:10 [SEVERE] Timing: tick started twice!
+2019/02/14 10:35:10 [SEVERE] Timing: tick started twice!
+2019/02/14 10:35:11 [SEVERE] Timing: tick started twice!
+2019/02/14 10:35:11 [SEVERE] Timing: tick started twice!
+2019/02/14 10:35:11 [SEVERE] Timing: tick started twice!
+2019/02/14 10:35:11 [SEVERE] Timing: tick started twice!
+2019/02/14 10:35:11 [SEVERE] Timing: tick started twice!
+2019/02/14 10:35:11 [SEVERE] Timing: tick started twice!
+2019/02/14 10:35:11 [SEVERE] Timing: tick started twice!
+2019/02/14 10:35:11 [SEVERE] Timing: tick started twice!
+2019/02/14 10:35:11 [SEVERE] Timing: tick started twice!
+2019/02/14 10:35:11 [SEVERE] Timing: tick started twice!
+2019/02/14 10:35:11 [SEVERE] Timing: tick started twice!
+2019/02/14 10:35:11 [SEVERE] Timing: tick started twice!
+2019/02/14 10:35:11 [SEVERE] Timing: tick started twice!
+2019/02/14 10:35:11 [SEVERE] Timing: tick started twice!
+2019/02/14 10:35:11 [SEVERE] Timing: tick started twice!
+2019/02/14 10:35:11 [SEVERE] Timing: tick started twice!
+2019/02/14 10:35:11 [SEVERE] Timing: tick started twice!
+2019/02/14 10:35:11 [SEVERE] Timing: tick started twice!
+2019/02/14 10:35:11 [SEVERE] Timing: tick started twice!
+2019/02/14 10:35:19 [WARNING] The server is running in offline mode! Only do this if you know what you''re doing.
+2019/02/14 10:35:20 [INFO] Scanning plugins...
+2019/02/14 10:35:20 [INFO] Preparing spawn for world...
+2019/02/14 10:35:20 [INFO] Preparing spawn for world: done
+2019/02/14 10:35:20 [INFO] Preparing spawn for world_nether...
+2019/02/14 10:35:21 [INFO] Preparing spawn for world_nether: done
+2019/02/14 10:35:21 [INFO] Preparing spawn for world_the_end...
+2019/02/14 10:35:21 [INFO] Preparing spawn for world_the_end: done
+2019/02/14 10:35:21 [INFO] Loaded YSCollector v0.2
+2019/02/14 10:35:21 [INFO] Started push thread
+2019/02/14 10:35:21 [INFO] Added metric: tick
+2019/02/14 10:35:21 [INFO] Binding server to 0.0.0.0:25565...
+2019/02/14 10:35:21 [SEVERE] Timing: tick started twice!
+2019/02/14 10:35:21 [SEVERE] Timing: tick started twice!
+2019/02/14 10:35:21 [SEVERE] Timing: tick started twice!
+2019/02/14 10:35:21 [SEVERE] Timing: tick started twice!
+2019/02/14 10:35:21 [SEVERE] Timing: tick started twice!
+2019/02/14 10:35:21 [SEVERE] Timing: tick started twice!
+2019/02/14 10:35:21 [SEVERE] Timing: tick started twice!
+2019/02/14 10:35:22 [SEVERE] Timing: tick started twice!
+2019/02/14 10:35:22 [SEVERE] Timing: tick started twice!
+2019/02/14 10:35:22 [SEVERE] Timing: tick started twice!
+2019/02/14 10:35:22 [SEVERE] Timing: tick started twice!
+2019/02/14 10:35:22 [SEVERE] Timing: tick started twice!
+2019/02/14 10:35:22 [SEVERE] Timing: tick started twice!
+2019/02/14 10:35:22 [SEVERE] Timing: tick started twice!
+2019/02/14 10:35:22 [SEVERE] Timing: tick started twice!
+2019/02/14 10:35:22 [INFO] Successfully bound server to 0.0.0.0:25565.
+2019/02/14 10:35:22 [INFO] Ready for connections.
+2019/02/14 10:35:22 [SEVERE] Timing: tick started twice!
+2019/02/14 10:35:22 [SEVERE] Timing: tick started twice!
+2019/02/14 10:35:22 [SEVERE] Timing: tick started twice!
+2019/02/14 10:35:22 [SEVERE] Timing: tick started twice!
+2019/02/14 10:35:22 [SEVERE] Timing: tick started twice!
+2019/02/14 10:35:22 [SEVERE] Could not push statistics
+java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+	at java.net.PlainSocketImpl.connect(Unknown Source)
+	at java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at sun.net.NetworkClient.doConnect(Unknown Source)
+	at sun.net.www.http.HttpClient.openServer(Unknown Source)
+	at sun.net.www.http.HttpClient.openServer(Unknown Source)
+	at sun.net.www.http.HttpClient.<init>(Unknown Source)
+	at sun.net.www.http.HttpClient.New(Unknown Source)
+	at sun.net.www.http.HttpClient.New(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.connect(Unknown Source)
+	at io.prometheus.client.exporter.PushGateway.doRequest(PushGateway.java:253)
+	at io.prometheus.client.exporter.PushGateway.pushAdd(PushGateway.java:140)
+	at com.atlarge.yscollector.YSCollector.run(YSCollector.java:140)
+	at java.lang.Thread.run(Unknown Source)
+2019/02/14 10:35:22 [SEVERE] Timing: tick started twice!
+2019/02/14 10:35:22 [SEVERE] Timing: tick started twice!
+2019/02/14 10:35:22 [SEVERE] Timing: tick started twice!
+2019/02/14 10:37:37 [WARNING] The server is running in offline mode! Only do this if you know what you''re doing.
+2019/02/14 10:37:38 [INFO] Scanning plugins...
+2019/02/14 10:37:38 [INFO] Preparing spawn for world...
+2019/02/14 10:37:38 [INFO] Preparing spawn for world: done
+2019/02/14 10:37:38 [INFO] Preparing spawn for world_nether...
+2019/02/14 10:37:39 [INFO] Preparing spawn for world_nether: done
+2019/02/14 10:37:39 [INFO] Preparing spawn for world_the_end...
+2019/02/14 10:37:39 [INFO] Preparing spawn for world_the_end: done
+2019/02/14 10:37:39 [INFO] Loaded YSCollector v0.2
+2019/02/14 10:37:39 [INFO] Started push thread
+2019/02/14 10:37:39 [INFO] Added metric: tick
+2019/02/14 10:37:39 [INFO] Binding server to 0.0.0.0:25565...
+2019/02/14 10:37:39 [SEVERE] Timing: tick started twice!
+2019/02/14 10:37:39 [SEVERE] Timing: tick started twice!
+2019/02/14 10:37:39 [SEVERE] Timing: tick started twice!
+2019/02/14 10:37:39 [SEVERE] Timing: tick started twice!
+2019/02/14 10:37:39 [SEVERE] Timing: tick started twice!
+2019/02/14 10:37:39 [SEVERE] Timing: tick started twice!
+2019/02/14 10:37:39 [SEVERE] Timing: tick started twice!
+2019/02/14 10:37:40 [SEVERE] Timing: tick started twice!
+2019/02/14 10:37:40 [SEVERE] Timing: tick started twice!
+2019/02/14 10:37:40 [SEVERE] Timing: tick started twice!
+2019/02/14 10:37:40 [SEVERE] Timing: tick started twice!
+2019/02/14 10:37:40 [SEVERE] Timing: tick started twice!
+2019/02/14 10:37:40 [SEVERE] Timing: tick started twice!
+2019/02/14 10:37:40 [INFO] Successfully bound server to 0.0.0.0:25565.
+2019/02/14 10:37:40 [INFO] Ready for connections.
+2019/02/14 10:37:40 [SEVERE] Timing: tick started twice!
+2019/02/14 10:37:40 [SEVERE] Timing: tick started twice!
+2019/02/14 10:37:40 [SEVERE] Timing: tick started twice!
+2019/02/14 10:37:40 [SEVERE] Timing: tick started twice!
+2019/02/14 10:37:40 [SEVERE] Timing: tick started twice!
+2019/02/14 10:37:40 [SEVERE] Timing: tick started twice!
+2019/02/14 10:37:40 [SEVERE] Timing: tick started twice!
+2019/02/14 10:37:40 [SEVERE] Could not push statistics
+java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+	at java.net.PlainSocketImpl.connect(Unknown Source)
+	at java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at sun.net.NetworkClient.doConnect(Unknown Source)
+	at sun.net.www.http.HttpClient.openServer(Unknown Source)
+	at sun.net.www.http.HttpClient.openServer(Unknown Source)
+	at sun.net.www.http.HttpClient.<init>(Unknown Source)
+	at sun.net.www.http.HttpClient.New(Unknown Source)
+	at sun.net.www.http.HttpClient.New(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.connect(Unknown Source)
+	at io.prometheus.client.exporter.PushGateway.doRequest(PushGateway.java:253)
+	at io.prometheus.client.exporter.PushGateway.pushAdd(PushGateway.java:140)
+	at com.atlarge.yscollector.YSCollector.run(YSCollector.java:140)
+	at java.lang.Thread.run(Unknown Source)
+2019/02/14 10:37:40 [SEVERE] Timing: tick started twice!
+2019/02/14 10:37:40 [SEVERE] Timing: tick started twice!
+2019/02/14 10:37:40 [SEVERE] Timing: tick started twice!
+2019/02/14 10:37:40 [SEVERE] Timing: tick started twice!
+2019/02/14 10:37:40 [SEVERE] Timing: tick started twice!
+2019/02/14 10:37:40 [SEVERE] Timing: tick started twice!
+2019/02/14 10:37:40 [SEVERE] Timing: tick started twice!
+2019/02/14 10:37:41 [SEVERE] Timing: tick started twice!
+2019/02/14 10:37:41 [SEVERE] Timing: tick started twice!
+2019/02/14 10:37:41 [SEVERE] Timing: tick started twice!
+2019/02/14 10:37:41 [SEVERE] Timing: tick started twice!
+2019/02/14 10:37:41 [SEVERE] Timing: tick started twice!
+2019/02/14 10:37:41 [SEVERE] Timing: tick started twice!
+2019/02/14 10:37:41 [SEVERE] Timing: tick started twice!
+2019/02/14 10:37:41 [SEVERE] Timing: tick started twice!
+2019/02/14 10:37:41 [SEVERE] Timing: tick started twice!
+2019/02/14 10:37:41 [SEVERE] Timing: tick started twice!
+2019/02/14 10:37:41 [SEVERE] Timing: tick started twice!
+2019/02/14 10:37:41 [SEVERE] Timing: tick started twice!
+2019/02/14 10:37:41 [SEVERE] Timing: tick started twice!
+2019/02/14 10:37:41 [SEVERE] Timing: tick started twice!
+2019/02/14 10:37:41 [SEVERE] Timing: tick started twice!
+2019/02/14 10:37:41 [SEVERE] Timing: tick started twice!
+2019/02/14 10:37:41 [SEVERE] Timing: tick started twice!
+2019/02/14 10:37:41 [SEVERE] Timing: tick started twice!
+2019/02/14 10:37:41 [SEVERE] Timing: tick started twice!
+2019/02/14 10:37:41 [SEVERE] Timing: tick started twice!
+2019/02/14 10:37:42 [SEVERE] Timing: tick started twice!
+2019/02/14 10:37:42 [SEVERE] Timing: tick started twice!
+2019/02/14 10:37:42 [SEVERE] Timing: tick started twice!
+2019/02/14 10:37:42 [SEVERE] Timing: tick started twice!
+2019/02/14 10:37:42 [SEVERE] Timing: tick started twice!
+2019/02/14 10:37:42 [SEVERE] Timing: tick started twice!
+2019/02/14 10:37:42 [SEVERE] Timing: tick started twice!
+2019/02/14 10:37:42 [SEVERE] Timing: tick started twice!
+2019/02/14 10:37:42 [SEVERE] Timing: tick started twice!
+2019/02/14 10:37:42 [SEVERE] Timing: tick started twice!
+2019/02/14 10:37:42 [SEVERE] Timing: tick started twice!
+2019/02/14 10:37:42 [SEVERE] Timing: tick started twice!
+2019/02/14 10:37:42 [SEVERE] Timing: tick started twice!
+2019/02/14 10:37:42 [SEVERE] Timing: tick started twice!
+2019/02/14 10:37:42 [SEVERE] Timing: tick started twice!
+2019/02/14 10:37:42 [SEVERE] Timing: tick started twice!
+2019/02/14 10:37:42 [SEVERE] Timing: tick started twice!
+2019/02/14 10:37:42 [SEVERE] Timing: tick started twice!
+2019/02/14 10:37:42 [SEVERE] Timing: tick started twice!
+2019/02/14 10:37:42 [SEVERE] Timing: tick started twice!
+2019/02/14 10:37:43 [SEVERE] Timing: tick started twice!
+2019/02/14 10:37:43 [SEVERE] Timing: tick started twice!
+2019/02/14 10:37:43 [SEVERE] Timing: tick started twice!
+2019/02/14 10:37:43 [SEVERE] Timing: tick started twice!
+2019/02/14 10:37:43 [SEVERE] Timing: tick started twice!
+2019/02/14 10:37:43 [SEVERE] Timing: tick started twice!
+2019/02/14 10:37:43 [SEVERE] Timing: tick started twice!
+2019/02/14 10:37:43 [SEVERE] Timing: tick started twice!
+2019/02/14 10:37:43 [SEVERE] Timing: tick started twice!
+2019/02/14 10:37:43 [SEVERE] Timing: tick started twice!
+2019/02/14 10:37:43 [SEVERE] Timing: tick started twice!
+2019/02/14 10:37:43 [SEVERE] Timing: tick started twice!
+2019/02/14 10:37:43 [SEVERE] Timing: tick started twice!
+2019/02/14 10:37:43 [SEVERE] Timing: tick started twice!
+2019/02/14 10:37:43 [SEVERE] Timing: tick started twice!
+2019/02/14 10:37:43 [SEVERE] Timing: tick started twice!
+2019/02/14 10:37:55 [WARNING] The server is running in offline mode! Only do this if you know what you''re doing.
+2019/02/14 10:37:55 [INFO] Scanning plugins...
+2019/02/14 10:37:55 [INFO] Preparing spawn for world...
+2019/02/14 10:37:55 [INFO] Preparing spawn for world: done
+2019/02/14 10:37:55 [INFO] Preparing spawn for world_nether...
+2019/02/14 10:37:56 [INFO] Preparing spawn for world_nether: done
+2019/02/14 10:37:56 [INFO] Preparing spawn for world_the_end...
+2019/02/14 10:37:56 [INFO] Preparing spawn for world_the_end: done
+2019/02/14 10:37:56 [INFO] Loaded YSCollector v0.2
+2019/02/14 10:37:56 [INFO] Started push thread
+2019/02/14 10:37:56 [INFO] Added metric: tick
+2019/02/14 10:37:56 [INFO] Binding server to 0.0.0.0:25565...
+2019/02/14 10:37:57 [SEVERE] Timing: tick started twice!
+2019/02/14 10:37:57 [SEVERE] Timing: tick started twice!
+2019/02/14 10:37:57 [SEVERE] Timing: tick started twice!
+2019/02/14 10:37:57 [SEVERE] Timing: tick started twice!
+2019/02/14 10:37:57 [SEVERE] Timing: tick started twice!
+2019/02/14 10:37:57 [SEVERE] Timing: tick started twice!
+2019/02/14 10:37:57 [SEVERE] Timing: tick started twice!
+2019/02/14 10:37:57 [SEVERE] Timing: tick started twice!
+2019/02/14 10:37:57 [SEVERE] Timing: tick started twice!
+2019/02/14 10:37:57 [SEVERE] Timing: tick started twice!
+2019/02/14 10:37:57 [SEVERE] Timing: tick started twice!
+2019/02/14 10:37:57 [SEVERE] Timing: tick started twice!
+2019/02/14 10:37:57 [SEVERE] Timing: tick started twice!
+2019/02/14 10:37:57 [SEVERE] Timing: tick started twice!
+2019/02/14 10:37:57 [SEVERE] Timing: tick started twice!
+2019/02/14 10:37:57 [INFO] Successfully bound server to 0.0.0.0:25565.
+2019/02/14 10:37:57 [SEVERE] Timing: tick started twice!
+2019/02/14 10:37:57 [INFO] Ready for connections.
+2019/02/14 10:37:57 [SEVERE] Timing: tick started twice!
+2019/02/14 10:37:57 [SEVERE] Timing: tick started twice!
+2019/02/14 10:37:57 [SEVERE] Timing: tick started twice!
+2019/02/14 10:37:57 [SEVERE] Timing: tick started twice!
+2019/02/14 10:37:57 [SEVERE] Could not push statistics
+java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+	at java.net.PlainSocketImpl.connect(Unknown Source)
+	at java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at sun.net.NetworkClient.doConnect(Unknown Source)
+	at sun.net.www.http.HttpClient.openServer(Unknown Source)
+	at sun.net.www.http.HttpClient.openServer(Unknown Source)
+	at sun.net.www.http.HttpClient.<init>(Unknown Source)
+	at sun.net.www.http.HttpClient.New(Unknown Source)
+	at sun.net.www.http.HttpClient.New(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.connect(Unknown Source)
+	at io.prometheus.client.exporter.PushGateway.doRequest(PushGateway.java:253)
+	at io.prometheus.client.exporter.PushGateway.pushAdd(PushGateway.java:140)
+	at com.atlarge.yscollector.YSCollector.run(YSCollector.java:140)
+	at java.lang.Thread.run(Unknown Source)
+2019/02/14 10:37:57 [SEVERE] Timing: tick started twice!
+2019/02/14 10:37:57 [SEVERE] Timing: tick started twice!
+2019/02/14 10:37:58 [SEVERE] Timing: tick started twice!
+2019/02/14 10:37:58 [SEVERE] Timing: tick started twice!
+2019/02/14 10:37:58 [SEVERE] Timing: tick started twice!
+2019/02/14 10:37:58 [SEVERE] Timing: tick started twice!
+2019/02/14 10:37:58 [SEVERE] Timing: tick started twice!
+2019/02/14 10:37:58 [SEVERE] Timing: tick started twice!
+2019/02/14 10:37:58 [SEVERE] Timing: tick started twice!
+2019/02/14 10:37:58 [SEVERE] Timing: tick started twice!
+2019/02/14 10:37:58 [SEVERE] Timing: tick started twice!
+2019/02/14 10:37:58 [SEVERE] Timing: tick started twice!
+2019/02/14 10:37:58 [SEVERE] Timing: tick started twice!
+2019/02/14 10:37:58 [SEVERE] Timing: tick started twice!
+2019/02/14 10:37:58 [SEVERE] Timing: tick started twice!
+2019/02/14 10:37:58 [SEVERE] Timing: tick started twice!
+2019/02/14 10:37:58 [SEVERE] Timing: tick started twice!
+2019/02/14 10:37:58 [SEVERE] Timing: tick started twice!
+2019/02/14 10:37:58 [SEVERE] Timing: tick started twice!
+2019/02/14 10:37:58 [SEVERE] Timing: tick started twice!
+2019/02/14 10:37:58 [SEVERE] Timing: tick started twice!
