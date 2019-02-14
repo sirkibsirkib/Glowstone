@@ -12,7 +12,7 @@ import java.util.logging.Level;
 import lombok.Getter;
 import net.glowstone.GlowServer;
 import net.glowstone.GlowWorld;
-import net.glowstone.scheduler.YardstickHandle;
+import net.glowstone.scheduler.YSCollector;
 
 /**
  * Manager for world thread pool.
@@ -167,7 +167,7 @@ public class WorldScheduler {
             try {
                 while (!isInterrupted() && !tickEnd.isTerminated()) {
                     tickBegin.arriveAndAwaitAdvance();
-                    YardstickHandle.start("world_" + world.getName() + "_tick", "World thread: Duration processing tick.");
+                    YSCollector.start("world_" + world.getName() + "_tick", "World thread: Duration processing tick.");
                     try {
                         world.pulse();
                     } catch (Exception e) {
@@ -176,7 +176,7 @@ public class WorldScheduler {
                     } finally {
                         tickEnd.arriveAndAwaitAdvance();
                     }
-                    YardstickHandle.stop("world_" + world.getName() + "_tick");
+                    YSCollector.stop("world_" + world.getName() + "_tick");
                 }
             } finally {
                 tickBegin.arriveAndDeregister();

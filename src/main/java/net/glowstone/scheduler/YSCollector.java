@@ -27,16 +27,16 @@ public class YSCollector implements Runnable {
     }
 	
 	private static PushGateway new_pushgateway() {
-		String addr = System.getProperty("yardstick.gateway.host", "127.0.0.1")
-			+ ":"
-			+ System.getProperty("yardstick.gateway.port", "9091");
-		LOGGER.info("++ Connecting to pushgateway at " + addr);
-        LOGGER.info("++ Loaded " + NAME + " v" + VERSION);
-        return new PushGateway(addr);
+		String addr = System.getProperty("yardstick.gateway", "none");
+        if (addr.equals("none")) {
+            LOGGER.info("++ No pushgateway provided as Property. Disabling it.");
+            return None;
+        } else {
+            LOGGER.info("++ Connecting to pushgateway at " + addr);
+            LOGGER.info("++ Loaded " + NAME + " v" + VERSION);
+            return new PushGateway(addr);
+        }
 	}
-
-    static {
-    }
 
     public static synchronized void startModule(String newModule) {
         if (!module.isEmpty()) {
@@ -55,6 +55,7 @@ public class YSCollector implements Runnable {
     }
 
     public static synchronized void start(String key, String help) {
+        if (pushgateway == null) return;
         ensureStarted();
 
         // Add module prefix, if necessary
@@ -74,6 +75,7 @@ public class YSCollector implements Runnable {
     }
 
     public static synchronized void stop(String key) {
+        if (pushgateway == null) return;
         long stop = clock();
 
         // Add module prefix, if necessary

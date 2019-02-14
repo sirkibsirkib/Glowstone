@@ -23,7 +23,7 @@ import java.util.logging.Level;
 import net.glowstone.GlowServer;
 import net.glowstone.conits.BoundMatrix;
 import net.glowstone.net.SessionRegistry;
-import net.glowstone.scheduler.YardstickHandle;
+import net.glowstone.scheduler.YSCollector;
 import org.bukkit.Server;
 import org.bukkit.plugin.Plugin;
 import org.bukkit.scheduler.BukkitRunnable;
@@ -180,18 +180,18 @@ public final class GlowScheduler implements BukkitScheduler {
      * todo: Add watchdog system to make sure ticks advance
      */
     private void pulse() {
-        YardstickHandle.start("tick", "The duration of a tick."); // YSCollector
+        YSCollector.start("tick", "The duration of a tick."); // YSCollector
         primaryThread = Thread.currentThread();
 
         BoundMatrix.pulse(); // CHRIS
 
         // Process player packets
-        YardstickHandle.start("tick_network", "The duration of a tick processing the network"); // YSCollector
+        YSCollector.start("tick_network", "The duration of a tick processing the network"); // YSCollector
         sessionRegistry.pulse();
-        YardstickHandle.stop("tick_network"); // YSCollector
+        YSCollector.stop("tick_network"); // YSCollector
 
         // Run the relevant tasks.
-        YardstickHandle.start("tick_jobs", "Duration of the server tick spent processing jobs"); // YSCollector
+        YSCollector.start("tick_jobs", "Duration of the server tick spent processing jobs"); // YSCollector
         for (Iterator<GlowTask> it = tasks.values().iterator(); it.hasNext(); ) {
             GlowTask task = it.next();
             switch (task.shouldExecute()) {
@@ -209,9 +209,9 @@ public final class GlowScheduler implements BukkitScheduler {
                     // do nothing
             }
         }
-        YardstickHandle.stop("tick_jobs");
+        YSCollector.stop("tick_jobs");
         
-        YardstickHandle.start("tick_worlds", "Duration of a tick processing worlds");
+        YSCollector.start("tick_worlds", "Duration of a tick processing worlds");
         try {
             int currentTick = worlds.beginTick();
             try {
@@ -234,8 +234,8 @@ public final class GlowScheduler implements BukkitScheduler {
         } catch (InterruptedException e) {
             Thread.currentThread().interrupt();
         }
-        YardstickHandle.stop("tick_worlds"); // YSCollector
-        YardstickHandle.stop("tick"); // YSCollector
+        YSCollector.stop("tick_worlds"); // YSCollector
+        YSCollector.stop("tick"); // YSCollector
     }
 
     @Override
