@@ -5,7 +5,7 @@ public abstract class YardstickHandle {
 
 	public static void start(String first, String second) {
 		if (enabled) {
-			if (first != "lelnope") return;
+			//if (first != "lelnope") return;
 			System.out.println("<YS:START> " + first + " | " + second);
 			com.atlarge.yscollector.YSCollector.start(first, second); // YSCollector
 		} 
@@ -13,7 +13,7 @@ public abstract class YardstickHandle {
 	public static void stop(String str) {
 		if (enabled) {
 			System.out.println("<YS:STOP> " + str);
-			if (str != "lelnope") return;
+			//if (str != "lelnope") return;
             com.atlarge.yscollector.YSCollector.stop(str);
 		}
 	}
