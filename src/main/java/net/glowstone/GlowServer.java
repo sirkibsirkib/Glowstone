@@ -488,7 +488,7 @@ public class GlowServer implements Server {
      */
     public static void main(String... args) {
         
-        System.out.println("PROPERTY" + getProperty("yardstick.gateway.host", "127.0.0.1"));
+        System.out.println("PROPERTY" + System.getProperty("yardstick.gateway.host", "127.0.0.1"));
 
         try {
             GlowServer server = createFromArguments(args);
