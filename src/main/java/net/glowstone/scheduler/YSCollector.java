@@ -30,7 +30,7 @@ public class YSCollector implements Runnable {
 		String addr = System.getProperty("yardstick.gateway", "none");
         if (addr.equals("none")) {
             LOGGER.info("++ No pushgateway provided as Property. Disabling it.");
-            return None;
+            return null;
         } else {
             LOGGER.info("++ Connecting to pushgateway at " + addr);
             LOGGER.info("++ Loaded " + NAME + " v" + VERSION);
