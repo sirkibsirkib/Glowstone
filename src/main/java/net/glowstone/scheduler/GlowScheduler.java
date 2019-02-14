@@ -23,6 +23,7 @@ import java.util.logging.Level;
 import net.glowstone.GlowServer;
 import net.glowstone.conits.BoundMatrix;
 import net.glowstone.net.SessionRegistry;
+import net.glowstone.scheduler.YardstickHandle;
 import org.bukkit.Server;
 import org.bukkit.plugin.Plugin;
 import org.bukkit.scheduler.BukkitRunnable;
@@ -185,12 +186,12 @@ public final class GlowScheduler implements BukkitScheduler {
         BoundMatrix.pulse(); // CHRIS
 
         // Process player packets
-        com.atlarge.yscollector.YSCollector.start("tick_network", "The duration of a tick processing the network"); // YSCollector
+        YardstickHandle.start("tick_network", "The duration of a tick processing the network"); // YSCollector
         sessionRegistry.pulse();
-        com.atlarge.yscollector.YSCollector.stop("tick_network"); // YSCollector
+        YardstickHandle.stop("tick_network"); // YSCollector
 
         // Run the relevant tasks.
-        com.atlarge.yscollector.YSCollector.start("tick_jobs", "Duration of the server tick spent processing jobs"); // YSCollector
+        YardstickHandle.start("tick_jobs", "Duration of the server tick spent processing jobs"); // YSCollector
         for (Iterator<GlowTask> it = tasks.values().iterator(); it.hasNext(); ) {
             GlowTask task = it.next();
             switch (task.shouldExecute()) {
@@ -208,9 +209,9 @@ public final class GlowScheduler implements BukkitScheduler {
                     // do nothing
             }
         }
-        com.atlarge.yscollector.YSCollector.stop("tick_jobs");
+        YardstickHandle.stop("tick_jobs");
         
-        com.atlarge.yscollector.YSCollector.start("tick_worlds", "Duration of a tick processing worlds");
+        YardstickHandle.start("tick_worlds", "Duration of a tick processing worlds");
         try {
             int currentTick = worlds.beginTick();
             try {
@@ -233,8 +234,8 @@ public final class GlowScheduler implements BukkitScheduler {
         } catch (InterruptedException e) {
             Thread.currentThread().interrupt();
         }
-        com.atlarge.yscollector.YSCollector.stop("tick_worlds"); // YSCollector
-        com.atlarge.yscollector.YSCollector.stop("tick"); // YSCollector
+        YardstickHandle.stop("tick_worlds"); // YSCollector
+        YardstickHandle.stop("tick"); // YSCollector
     }
 
     @Override
