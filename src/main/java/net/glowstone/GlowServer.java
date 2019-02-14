@@ -487,9 +487,9 @@ public class GlowServer implements Server {
      * @param args The command-line arguments.
      */
     public static void main(String... args) {
-        for (String arg : args) {
-            System.out.println("ARG " + arg);
-        }
+        
+        System.out.println("PROPERTY" + getProperty("yardstick.gateway.host", "127.0.0.1"));
+
         try {
             GlowServer server = createFromArguments(args);
 
