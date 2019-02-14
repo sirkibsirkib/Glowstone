@@ -487,6 +487,9 @@ public class GlowServer implements Server {
      * @param args The command-line arguments.
      */
     public static void main(String... args) {
+        for (String arg : args) {
+            System.out.println("ARG " + arg);
+        }
         try {
             GlowServer server = createFromArguments(args);
 
