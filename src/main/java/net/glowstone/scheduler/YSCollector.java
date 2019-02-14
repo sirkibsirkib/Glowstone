@@ -55,7 +55,7 @@ public class YSCollector implements Runnable {
     }
 
     public static synchronized void start(String key, String help) {
-        if (pushgateway == null) return;
+        if (GATEWAY == null) return;
         ensureStarted();
 
         // Add module prefix, if necessary
@@ -75,7 +75,7 @@ public class YSCollector implements Runnable {
     }
 
     public static synchronized void stop(String key) {
-        if (pushgateway == null) return;
+        if (GATEWAY == null) return;
         long stop = clock();
 
         // Add module prefix, if necessary
