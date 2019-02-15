@@ -96,6 +96,11 @@ public class YSCollector implements Runnable {
         s.observe(stop - start);
     }
 
+    /// Will register lazily. No need to register externally
+    public static synchronized void pushSummaryValue(String key, String help, double value) {
+        getSummary(key, help).observe(value);
+    }
+
     public static synchronized void ensureAllStopped() {
         for (String key : TIMINGS.keySet()) {
             LOGGER.log(Level.SEVERE, "Timing: " + key + " not stopped properly!");

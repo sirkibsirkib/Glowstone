@@ -115,6 +115,7 @@ import net.glowstone.net.message.play.player.ResourcePackSendMessage;
 import net.glowstone.net.message.play.player.UseBedMessage;
 import net.glowstone.scoreboard.GlowScoreboard;
 import net.glowstone.scoreboard.GlowTeam;
+import net.glowstone.scheduler.YSCollector;
 import net.glowstone.util.Convert;
 import net.glowstone.util.InventoryUtil;
 import net.glowstone.util.Position;
@@ -957,6 +958,9 @@ public class GlowPlayer extends GlowHumanEntity implements Player {
         worldLock.writeLock().lock();
         boolean mustMakeStale = conit.checkAndMaybeSetStalenesClock();
 
+        int sync_counts = 0;
+        int notsync_counts = 0;
+
         try {
             // update or remove entities
             List<GlowEntity> destroyEntities = new LinkedList<>();
@@ -981,12 +985,18 @@ public class GlowPlayer extends GlowHumanEntity implements Player {
                             session.send(msg);
                         } else {
                             // CONIT: a message for the conit
-                            if (conit.feedMessageWeight(weight, entity, isInLineOfSight)) {
-                            server.logger.info("conit SYNC "
+                            boolean synced = conit.feedMessageWeight(weight, entity, isInLineOfSight);
+
+                            if (synced) {
+                                /*
+                                server.logger.info("conit SYNC "
                                     + entity.getType().toString() + ":" + msg.toString());
+                                */
                             } else {
+                                /*
                                 server.logger.info("conit ---- "
                                     + entity.getType().toString() + ":" + msg.toString());
+                                */
                             }
                         }
                     }
@@ -1036,6 +1046,9 @@ public class GlowPlayer extends GlowHumanEntity implements Player {
         } finally {
             worldLock.writeLock().unlock();
         }
+
+        YSCollector.pushSummaryValue("yes_sync", "Number of outward messages that triggered sync", (double) sync_counts);
+        YSCollector.pushSummaryValue("no_sync", "Number of outward messages that DIDNT trigger sync", (double) notsync_counts);
 
         if (passengerChanged) {
             session.send(new SetPassengerMessage(SELF_ID, getPassengers().stream()
