@@ -958,8 +958,8 @@ public class GlowPlayer extends GlowHumanEntity implements Player {
         worldLock.writeLock().lock();
         boolean mustMakeStale = conit.checkAndMaybeSetStalenesClock();
 
-        int sync_counts = 0;
-        int notsync_counts = 0;
+        int yes_sync = 0;
+        int no_sync = 0;
 
         try {
             // update or remove entities
@@ -992,11 +992,13 @@ public class GlowPlayer extends GlowHumanEntity implements Player {
                                 server.logger.info("conit SYNC "
                                     + entity.getType().toString() + ":" + msg.toString());
                                 */
+                                yes_sync += 1;
                             } else {
                                 /*
                                 server.logger.info("conit ---- "
                                     + entity.getType().toString() + ":" + msg.toString());
                                 */
+                                no_sync += 1;
                             }
                         }
                     }
@@ -1047,8 +1049,8 @@ public class GlowPlayer extends GlowHumanEntity implements Player {
             worldLock.writeLock().unlock();
         }
 
-        YSCollector.pushSummaryValue("yes_sync", "Number of outward messages that triggered sync", (double) sync_counts);
-        YSCollector.pushSummaryValue("no_sync", "Number of outward messages that DIDNT trigger sync", (double) notsync_counts);
+        YSCollector.pushSummaryValue("yes_sync", "Number of outward messages that triggered sync", (double) yes_sync);
+        YSCollector.pushSummaryValue("no_sync", "Number of outward messages that DIDNT trigger sync", (double) no_sync);
 
         if (passengerChanged) {
             session.send(new SetPassengerMessage(SELF_ID, getPassengers().stream()
