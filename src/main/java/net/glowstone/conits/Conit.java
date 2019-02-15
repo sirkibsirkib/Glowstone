@@ -77,20 +77,26 @@ public class Conit {
         ticksSinceClear++;
         if (ticksSinceClear >= conitConfig.getTicksPerConitClear()) {
             ticksSinceClear = 0;
-            System.out.println("clear conit");
+            // System.out.println("clear conit");
             for (Integer key : previousDistances.keySet()) {
                 if (distances.get(key) == previousDistances.get(key)) {
                     // the value has probably remained unchanged!
                     distances.remove(key);
-                    System.out.println("remove");
+                    // System.out.println("remove");
                 } else {
-                    System.out.println("keep");
+                    // System.out.println("keep");
                 }
             }
             previousDistances = (HashMap) distances.clone();
         }
     }
 
+    /**
+     * Feed staleness wrt. the given entity (ie: increment distance without associated update msg)
+     * simulates some anonymous message-weight being applied, where the weight is
+     * determined by the configured staleness function
+     * @return true if there was a sync event
+     */
     public boolean feedStaleness(GlowEntity from, boolean isInLineOfSight) {
         Integer fromId = from.getEntityId();
         Float dist = distances.get(fromId);
@@ -121,16 +127,16 @@ public class Conit {
         }
         Integer fromId = from.getEntityId();
         Float dist = distances.get(fromId);
-        if (dist != null) { // null represents infinite distance
+        if (dist != null) { // null represents infinite distance -> must sync
             dist += messageWeight;
             Float bound = BoundMatrix.getBoundBetween(myself, from);
-            // System.out.printf("[%f / %f]\n", dist, bound);
             if (bound == null || dist < bound) {
                 // no need to sync yet!
-                distances.put(fromId, dist);
+                distances.put(fromId, dist); // increment existing distance
                 return false;
             }
-        }
+        } // reasons it would be null: new entity-pair interaction OR cache cleared to avoid cache bloat (ie. excessive sync)
+
         // bound exceeded. Syncing
         pullUpdateMessage(from);
         distances.put(fromId, 0.0f);
