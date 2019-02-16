@@ -180,6 +180,7 @@ public final class GlowScheduler implements BukkitScheduler {
      * todo: Add watchdog system to make sure ticks advance
      */
     private void pulse() {
+        YSCollector.pushSummaryValue("const", "each tick, 777 is submitted", 777);
         YSCollector.start("tick", "The duration of a tick."); // YSCollector
         primaryThread = Thread.currentThread();
 
