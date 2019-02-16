@@ -1064,7 +1064,7 @@ public class GlowPlayer extends GlowHumanEntity implements Player {
         }
 
         if (neither_sync > 0) {
-            YSCollector.pushSummaryValue("no_sync", "Number of outward messages that were not captured by the conit", (double) neither_sync);
+            YSCollector.pushSummaryValue("neither_sync", "Number of outward messages that were not captured by the conit", (double) neither_sync);
             // server.logger.info(neither_sync + " NEITHER syncs");   
         }
 
