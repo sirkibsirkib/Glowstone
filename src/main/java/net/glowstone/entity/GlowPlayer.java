@@ -1051,12 +1051,12 @@ public class GlowPlayer extends GlowHumanEntity implements Player {
 
         if (yes_sync > 0) {
             YSCollector.pushSummaryValue("yes_sync", "Number of outward messages that triggered sync", (double) yes_sync);
-            server.logger.info(yes_sync + " YES syncs");
+            // server.logger.info(yes_sync + " YES syncs");
         }
 
         if (no_sync > 0) {
             YSCollector.pushSummaryValue("no_sync", "Number of outward messages that DIDNT trigger sync", (double) no_sync);
-            server.logger.info(no_sync + " NO syncs");   
+            // server.logger.info(no_sync + " NO syncs");   
         }
 
 

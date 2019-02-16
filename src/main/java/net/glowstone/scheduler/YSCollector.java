@@ -99,6 +99,7 @@ public class YSCollector implements Runnable {
     /// Will register lazily. No need to register externally
     public static synchronized void pushSummaryValue(String key, String help, double value) {
         if (GATEWAY == null) return;
+        ensureStarted();
         getSummary(key, help).observe(value);
     }
 
