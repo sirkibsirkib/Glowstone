@@ -181,10 +181,10 @@ public final class GlowScheduler implements BukkitScheduler {
      */
     private void pulse() {
 
-        long tickStart = System.nanoTime();
+        // long tickStart = System.nanoTime();
 
         // YSCollector.pushSummaryValue("const", "each tick, 777 is submitted", 777);
-        // YSCollector.start("tick", "The duration of a tick."); // YSCollector
+        YSCollector.start("tick", "The duration of a tick."); // YSCollector
         primaryThread = Thread.currentThread();
 
         BoundMatrix.pulse(); // CHRIS
@@ -239,8 +239,8 @@ public final class GlowScheduler implements BukkitScheduler {
             Thread.currentThread().interrupt();
         }
         YSCollector.stop("tick_worlds"); // YSCollector
-        // YSCollector.stop("tick"); // YSCollector
-        YSCollector.setGauge("tick", "tick duration", (double) (System.nanoTime() - tickStart));
+        YSCollector.stop("tick"); // YSCollector
+        // YSCollector.setGauge("tick", "tick duration", (double) (System.nanoTime() - tickStart));
     }
 
     @Override
