@@ -7,7 +7,7 @@ import java.util.logging.Level;
 import java.util.logging.Logger;
 import io.prometheus.client.CollectorRegistry;
 import io.prometheus.client.Summary;
-import io.prometheus.client.Guage;
+import io.prometheus.client.Gauge;
 import io.prometheus.client.exporter.PushGateway;
 
 public class YSCollector implements Runnable {
@@ -23,26 +23,26 @@ public class YSCollector implements Runnable {
     private static Thread pushThread;
     private static String module = "";
 
-    private static final Map<String, Guage> GUAGES = new HashMap<String, Long>();
+    private static final Map<String, Gauge> GAUGES = new HashMap<String, Long>();
 
     private YSCollector() {
         // Only used when creating the push thread
     }
 
-    private static synchronized Guage makeGuage(String key, String help) {
-        Guage g = Guage.build()
+    private static synchronized Gauge makeGauge(String key, String help) {
+        Gauge g = Gauge.build()
             .namespace("yardstick")
             .name(key)
             .help(help)
             .register(REGISTRY);
-        GUAGES.put(key, g);
+        GAUGES.put(key, g);
         return g;
     }
 
-    public static void setGuage(String key, String help, Double value) {
-        Guage g = GUAGES.get(key);
+    public static void setGauge(String key, String help, Double value) {
+        Gauge g = GAUGES.get(key);
         if (g == null) {
-            g = makeGuage(key, help);
+            g = makeGauge(key, help);
         }
         g.set(value);
     }
