@@ -180,8 +180,11 @@ public final class GlowScheduler implements BukkitScheduler {
      * todo: Add watchdog system to make sure ticks advance
      */
     private void pulse() {
-        YSCollector.pushSummaryValue("const", "each tick, 777 is submitted", 777);
-        YSCollector.start("tick", "The duration of a tick."); // YSCollector
+
+        long tickStart = System.nanotime();
+
+        // YSCollector.pushSummaryValue("const", "each tick, 777 is submitted", 777);
+        // YSCollector.start("tick", "The duration of a tick."); // YSCollector
         primaryThread = Thread.currentThread();
 
         BoundMatrix.pulse(); // CHRIS
@@ -236,7 +239,8 @@ public final class GlowScheduler implements BukkitScheduler {
             Thread.currentThread().interrupt();
         }
         YSCollector.stop("tick_worlds"); // YSCollector
-        YSCollector.stop("tick"); // YSCollector
+        // YSCollector.stop("tick"); // YSCollector
+        YSCollector.setGuage(System.nanotime() - tickStart);
     }
 
     @Override
