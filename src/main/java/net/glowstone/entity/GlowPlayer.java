@@ -960,6 +960,8 @@ public class GlowPlayer extends GlowHumanEntity implements Player {
 
         int yes_sync = 0;
         int no_sync = 0;
+        int neither_sync = 0;
+
 
         try {
             // update or remove entities
@@ -970,6 +972,7 @@ public class GlowPlayer extends GlowHumanEntity implements Player {
                 if (!isWithinDistance(entity) || entity.isRemoved()) {
                     destroyEntities.add(entity);
                 } else {
+                    long time_start = System.nanoTime();
                     for (Message msg : entity.createUpdateMessage(session)) {
                         // CONIT: logic begins
 
@@ -978,15 +981,15 @@ public class GlowPlayer extends GlowHumanEntity implements Player {
                             isInLineOfSight = inLineOfSight(entity);
                         }
                         Float weight = conit.messageWeight(msg, entity);
-                        if (weight == null) { // DEBUG
+                        if (weight == null) {
                             // CONIT: not a message for the conit.
-                            server.logger.info("normal " + entity.getType().toString()
-                               + ":" + msg.toString());
+                            // server.logger.info("normal " + entity.getType().toString()
+                            //    + ":" + msg.toString());
                             session.send(msg);
+                            neither_sync += 1;
                         } else {
                             // CONIT: a message for the conit
                             boolean synced = conit.feedMessageWeight(weight, entity, isInLineOfSight);
-
                             if (synced) {
                                 /*
                                 server.logger.info("conit SYNC "
@@ -1002,6 +1005,8 @@ public class GlowPlayer extends GlowHumanEntity implements Player {
                             }
                         }
                     }
+                    long end_time = System.nanoTime();
+                    YSCollector.pushSummaryValue("sendtime", "Time taken to send outbound messages to players", end_time-start_time);
                     // CONIT: the weight of time passing at all
                     if (mustMakeStale) {
                         if (isInLineOfSight == null) {
@@ -1050,13 +1055,18 @@ public class GlowPlayer extends GlowHumanEntity implements Player {
         }
 
         if (yes_sync > 0) {
-            YSCollector.pushSummaryValue("yes_sync", "Number of outward messages that triggered sync", (double) yes_sync);
+            YSCollector.pushSummaryValue("yes_sync", "Number of outward messages captured by the conit WITH sync", (double) yes_sync);
             // server.logger.info(yes_sync + " YES syncs");
         }
 
         if (no_sync > 0) {
-            YSCollector.pushSummaryValue("no_sync", "Number of outward messages that DIDNT trigger sync", (double) no_sync);
+            YSCollector.pushSummaryValue("no_sync", "Number of outward messages captured by the conit WITHOUT sync", (double) no_sync);
             // server.logger.info(no_sync + " NO syncs");   
+        }
+
+        if (neither_sync > 0) {
+            YSCollector.pushSummaryValue("no_sync", "Number of outward messages that were not captured by the conit", (double) neither_sync);
+            // server.logger.info(neither_sync + " NEITHER syncs");   
         }
 
 
