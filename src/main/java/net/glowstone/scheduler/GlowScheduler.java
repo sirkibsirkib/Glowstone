@@ -181,7 +181,7 @@ public final class GlowScheduler implements BukkitScheduler {
      */
     private void pulse() {
 
-        long tickStart = System.nanotime();
+        long tickStart = System.nanoTime();
 
         // YSCollector.pushSummaryValue("const", "each tick, 777 is submitted", 777);
         // YSCollector.start("tick", "The duration of a tick."); // YSCollector
@@ -240,7 +240,7 @@ public final class GlowScheduler implements BukkitScheduler {
         }
         YSCollector.stop("tick_worlds"); // YSCollector
         // YSCollector.stop("tick"); // YSCollector
-        YSCollector.setGuage(System.nanotime() - tickStart);
+        YSCollector.setGuage(System.nanoTime() - tickStart);
     }
 
     @Override
