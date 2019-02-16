@@ -972,7 +972,7 @@ public class GlowPlayer extends GlowHumanEntity implements Player {
                 if (!isWithinDistance(entity) || entity.isRemoved()) {
                     destroyEntities.add(entity);
                 } else {
-                    long time_start = System.nanoTime();
+                    long start_time = System.nanoTime();
                     for (Message msg : entity.createUpdateMessage(session)) {
                         // CONIT: logic begins
 
@@ -1005,8 +1005,7 @@ public class GlowPlayer extends GlowHumanEntity implements Player {
                             }
                         }
                     }
-                    long end_time = System.nanoTime();
-                    YSCollector.pushSummaryValue("sendtime", "Time taken to send outbound messages to players", end_time-start_time);
+                    YSCollector.pushSummaryValue("sendtime", "Time taken to send outbound messages to players", (double) (System.nanoTime()-start_time));
                     // CONIT: the weight of time passing at all
                     if (mustMakeStale) {
                         if (isInLineOfSight == null) {
