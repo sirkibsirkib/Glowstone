@@ -23,7 +23,7 @@ public class YSCollector implements Runnable {
     private static Thread pushThread;
     private static String module = "";
 
-    private static final Map<String, Gauge> GAUGES = new HashMap<String, Long>();
+    private static final Map<String, Gauge> GAUGES = new HashMap<String, Guage>();
 
     private YSCollector() {
         // Only used when creating the push thread
