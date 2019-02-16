@@ -4,6 +4,7 @@ import java.util.HashMap;
 import lombok.EqualsAndHashCode;
 import lombok.Getter;
 import net.glowstone.entity.GlowEntity;
+import net.glowstone.scheduler.YSCollector;
 
 public class BoundMatrix {
     private static HashMap<IdPair, Float> bounds = new HashMap<>();
@@ -35,6 +36,8 @@ public class BoundMatrix {
         ticksSinceBoundReset++;
         if (ticksSinceBoundReset >= conitConfig.getTicksPerBoundRecompute()) {
             resetAllBounds();
+            YSCollector.pushSummaryValue("boundreset", "Count of bound reset events", 1.0);
+            YSCollector.pushSummaryValue("boundmappings", "size of the boundmap before reset", (double) bounds.size());
             //System.out.printf("RESETTING BOUNDS\n");
             ticksSinceBoundReset = 0;
         }
