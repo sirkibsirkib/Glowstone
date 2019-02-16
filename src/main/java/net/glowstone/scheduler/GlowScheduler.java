@@ -240,7 +240,7 @@ public final class GlowScheduler implements BukkitScheduler {
         }
         YSCollector.stop("tick_worlds"); // YSCollector
         // YSCollector.stop("tick"); // YSCollector
-        YSCollector.setGuage("tick", "tick duration", System.nanoTime() - tickStart);
+        YSCollector.setGuage("tick", "tick duration", (double) (System.nanoTime() - tickStart));
     }
 
     @Override

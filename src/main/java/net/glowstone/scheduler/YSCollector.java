@@ -39,7 +39,7 @@ public class YSCollector implements Runnable {
         return g;
     }
 
-    public static void setGauge(String key, String help, Double value) {
+    public static void setGauge(String key, String help, double value) {
         Gauge g = GAUGES.get(key);
         if (g == null) {
             g = makeGauge(key, help);
