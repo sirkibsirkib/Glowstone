@@ -111,6 +111,7 @@ import org.bukkit.plugin.messaging.StandardMessenger;
 import org.bukkit.util.Consumer;
 import org.bukkit.util.Vector;
 import org.jetbrains.annotations.NonNls;
+import net.glowstone.scheduler.YSCollector;
 
 /**
  * A class which represents the in-game world.
@@ -1333,12 +1334,14 @@ public class GlowWorld implements World {
         Key key = GlowChunk.Key.of(x, z);
         boolean result = false;
 
+        long timeStart = System.nanoTime();
         for (GlowPlayer player : getRawPlayers()) {
             if (player.canSeeChunk(key)) {
                 player.getSession().send(getChunkAt(x, z).toMessage());
                 result = true;
             }
         }
+        YSCollector.pushSummaryValue("refreshChunk", "Time spent on refreshing chunks",(double) (System.nanoTime() - timeStart));
 
         return result;
     }

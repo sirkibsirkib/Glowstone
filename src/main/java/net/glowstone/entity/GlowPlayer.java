@@ -1143,6 +1143,8 @@ public class GlowPlayer extends GlowHumanEntity implements Player {
      * Streams chunks to the player's client.
      */
     private void streamBlocks() {
+
+        long streamBlocksStart = System.nanoTime();
         Set<Key> previousChunks = null;
         ArrayList<Key> newChunks = new ArrayList<>();
 
@@ -1178,6 +1180,8 @@ public class GlowPlayer extends GlowHumanEntity implements Player {
                 }
             }
         } else {
+            YSCollector.pushSummaryValue("streamBlocks", "Time taken to stream blocks to clients", 
+                (double) (System.nanoTime() - streamBlocksStart));
             return; // early end if there's no changes
         }
 
@@ -1192,6 +1196,8 @@ public class GlowPlayer extends GlowHumanEntity implements Player {
             dx = 16 * b.getX() + 8 - location.getX();
             dz = 16 * b.getZ() + 8 - location.getZ();
             double db = dx * dx + dz * dz;
+            YSCollector.pushSummaryValue("streamBlocks", "Time taken to stream blocks to clients", 
+                (double) (System.nanoTime() - streamBlocksStart));
             return Double.compare(da, db);
         });
 
@@ -1212,6 +1218,7 @@ public class GlowPlayer extends GlowHumanEntity implements Player {
         newChunks.stream().map(key -> world.getChunkAt(key.getX(), key.getZ()).toMessage(skylight))
                 .forEach(session::send);
 
+
         // send visible block entity data
         newChunks.stream().flatMap(key -> world.getChunkAt(key.getX(),
                 key.getZ()).getRawBlockEntities().stream())
@@ -1226,6 +1233,8 @@ public class GlowPlayer extends GlowHumanEntity implements Player {
             });
             previousChunks.clear();
         }
+        YSCollector.pushSummaryValue("streamBlocks", "Time taken to stream blocks to clients", 
+            (double) (System.nanoTime() - streamBlocksStart));
     }
 
     /**
