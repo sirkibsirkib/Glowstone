@@ -58,7 +58,7 @@ public class BoundMatrix {
     private static Float computeBound(GlowEntity a, GlowEntity b) {
         Float f = conitConfig.getBoundFunction().apply(a, b);
         if (f != null && flipper) {
-            return (Float) (f / 9.0);
+            return (Float) (f.floatValue() / (float) 9.0);
         }
         return f;
     }
