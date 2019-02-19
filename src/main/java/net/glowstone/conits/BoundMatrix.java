@@ -13,6 +13,8 @@ public class BoundMatrix {
 
     private static int ticksSinceBoundReset = 0;
 
+    private static boolean flipper = False;
+
     /**
      * Returns the max staleness bound between two given entities
      * Return value of `null` represents an infinite bound. (ie never sync)
@@ -40,6 +42,8 @@ public class BoundMatrix {
             YSCollector.pushSummaryValue("boundmappings", "size of the boundmap before reset", (double) bounds.size());
             //System.out.printf("RESETTING BOUNDS\n");
             ticksSinceBoundReset = 0;
+
+            flipper = !flipper; ////// DEBUG!!!!
         }
     }
 
@@ -52,7 +56,11 @@ public class BoundMatrix {
     }
 
     private static Float computeBound(GlowEntity a, GlowEntity b) {
-        return conitConfig.getBoundFunction().apply(a, b);
+        Float f = conitConfig.getBoundFunction().apply(a, b);
+        if (f != null && flipper) {
+            return f / 10.0;
+        }
+        return f;
     }
 
     @EqualsAndHashCode
