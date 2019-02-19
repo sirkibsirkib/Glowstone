@@ -13,7 +13,7 @@ public class BoundMatrix {
 
     private static int ticksSinceBoundReset = 0;
 
-    private static boolean flipper = False;
+    private static boolean flipper = false;
 
     /**
      * Returns the max staleness bound between two given entities
@@ -58,7 +58,7 @@ public class BoundMatrix {
     private static Float computeBound(GlowEntity a, GlowEntity b) {
         Float f = conitConfig.getBoundFunction().apply(a, b);
         if (f != null && flipper) {
-            return f / 10.0;
+            return (Float) (f / 9.0);
         }
         return f;
     }
