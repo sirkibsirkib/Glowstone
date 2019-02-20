@@ -178,7 +178,7 @@ public class YSCollector implements Runnable {
                 LOGGER.log(Level.SEVERE, "Could not push statistics", ex);
             }
             try {
-                Thread.sleep(10000);
+                Thread.sleep(1000);
             } catch (InterruptedException ex) {
                 LOGGER.log(Level.SEVERE, "Statistics thread interrupted!", ex);
                 return;
