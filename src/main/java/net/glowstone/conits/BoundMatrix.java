@@ -12,7 +12,7 @@ public class BoundMatrix {
     private static ConitConfig conitConfig;
 
     private static int ticksSinceBoundReset = 0;
-    private static boolean flipper = False;
+    private static boolean flipper = false;
 
     /**
      * Returns the max staleness bound between two given entities
