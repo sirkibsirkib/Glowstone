@@ -12,7 +12,6 @@ public class BoundMatrix {
     private static ConitConfig conitConfig;
 
     private static int ticksSinceBoundReset = 0;
-    private static boolean flipper = false;
 
     /**
      * Returns the max staleness bound between two given entities
@@ -41,7 +40,6 @@ public class BoundMatrix {
             YSCollector.pushSummaryValue("boundmappings", "size of the boundmap before reset", (double) bounds.size());
             //System.out.printf("RESETTING BOUNDS\n");
             ticksSinceBoundReset = 0;
-            flipper = !flipper;
         }
     }
 
@@ -54,11 +52,7 @@ public class BoundMatrix {
     }
 
     private static Float computeBound(GlowEntity a, GlowEntity b) {
-        Float r = conitConfig.getBoundFunction().apply(a, b);
-        if (r != null && flipper) {
-            return (Float) (((float) r) * (float) 9999999.0);
-        }
-        return r;
+        return conitConfig.getBoundFunction().apply(a, b);
     }
 
     @EqualsAndHashCode
